@@ -1,0 +1,13 @@
+133102b286e1ef08698439b29c0d3d751c8364ee73f604147ef5cae46c0ec396  /tmp/tmp.i2k5HPjAf0/tmp.xEXtuPgedW/q35_cover.tree
+verified chart 0 297498
+verified chart 1 62204
+verified chart 2 680
+EXACT PASS [297498, 62204, 680] 360382
+[0;31m  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).[0m
+[0;31m  *** readstr: Warning: increasing stack size to 16000000.[0m
+[0;31m  *** readstr: Warning: increasing stack size to 32000000.[0m
+[0;31m  *** readstr: Warning: increasing stack size to 64000000.[0m
+verified chart 0 leaves 297498
+verified chart 1 leaves 62204
+verified chart 2 leaves 680
+INDEPENDENT EXACT PASS 360382

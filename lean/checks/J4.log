@@ -1,0 +1,95 @@
+     0.93^2+0.67^2(13/50)^2 = 22381141/25000000 = 0.89524564
+     0.93^2+0.67^2(2331/1300)^2 = 39008065329/16900000000 = 2.3081695460946747
+PASS 0.93^2+0.67^2(2331/1300)^2 < 2.3082 < 1.52^2
+PASS 0.67*2669/1300 < 1.3756
+PASS 1.52+1.3756 = 2.8956 < 2.92
+PASS 0.67*1.04 = 0.6968 ; 0.947+0.6968 = 1.6438
+PASS 2*1.65^2 + 2.92^2 = 13.9714
+PASS 13/50 < 1/sqrt3 (so M > pi/3, 3M > pi)
+     at s=0.511: value at 0.87 = 0.05746366666666667  value at 1 = -0.10296788888888889
+PASS value at 0.87 < 0.0575 < 0.28^2
+PASS (56/45)*0.511 < 0.64
+PASS (25+2.13^2)/0.87 < 34
+PASS 2*0.87^2 = 1.5138 ; 3*0.511^2 = 0.783363
+PASS 8*0.4489/3 = 1.197066.. ; 2*0.7569/9 = 0.1682
+PASS cubic(21/100) = -0.041978
+PASS X=(S-1)/2 in (-1/2,-0.395) for S in (0,0.21)
+PASS numeric: R^2 convex and decreasing on [pi-2M, M] (sampled)
+     R(M) = 1.638449909  R(pi-2M) = 2.894827659
+PASS numeric: F(X+s*)/F(X-s*) = Z+/Z- for 50 random (a,b)
+     candidate: sum of zeros = (3.0046e-7 + 3.7355e-7j)  sum |upper|^2 = 3.87979  sum |z|^2 = 10.7733
+PASS m_I in (-0.927,-0.926)
+PASS s_I in (0.6685,0.6695), so s_I<0.67
+     numeric m_I = -0.926663988498300  s_I = 0.669046709957724  s_I^2 = 0.447623500105255
+PASS numeric s_I^2 < 0.449
+PASS (0.87^2-0.67^2)/(2*0.87*0.67) > 13/50
+PASS cot(pi-2M) = 2331/1300
+PASS csc(pi-2M) = 2669/1300
+PASS csc(pi-2M)^2 = 1+cot(pi-2M)^2
+PASS 0.93^2+0.67^2(13/50)^2 < 0.947^2
+PASS csc^2 M = 2669/2500 < 1.04^2
+PASS 0.947+0.67*1.04 < 1.65
+PASS 0.93^2+0.67^2(2331/1300)^2 < 1.52^2
+PASS 1.52+0.67*2669/1300 < 2.92
+PASS 2.92^2+2*1.65^2 < 14
+PASS 14 < 27*0.87^2
+PASS (7/3)+(4/9) = 25/9
+PASS (25/9)*14 = 350/9
+PASS (4/5)*(350/9) = 280/9 < 5.6^2
+PASS (9+5/3)/2 = 16/3
+PASS 16/3-4 = 4/3
+PASS 3M > pi and pi-2M > 0 (numeric)
+PASS lower product = 8mu^2/3 - Sigma2/3 - Pi/(3mu)
+PASS cube sum vanishes with sum -3mu and that product
+PASS (z4-z5)^2 = -5mu^2/3 + 4Sigma2/3 + 4Pi/(3mu)
+PASS 4s^2y^2[(c1c2-1)+cotMy(c1+c2)] = Upsilon(u,q)
+PASS Delta^2+4s^2y^2 = (y^2+s^2)^2 with Delta=y^2-s^2
+PASS Upsilon(q-2Delta,q) = 8 Delta q - (y^2+s^2)^2
+PASS Upsilon(0,q) = (q+2Delta)^2 - Delta^2 - 4s^2y^2
+PASS 5 s_I^2 < 3 y^2 (s_I<0.67, y>=0.87)
+PASS 3*0.4489-0.7569 = 0.5898 < 0.591
+PASS 3*0.4489 < 1.35
+PASS 0.591 < 0.77^2
+PASS -0.927-0.77 > -1.70 and -0.926+0.77 < -0.15
+PASS cot M_y > 0 (y>s_I)
+PASS Im(relation)/(3y) equals the completed-square identity
+     Im(relation)/(3y) - [(w1+m1 w2/y)^2 - RHS] = 0
+PASS cube sum = 3*(eps1eps2eps3 - RHS of Lemma 11 relation)
+PASS sum of the five zeros vanishes
+PASS 2/3+... : Sigma2/3+2y^2/3 < 8 s^2/3 - 2y^2/9
+PASS 8*0.4489/3 - 2*0.7569/9 < 1.03
+     value = 1.0288666666666666
+PASS 5*1.03 = 5.15 < 9
+PASS 1 - 5/4 + 1/4 = 0 and 5/12 + 1/4 = 2/3
+PASS H2 = 4z^2-2, H5 = 32z^5-160z^3+120z
+PASS H2 = 4Z^2-4Z-1 (Z=z+1/2)
+PASS H5 = 32Z^5-80Z^4-80Z^3+200Z^2+10Z-41
+PASS divided difference of H2/Z vanishes when Z+Z- = -1/4
+PASS divided difference of H5/Z = 16(2S^3-5S^2-4S+1)
+PASS cubic(0)=1>0, cubic(21/100)<0, cubic(1/4)=-9/32
+PASS cubic' = 6S^2-10S-4 < 0 on [0,1/4] (at both ends; convex)
+     S = 0.202772713275183  X = -0.398613643362408  s_* = 0.510175649470106
+PASS 1/2 < s_* < 0.511 via S<21/100: (1+0.21^2)/4 < 0.511^2
+PASS (0.87^2-0.511^2)/(2*0.87*0.511) > 5/9
+PASS cot(pi-2theta*) = 28/45
+PASS tan 3theta* = 27/545
+PASS 9/5 > sqrt3 so theta*>pi/3
+PASS 27/545 < 1/20 < 35/612 = tan(2 arctan(1/35))
+PASS projection norm: (P2+Y^2)(4/5 - Y^2/(P2+Y^2)) = (4P2-Y^2)/5
+PASS 4/5-1/2 = 3/10, 10*3/10 = 3
+PASS 10 - 6 = 4, 2 - 6/5 = 4/5
+PASS 4 - (2+3/2) = 1/2 and 4/5 - 3/10 = 1/2
+PASS 1/2 + 2*0.87^2 - 3*0.511^2 > 0
+PASS weighted cot difference = 10+2Sigma*-2x5^2+4Xx5+3X^2-3s^2 (given ||x||^2=10+Sigma*+Y^2)
+PASS g(1) < 0 with s=0.511
+PASS g(0.87) < 0.28^2
+PASS g'(y) = (56/45)s - 2y < 0 for y >= 0.87
+PASS 0.5+0.28 < 4/5
+PASS Re delta > 20 - 6(4/5)^2 - (12/5)^2 = 10.4 > 10
+PASS |Im delta| < 12(4/5)+2(12/5)3 = 24
+PASS (24/(2*sqrt10))^2 = 14.4 < 16
+PASS 5*0.87 > 4
+PASS 3 - 0.87 = 2.13; 3 + 2.13*3 = 9.39; 10 + 9.39 < 20
+PASS sqrt(20) + 1/2 < 5: 20 < 4.5^2
+PASS (25 + 2.13^2)/0.87 < 35
+FAILURES: none

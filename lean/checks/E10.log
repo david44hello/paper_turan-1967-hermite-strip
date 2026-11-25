@@ -1,0 +1,23 @@
+verified chart 0 66582
+verified chart 1 43622
+verified chart 2 16
+EXACT PASS [66582, 43622, 16] 110220
+PASS 3 6 charts 83402 22390 592 leaves 106384 depth 36 max height numerator 57016 denominator 65536
+PASS 4 6 charts 25224 6306 296 leaves 31826 depth 32 max height numerator 57016 denominator 65536
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  *** readstr: Warning: increasing stack size to 16000000.
+verified chart 0 leaves 66582
+verified chart 1 leaves 43622
+verified chart 2 leaves 16
+INDEPENDENT EXACT PASS 110220
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+  *** readstr: Warning: increasing stack size to 16000000.
+verified chart 0 leaves 83402
+verified chart 1 leaves 22390
+verified chart 2 leaves 592
+INDEPENDENT EXACT PASS 106384
+  ***   Warning: new maximum stack size = 1000001536 (953.676 Mbytes).
+verified chart 0 leaves 25224
+verified chart 1 leaves 6306
+verified chart 2 leaves 296
+INDEPENDENT EXACT PASS 31826

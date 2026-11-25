@@ -1,0 +1,207 @@
+PASS z^3 coefficient vanishes
+PASS c2 = a/(4b) - 3
+PASS c1 = 1/(8b)
+PASS c0 = (c1-c2)/2 - 3/4
+PASS triple root constraint = -f(u)
+PASS a = (12-24u^2) b
+PASS f'(t) = 24 t (2t^2+2t+1)
+PASS f(-27/40)>0, f(-2/3)<0, f(3/8)<0, f(2/5)>0, f(0)<0
+   f(-27/40) = 24243/640000  f(-2/3) = -1/27  f(3/8) = -237/1024  f(2/5) = 157/625
+PASS 25/27 - 64/225 = 433/675 > 16/25
+   z_* = -0.524923368253530010267819303837 + 0.828648551281867115213349867028*I   Im z_* = 0.828648551281867115213349867028  (Im z_*)^2 = 0.686658421541537154271633916976  sqrt3/2 = 0.86602540378443864676
+PASS |Im z_*| < sqrt(3)/2 numerically
+PASS homogeneous constant term = -c2/2 - 3/4
+PASS (X-1/2)(Y-1/2) = -1/2 <=> XY = (X+Y)/2 - 3/4
+PASS (ImX)^2 - 4h^2(ReX + h^2) = 4(q^2-h^2)(p^2+h^2)
+PASS T(theta) is a root of the threshold quadratic
+PASS T(theta) T(pi-theta) = 4h^2(h^2+1/2)/sin^2
+PASS 8h^4+4h^2-1<=0 at h^2 = 1/4 fails (so h<1/2)
+PASS q2 = 4w - 4 - 1/w
+PASS q4 = 16w^3 - 32w^2 - 24w + 40 + 1/w
+PASS F = w (2 + a q2 + b q4)
+PASS DD q2 = 4 + 1/P
+PASS DD q4 = 16(S^2-P) - 32S - 24 - 1/P
+PASS P=-1/4 in DD4 gives 16(S^2-2S-1)
+PASS q2' = 4 + 1/w^2, q4' = 48w^2 - 64w - 24 - 1/w^2
+PASS two-and-two constraint form
+PASS Im part = 4y (V - 2x E)
+   real part / [X(E^2-2E+2+H) - (E^2-4E+6+2H)] = -1
+PASS real part is a nonzero constant multiple of the X-relation
+PASS (E^2-4E+6+2H)/(E^2-2E+2+H) = 2 + (2-E^2)/(E^2-2E+2+H)
+PASS 1 - X = (2E-4-H)/(E^2-2E+2+H)
+PASS 4(E^2-2E+2+H) - 2E(2E-4-H) = 8 + 4H + 2HE
+PASS (4-s^2)(1+s) - 4 = s(4 - s - s^2)
+PASS U = E - 1 + X/2 - H/2
+   constraint / [-f(c) + (12c^2+4c-2)L - (12c-2)M] = 1
+PASS 3+1 constraint form
+PASS 12c^2+4c-2 = (12c-2)(c+1/2) - 1
+PASS Im(-1/(12c-2)) = 12y/|12c-2|^2
+PASS d' = (4z^3+6z^2-3)/(4z^2+4z+2)
+PASS R = z^2 - d' = N/D
+PASS -(z+d)(3z+d) as product: z^2 + (z+d)(3z+d) = (2z+d)^2
+PASS Q_d = f + 4dzD + d^2 D
+PASS f = 4z^2 D - N
+PASS f' = 12 z D
+   Q_d = [12, 16*d + 16, 4*d**2 + 16*d + 12, 4*d**2 + 8*d, 2*d**2 - 3]
+PASS Q_d(d t)/d^4 -> 4t^2(3t+1)(t+1)
+PASS 16v(ReR+4v) - (ImR)^2 = 4(4v-b^2)(4v+a^2)
+   Delta degree in T: 10  polynomial in v: True
+PASS second-derivative coefficient table
+   Delta coefficients (descending in T):
+     T^10: 768
+     T^9: -1536
+     T^8: 768*(8*v + 1)
+     T^7: -256*(24*v + 1)
+     T^6: 32*(528*v**2 + 120*v + 25)
+     T^5: -2304*v*(4*v - 1)
+     T^4: 16*(1344*v**3 + 144*v**2 + 76*v + 27)
+     T^3: -16*(384*v**3 - 336*v**2 - 16*v + 11)
+     T^2: 13056*v**4 - 3840*v**3 - 1504*v**2 - 240*v + 99
+     T^1: -2*(4*v - 1)*(192*v**3 - 304*v**2 + 84*v + 11)
+     T^0: 4*(4*v - 1)**2*(48*v**3 - 24*v**2 - 9*v + 2)
+     T^0 coefficient range on [16/25,3/4]: [1026.323922, 3168.000000]
+     T^1 coefficient range on [16/25,3/4]: [2688.000000, 3475.421184]
+     T^2 coefficient range on [16/25,3/4]: [93493.23571, 140544.0000]
+     T^3 coefficient range on [16/25,3/4]: [-69120.00000, -46006.27200]
+     T^4 coefficient range on [16/25,3/4]: [305346.0480, 395520.0000]
+     T^5 coefficient range on [16/25,3/4]: [-204288.0000, -175902.7200]
+     T^6 coefficient range on [16/25,3/4]: [263208.9600, 301056.0000]
+     T^7 coefficient range on [16/25,3/4]: [-110592.0000, -110592.0000]
+     T^8 coefficient range on [16/25,3/4]: [69120.00000, 69120.00000]
+PASS c6 >= 260000
+PASS |c5| <= 205000
+PASS c4 >= 300000
+PASS |c3| <= 70000
+PASS c2 >= 90000
+PASS |c1| < 5500
+PASS c0 > 900
+PASS derivative of c0, halved, positive on interval (bound used in source)
+PASS discriminant of 69120 s^2 -110592 s +50000 negative
+PASS discriminant of 210000 s^2 -205000 s +55000 negative
+PASS discriminant of 245000 s^2 -70000 s +6000 negative
+PASS discriminant of 84000 s^2 -5500 s +900 negative
+PASS split of c6, c4, c2 bounds: 50000+210000, 55000+245000, 6000+84000
+   Delta(T_*), Delta_T(T_*) at z_*: 2.01948391736579e-28 0
+PASS Delta and Delta_T vanish at z_* (to 1e-15)
+PASS R(z_*) = 4 z_*^2 numerically
+ALL (2,4) CHECKS PASSED
+PASS constraint at zeros z0,z0,z0+d,-3z0-d = -f_d(z0)
+PASS f_d expanded
+PASS double contact: q2'=0 and q4'=0 force w=-1/2 when w^2=-1/4
+PASS 2+2: c2 = -2c^2 - s+, c1 = -2c s-, c0 = c^4 - c^2 s+ + (s+^2 - s-^2)/4
+ALL EXTRA (2,4) CHECKS PASSED
+PASS q3 = 8w^2 - 12w - 6 + 5/w
+PASS DD q3 = 8S - 12 - 5/P
+PASS DD q3 vanishes at S=(t+3)/2, P=5/(4t)
+PASS DD q4 = (4/(5t)) (5t^3+9t^2-45t-25)
+PASS cubic changes sign on [-3815393485570,-3815393485569]/10^12
+PASS cubic changes sign on [-517404417703,-517404417702]/10^12
+PASS cubic changes sign on [2532797903271,2532797903272]/10^12
+PASS cubic has exactly three real roots
+PASS eliminating t gives a multiple of 40x^6-24x^5-228x^4+24x^3+342x^2+126x+9
+PASS sextic has six real roots
+PASS sextic changes sign on [-1311446,-1311445]/10^6
+PASS sextic changes sign on [-96252,-96251]/10^6
+PASS pairing: t in [-3.81539600000, -3.81539200000] contains the bracket of t
+PASS sextic changes sign on [-1553003,-1553002]/10^6
+PASS sextic changes sign on [1794300,1794301]/10^6
+PASS pairing: t in [-0.517406000000, -0.517402000000] contains the bracket of t
+PASS sextic changes sign on [-308319,-308318]/10^6
+PASS sextic changes sign on [2074717,2074718]/10^6
+PASS pairing: t in [2.53279600000, 2.53280000000] contains the bracket of t
+PASS sum of the two z-endpoints = (t+1)/2
+PASS |I1| < 2h (so the angle of I1 < pi/2)
+PASS |I3|^2 < 12 h^2 (so the angle of I3 < 2pi/3)
+PASS -1/2 inside I1 and I2, left of I3
+PASS h^2 = 25/49 > 1/2
+PASS monic z^2 coefficient = -3
+PASS 14(3*44^2-1) < 44^3 - 3*44
+   k=44: intervals I1=[-655723/500000,-96251/1000000] I2=[-776501/500000,17943/10000] I3=[-308319/1000000,1037359/500000]
+   degree 22, leading coefficient 1, value at 0 = 21540.871, real roots 0
+PASS Re Z - 44 Im Z: degree 22, no real root, positive at 0
+   k=14: intervals I1=[-262289/200000,-24063/250000] I2=[-1553003/1000000,1794301/1000000] I3=[-154159/500000,2074717/1000000]
+   degree 22, leading coefficient 1, value at 0 = 6931.0550, real roots 0
+PASS Re Z - 14 Im Z: degree 22, no real root, positive at 0
+   numerics on the line: max g = 0.021046 (atan(1/44) = 0.022723), min g = -3.066305 (-pi+atan(1/14) = -3.070285)
+ALL (3,4) CHECKS PASSED
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket -1311446 (signs -1,1)
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket -96252 (signs 1,-1)
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket -1553003 (signs -1,1)
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket 1794300 (signs 1,-1)
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket -308319 (signs 1,-1)
+PASS t-uniform sign change of 4t(w^2-Sw+P) on endpoint bracket 2074717 (signs -1,1)
+ALL (3,4) PAIRING CHECKS PASSED
+PASS q4 = 16w^3-32w^2-24w+40+1/w
+PASS q5 = 32w^4-80w^3-80w^2+200w+10-41/w
+PASS DD q4 formula
+PASS DD q5 formula
+PASS dd5 + 41 dd4 = 16 (N - E P)
+   P*dd4 at P=N/E : numerator / sextic = 4  denominator = (S + 9)**2
+PASS P*dd4 at P=N/E is a constant times sextic / (S+9)^2
+PASS sextic changes sign on [-20.10321780070,-20.10321780060]
+PASS   E and N nonzero there (S+9 != 0, N sign constant)
+PASS sextic changes sign on [2.910004000000,2.910005000000]
+PASS   E and N nonzero there (S+9 != 0, N sign constant)
+PASS node in (-2011/100,-2009/100) for every S of the bracket (signs -1,1)
+PASS node in (-1/125000,0) for every S of the bracket (signs 1,-1)
+PASS node in (43/100,9/20) for every S of the bracket (signs 1,-1)
+PASS node in (123/50,62/25) for every S of the bracket (signs -1,1)
+PASS |alpha1/beta1|^2 |alpha2/beta2| > (20*125000)^2/6 > 240^5
+   lower bound of product = 1.0934443e+12 ; 240^5 = 796262400000
+PASS boundary sextic: degree 6, leading coeff 225^2-1, no real root, positive at 0
+   boundary sextic coefficients: [50624, -12508351/50, 4162320809/10000, -19592807027/50000, 776369663369/2000000, -648247788587/40000000, 48406657809961/1600000000]
+PASS 0.01/h = 1/85
+PASS 225 (1+1/85)^4 (1+1/(125000h))^2 < 240
+   value = 235.7809945
+   exact sums:  [-20.1032178006345, -0.411593370117595, 2.18125643788960, 2.91000428796210]
+   S = -20.1032178006345 : nodes -20.1032107802290 , -7.02040550163504e-6 ; P = 0.000141132691562049
+   S = 2.91000428796210 : nodes 0.441981313528869 , 2.46802297443323 ; P = 1.09082003605943
+ALL (4,5) CHECKS PASSED
+PASS remainder of H_0(w-1/2) is A_0 + B_0 w
+PASS remainder of H_1(w-1/2) is A_1 + B_1 w
+PASS remainder of H_2(w-1/2) is A_2 + B_2 w
+PASS remainder of H_3(w-1/2) is A_3 + B_3 w
+PASS remainder of H_4(w-1/2) is A_4 + B_4 w
+PASS remainder of H_5(w-1/2) is A_5 + B_5 w
+PASS remainder of H_6(w-1/2) is A_6 + B_6 w
+PASS gcd(den, T) = 1 (den invertible modulo T)
+PASS den^2 A_5(S, P(S)) is divisible by T(S)
+PASS den^3 A_6(S, P(S)) is divisible by T(S)
+PASS T changes sign on S0 +- 2e-6 for S0 = -2.1245050
+PASS   narrowed bracket of width 3.47e-24 inside S0 +- 2e-6
+PASS   den has a fixed sign there
+PASS   node within 2e-6 of -2.0488450 for every S of the bracket (signs [1, -1])
+PASS   node within 2e-6 of -0.075660000 for every S of the bracket (signs [-1, 1])
+PASS T changes sign on S0 +- 2e-6 for S0 = 1.1021300
+PASS   narrowed bracket of width 3.47e-24 inside S0 +- 2e-6
+PASS   den has a fixed sign there
+PASS   node within 2e-6 of -1.8055690 for every S of the bracket (signs [1, -1])
+PASS   node within 2e-6 of 2.9076990 for every S of the bracket (signs [-1, 1])
+PASS T changes sign on S0 +- 2e-6 for S0 = 1.5968040
+PASS   narrowed bracket of width 3.47e-24 inside S0 +- 2e-6
+PASS   den has a fixed sign there
+PASS   node within 2e-6 of -0.62615800 for every S of the bracket (signs [-1, 1])
+PASS   node within 2e-6 of 2.2229620 for every S of the bracket (signs [1, -1])
+PASS T changes sign on S0 +- 2e-6 for S0 = 1.8288720
+PASS   narrowed bracket of width 3.47e-24 inside S0 +- 2e-6
+PASS   den has a fixed sign there
+PASS   node within 2e-6 of -0.55565000 for every S of the bracket (signs [-1, 1])
+PASS   node within 2e-6 of 2.3845210 for every S of the bracket (signs [1, -1])
+PASS T changes sign on S0 +- 2e-6 for S0 = 2.6884100
+PASS   narrowed bracket of width 3.47e-24 inside S0 +- 2e-6
+PASS   den has a fixed sign there
+PASS   node within 2e-6 of 0.36084500 for every S of the bracket (signs [-1, 1])
+PASS   node within 2e-6 of 2.3275650 for every S of the bracket (signs [1, -1])
+PASS the ten node brackets are disjoint from 0 and the two of each row are disjoint
+PASS product of oriented ratio lower bounds > (181/100)^6
+   product lower bound = 38.89366920 ; (181/100)^6 = 35.16182833
+PASS boundary polynomial: degree 24, leading coeff 56, no real root, positive at 0
+PASS sum of |e_i| = 12, so 24 factors
+PASS (9/5)(1+2/(10^6 h))^24 < 181/100
+   value = 1.80010046780
+   real roots of T: [-2.124504536, -0.2102730354, 1.102129938, 1.596804297, 1.828871502, 2.688409977]
+ALL (5,6) CHECKS PASSED
+r5 = p**2*(64*S - 80) + p*(-32*S**3 + 80*S**2 + 80*S - 200) - 41
+r6 = -64*p**3 + p**2*(192*S**2 - 384*S - 240) + p*(-64*S**4 + 192*S**3 + 240*S**2 - 800*S - 60) + 31
+Res_p(r5, r6) = 2097152*(82*S**10 - 830*S**9 + 2765*S**8 - 1580*S**7 - 9965*S**6 + 21026*S**5 - 14945*S**4 + 11860*S**3 - 18445*S**2 + 7740*S + 2592)
+T divides the resultant: True  cofactor = 2097152

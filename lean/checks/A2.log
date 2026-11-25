@@ -1,0 +1,11 @@
+manifest PASS 96834 3284
+passed 10305
+passed 20034
+passed 30282
+passed 40124
+passed 50106
+passed 60221
+passed 70049
+passed 80057
+passed 90034
+FULL PASS 96834 remaining 3284 sector rows {'g': 78, 'm': 66935, 'n': 64293, 'p': 193700, 't': 127897, 'v': 2451}
