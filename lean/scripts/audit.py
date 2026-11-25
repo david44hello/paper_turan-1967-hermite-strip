@@ -47,7 +47,7 @@ def check_axioms(names):
 
 
 def report(claims):
-    lines = ["# Paper claim audit", "", "The anchors and line numbers refer to the frozen short paper v4.70, TeX MD5 `d62dc95301719e646069d2f976834f77`. The claim map quotes the printed passages.",
+    lines = ["# Paper claim audit", "", "The anchors and line numbers refer to the frozen short paper v4.90, TeX MD5 `db85f950634752840050803a0bd2eca0`. The claim map quotes the printed passages.",
              "", "| Place | Source anchor | Lines | Claim | Status | Lean declarations |", "|---|---|---|---|---|---|"]
     for row in claims:
         targets = ", ".join(f"`{name}`" for name in row["declarations"].split())

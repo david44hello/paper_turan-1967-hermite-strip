@@ -2,7 +2,7 @@
   "paper": [
     {
       "place": "Theorem 1",
-      "lines": "v4.70 28–40, 97–112",
+      "lines": "v4.90 29–41, 97–112, 973–974, 982–983",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "Closed sharp strip and exactly two extremizers, over all degrees",
       "declarations": "Turan.theorem_one_closed_given Turan.theorem_one_sharp Turan.theorem_one_extremizers_given Turan.extremal_cubics Turan.lemma_four Turan.height_decimal",
@@ -11,7 +11,7 @@
     },
     {
       "place": "Proposition 2",
-      "lines": "v4.70 159–163",
+      "lines": "v4.90 159–163, 985–987",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "Strict bounds for all pairs outside the stated exceptions",
       "declarations": "Turan.proposition_two_given",
@@ -20,7 +20,7 @@
     },
     {
       "place": "Proposition 3",
-      "lines": "v4.70 199–203",
+      "lines": "v4.90 199–203, 988–989",
       "status": "PROVED",
       "claim": "One disk contains a zero for every member, uniformly in both degrees",
       "declarations": "Turan.proposition_three",
@@ -29,7 +29,7 @@
     },
     {
       "place": "Lemma 4",
-      "lines": "v4.70 347–351",
+      "lines": "v4.90 347–351",
       "status": "PROVED",
       "claim": "Three roots, bounds on u, norm of W and the closed form for h",
       "declarations": "Turan.lemma_four Turan.constants_spec",
@@ -38,7 +38,7 @@
     },
     {
       "place": "Proposition 5",
-      "lines": "v4.70 398–402",
+      "lines": "v4.90 398–402",
       "status": "PROVED",
       "claim": "Rigidity of all three shifted cubic roots",
       "declarations": "Turan.proposition_five",
@@ -47,7 +47,7 @@
     },
     {
       "place": "Lemma 6",
-      "lines": "v4.70 413–422",
+      "lines": "v4.90 413–422",
       "status": "PROVED",
       "claim": "Merging two roots in the upper half-plane, including equality",
       "declarations": "Turan.lemma_six",
@@ -56,7 +56,7 @@
     },
     {
       "place": "Lemma 7",
-      "lines": "v4.70 448–452",
+      "lines": "v4.90 448–452",
       "status": "PROVED",
       "claim": "Analyticity and sharp bound for the imaginary part of the third-root map",
       "declarations": "Turan.lemma_seven",
@@ -65,7 +65,7 @@
     },
     {
       "place": "Lemma 8",
-      "lines": "v4.70 506–508",
+      "lines": "v4.90 506–508",
       "status": "PROVED GIVEN G1",
       "claim": "All upper degrees at least 450",
       "declarations": "Turan.lemma_eight_given",
@@ -74,7 +74,7 @@
     },
     {
       "place": "Lemma 9",
-      "lines": "v4.70 993–997",
+      "lines": "v4.90 1018–1022",
       "status": "PROVED",
       "claim": "Mehler’s pointwise estimate for every normalized Hermite polynomial",
       "declarations": "Turan.lemma_nine",
@@ -83,7 +83,7 @@
     },
     {
       "place": "Lemma 10",
-      "lines": "v4.70 1038–1042",
+      "lines": "v4.90 1063–1067",
       "status": "PROVED GIVEN G1",
       "claim": "Trinomial root in the indicated rectangle for every degree",
       "declarations": "Turan.lemma_ten_given",
@@ -92,7 +92,7 @@
     },
     {
       "place": "Lemma 11",
-      "lines": "v4.70 1148–1154",
+      "lines": "v4.90 1173–1179",
       "status": "PROVED",
       "claim": "Recovery of the low coefficient at the trinomial zero",
       "declarations": "Turan.lemma_eleven",
@@ -101,7 +101,7 @@
     },
     {
       "place": "Lemma 12",
-      "lines": "v4.70 1202–1205",
+      "lines": "v4.90 1227–1230",
       "status": "PROVED",
       "claim": "Growth near the real axis",
       "declarations": "Turan.lemma_twelve",
@@ -110,7 +110,7 @@
     },
     {
       "place": "Lemma 13",
-      "lines": "v4.70 1233–1241",
+      "lines": "v4.90 1258–1266",
       "status": "PROVED",
       "claim": "Circle estimate for the Gaussian-weighted oscillator",
       "declarations": "Turan.lemma_thirteen",
@@ -119,7 +119,7 @@
     },
     {
       "place": "Lemma 14",
-      "lines": "v4.70 1279–1282",
+      "lines": "v4.90 1304–1307",
       "status": "PROVED",
       "claim": "First four derivative quotients",
       "declarations": "Turan.lemma_fourteen",
@@ -128,7 +128,7 @@
     },
     {
       "place": "Lemma 15",
-      "lines": "v4.70 1350–1353",
+      "lines": "v4.90 1375–1378",
       "status": "PROVED",
       "claim": "Component bounds on the boundary lines",
       "declarations": "Turan.lemma_fifteen",
@@ -137,7 +137,7 @@
     },
     {
       "place": "Lemma 16",
-      "lines": "v4.70 1395–1397",
+      "lines": "v4.90 1420–1422",
       "status": "PROVED",
       "claim": "Component bounds inside the strip",
       "declarations": "Turan.lemma_sixteen",
@@ -146,7 +146,7 @@
     },
     {
       "place": "Lemma 17",
-      "lines": "v4.70 1438–1444",
+      "lines": "v4.90 1463–1469",
       "status": "PROVED",
       "claim": "Product over real Hermite zeros",
       "declarations": "Turan.lemma_seventeen",
@@ -155,7 +155,7 @@
     },
     {
       "place": "Lemma 18",
-      "lines": "v4.70 1588–1594",
+      "lines": "v4.90 1613–1619",
       "status": "PROVED",
       "claim": "Quartic excludes zeros at and above its critical line",
       "declarations": "Turan.quartic_upper_root Turan.lemma_eighteen",
@@ -164,7 +164,7 @@
     },
     {
       "place": "Lemma 19",
-      "lines": "v4.70 1672–1678",
+      "lines": "v4.90 1697–1703",
       "status": "PROVED",
       "claim": "Sharp (2,4) height and both extremizers",
       "declarations": "Turan.quartic_upper_root Turan.lemma_nineteen",
@@ -173,7 +173,7 @@
     },
     {
       "place": "Lemma 20",
-      "lines": "v4.70 1845–1847",
+      "lines": "v4.90 1870–1872",
       "status": "PROVED",
       "claim": "Strict (3,4) bound",
       "declarations": "Turan.lemma_twenty",
@@ -182,7 +182,7 @@
     },
     {
       "place": "Lemma 21",
-      "lines": "v4.70 1923–1925",
+      "lines": "v4.90 1948–1950",
       "status": "PROVED",
       "claim": "Strict (4,5) bound",
       "declarations": "Turan.lemma_twenty_one",
@@ -191,7 +191,7 @@
     },
     {
       "place": "Lemma 22",
-      "lines": "v4.70 1998–2000",
+      "lines": "v4.90 2023–2025",
       "status": "PROVED",
       "claim": "Strict (5,6) bound",
       "declarations": "Turan.lemma_twenty_two",
@@ -200,7 +200,7 @@
     },
     {
       "place": "Lemma 23",
-      "lines": "v4.70 2046–2052",
+      "lines": "v4.90 2071–2077",
       "status": "PROVED",
       "claim": "Quintic nodes, endpoint comparisons and the (2,5) strip when b is nonzero",
       "declarations": "Turan.quintic_node_exists Turan.lemma_twenty_three_nodes Turan.lemma_twenty_three_strip",
@@ -209,7 +209,7 @@
     },
     {
       "place": "Section 3, case (2,3)",
-      "lines": "v4.70 341–346, 361–389",
+      "lines": "v4.90 341–346, 361–389",
       "status": "PROVED",
       "claim": "Closed-strip guarantee, sharpness and classification within this degree pair",
       "declarations": "Turan.cubic_closed_strip Turan.cubic_sharp Turan.cubic_open_strip Turan.extremal_cubics",
@@ -218,7 +218,7 @@
     },
     {
       "place": "Theorem 1, numerical value",
-      "lines": "v4.70 98–104",
+      "lines": "v4.90 98–104, 23",
       "status": "PROVED",
       "claim": "The twelve printed digits bound h by consecutive decimal endpoints",
       "declarations": "Turan.height_decimal",
@@ -227,7 +227,7 @@
     },
     {
       "place": "Introduction, Hermite normalization",
-      "lines": "v4.70 28–30, 59–62, 77–81",
+      "lines": "v4.90 29–31, 59–62, 77–81",
       "status": "PROVED",
       "claim": "First polynomials, degrees, and all coefficient degeneracies",
       "declarations": "Turan.hermite_low Turan.hermite_degree Turan.family_degree",
@@ -236,7 +236,7 @@
     },
     {
       "place": "Definition of height",
-      "lines": "v4.70 149–155",
+      "lines": "v4.90 149–155",
       "status": "PROVED",
       "claim": "A least-height root exists for every nonconstant complex polynomial and for the family",
       "declarations": "Turan.polynomial_has_lowest_zero Turan.family_has_lowest_zero",
@@ -245,7 +245,7 @@
     },
     {
       "place": "Section 2, oscillator and symmetry",
-      "lines": "v4.70 216–222, 288–297",
+      "lines": "v4.90 216–222, 288–297",
       "status": "PROVED",
       "claim": "Hermite lowering and differential equations, conjugation and parity",
       "declarations": "Turan.hermite_derivative Turan.hermite_equation Turan.hermite_symmetry",
@@ -254,7 +254,7 @@
     },
     {
       "place": "Section 3, shift and lower degrees",
-      "lines": "v4.70 363–374",
+      "lines": "v4.90 363–374",
       "status": "PROVED",
       "claim": "The shifted quadratic has a root in the half-disk. The linear case has its stated real root",
       "declarations": "Turan.quadratic_half_disk Turan.cubic_zero_b_half_strip Turan.cubic_linear Turan.cubic_shift_expansion",
@@ -263,7 +263,7 @@
     },
     {
       "place": "Section 3, cubic coefficients",
-      "lines": "v4.70 371–388",
+      "lines": "v4.90 371–388",
       "status": "PROVED",
       "claim": "Normalization, actual roots with multiplicity and recovery of the coefficients",
       "declarations": "Turan.cubic_normalization Turan.cubic_shifted_factorization Turan.cubic_shifted_zero_iff Turan.cubic_triple_root_coefficients",
@@ -272,7 +272,7 @@
     },
     {
       "place": "Figure 2",
-      "lines": "v4.70 392–395",
+      "lines": "v4.90 392–395",
       "status": "PROVED",
       "claim": "The respective triple roots of the two distinct extremal cubics lie on the boundary",
       "declarations": "Turan.extremal_cubics",
@@ -281,7 +281,7 @@
     },
     {
       "place": "Section 4, circle comparison",
-      "lines": "v4.70 753–758",
+      "lines": "v4.90 753–758",
       "status": "PROVED",
       "claim": "A root in the comparison disk persists under strict boundary dominance",
       "declarations": "Turan.circle_comparison",
@@ -290,7 +290,7 @@
     },
     {
       "place": "Section 4, polynomial zero count",
-      "lines": "v4.70 734–742",
+      "lines": "v4.90 734–742",
       "status": "PROVED",
       "claim": "The dominant coefficient counts roots of a polynomial in the normalized unit disk",
       "declarations": "Turan.dominant_polynomial_term Turan.polynomial_rouche Turan.polynomial_argument_principle",
@@ -299,7 +299,7 @@
     },
     {
       "place": "Section 4, entire-function zero count",
-      "lines": "v4.70 734–739",
+      "lines": "v4.90 734–739",
       "status": "PROVED",
       "claim": "Exact multiplicity for a general entire-function expansion",
       "declarations": "Turan.dominant_entire_term",
@@ -308,7 +308,7 @@
     },
     {
       "place": "Section 4, circle geometry",
-      "lines": "v4.70 738–740, 751–753",
+      "lines": "v4.90 738–740, 751–753",
       "status": "PROVED",
       "claim": "The disk belongs to the open strip and the affine term has constant boundary norm",
       "declarations": "Turan.disk_in_strip Turan.circle_at_neg_half",
@@ -317,7 +317,7 @@
     },
     {
       "place": "Section 4, coefficient inequality",
-      "lines": "v4.70 769–779",
+      "lines": "v4.90 769–779",
       "status": "PROVED",
       "claim": "Lower bound on the modulus of the joint linear coefficient",
       "declarations": "Turan.circle_coefficient_bound",
@@ -326,7 +326,7 @@
     },
     {
       "place": "Section 4, index pair (2,5)",
-      "lines": "v4.70 946–962",
+      "lines": "v4.90 946–962",
       "status": "PROVED",
       "claim": "The strict bound also holds when the quintic coefficient vanishes",
       "declarations": "Turan.quintic_all_coefficients",
@@ -335,7 +335,7 @@
     },
     {
       "place": "Introduction, least half-width",
-      "lines": "v4.70 94–113",
+      "lines": "v4.90 94–113",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "Least element of the set of widths working for the whole family",
       "declarations": "Turan.least_half_width_given",
@@ -344,7 +344,7 @@
     },
     {
       "place": "Introduction, exact extremal set",
-      "lines": "v4.70 103–112, 154–157",
+      "lines": "v4.90 103–112, 154–157",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "The set of actual extremal polynomials is the displayed pair; its members differ",
       "declarations": "Turan.exactly_two_polynomials_given Turan.extremal_cubics",
@@ -353,7 +353,7 @@
     },
     {
       "place": "Section 2, alternate disk proof",
-      "lines": "v4.70 199–203",
+      "lines": "v4.90 199–203",
       "status": "PROVED",
       "claim": "A finite upper degree bound gives a common disk; high modes are small inside a larger zero-free disk",
       "declarations": "Turan.bounded_degree_disk Turan.high_mode_small_on_disk",
@@ -362,7 +362,7 @@
     },
     {
       "place": "Section 4, large modes, lower indices",
-      "lines": "v4.70 512–575",
+      "lines": "v4.90 512–575",
       "status": "PROVED",
       "claim": "Real Hermite center and comparison circle; the resulting bound on the high coefficient",
       "declarations": "Turan.large_mode_circle Turan.large_mode_small_coefficient",
@@ -371,7 +371,7 @@
     },
     {
       "place": "Section 4, large modes, lower-index conclusion",
-      "lines": "v4.70 578–617",
+      "lines": "v4.90 578–617",
       "status": "PROVED GIVEN G1",
       "claim": "Strict 87/100 on the lower half of the unbounded range",
       "declarations": "Turan.large_lower_index_gap",
@@ -380,7 +380,7 @@
     },
     {
       "place": "Section 4, large modes, upper-index conclusion",
-      "lines": "v4.70 618–702",
+      "lines": "v4.90 618–702",
       "status": "PROVED",
       "claim": "Strict 87/100 on the upper half of the unbounded range",
       "declarations": "Turan.large_upper_index_gap",
@@ -389,7 +389,7 @@
     },
     {
       "place": "Section 4, Hermite zeros and circle minimum",
-      "lines": "v4.70 532–551, 742–749",
+      "lines": "v4.90 532–551, 742–749",
       "status": "PROVED",
       "claim": "Hermite zeros are real and simple. Both real-rooted circle estimates include endpoints",
       "declarations": "Turan.hermite_real_simple Turan.real_rooted_circle Turan.real_rooted_weighted_circle",
@@ -398,7 +398,7 @@
     },
     {
       "place": "Section 4, comparison of oscillator zeros",
-      "lines": "v4.70 525–529, 679–689",
+      "lines": "v4.90 525–529, 679–689",
       "status": "PROVED",
       "claim": "Strict and weak Sturm interval comparisons and their Hermite specialization",
       "declarations": "Turan.sturm_interval Turan.sturm_closed_interval Turan.hermite_sturm_interval",
@@ -407,7 +407,7 @@
     },
     {
       "place": "Section 4, middle range",
-      "lines": "v4.70 705–709, 881–887",
+      "lines": "v4.90 705–709, 881–887",
       "status": "PROVED GIVEN MiddleChecks",
       "claim": "Every middle-range polynomial has a zero strictly inside the 87/100 strip",
       "declarations": "Turan.middle_gap",
@@ -416,7 +416,7 @@
     },
     {
       "place": "Section 4, numerical count",
-      "lines": "v4.70 705–708",
+      "lines": "v4.90 705–708",
       "status": "PROVED",
       "claim": "Sum of the numbers of admissible lower indices over the 443 upper indices",
       "declarations": "Turan.middle_pair_count",
@@ -425,7 +425,7 @@
     },
     {
       "place": "Section 4, circle certificates",
-      "lines": "v4.70 759–812",
+      "lines": "v4.90 759–812",
       "status": "PROVED GIVEN CircleCertificate",
       "claim": "Infeasibility in both sign sectors implies a root; includes the necessary coefficient inequality",
       "declarations": "Turan.circle_certificate_gap Turan.giroux_family",
@@ -434,7 +434,7 @@
     },
     {
       "place": "Section 4, ratio charts",
-      "lines": "v4.70 812–829",
+      "lines": "v4.90 812–829",
       "status": "PROVED GIVEN RatioCertificate",
       "claim": "The two chart circles and gauged Taylor bounds imply a root",
       "declarations": "Turan.ratio_certificate_gap",
@@ -443,7 +443,7 @@
     },
     {
       "place": "Section 4, transfer from the trinomial",
-      "lines": "v4.70 831–859",
+      "lines": "v4.90 831–859",
       "status": "PROVED GIVEN TransferCertificate",
       "claim": "The inner pivot margin and outer bracket imply a root",
       "declarations": "Turan.transfer_certificate_gap",
@@ -452,7 +452,7 @@
     },
     {
       "place": "Section 4, winding rectangles",
-      "lines": "v4.70 861–881",
+      "lines": "v4.90 861–881",
       "status": "PROVED GIVEN WindingCertificate",
       "claim": "The nominal polygon and segment or disk certificates imply a root",
       "declarations": "Turan.winding_certificate_gap",
@@ -461,7 +461,7 @@
     },
     {
       "place": "Section 4, crossing tally implication",
-      "lines": "v4.70 868–879",
+      "lines": "v4.90 868–879",
       "status": "PROVED",
       "claim": "A positive nominal crossing tally and the given edge enclosures force a polynomial zero",
       "declarations": "Turan.polygon_forces_zero",
@@ -470,7 +470,7 @@
     },
     {
       "place": "Section 4, three sextic charts",
-      "lines": "v4.70 935–945",
+      "lines": "v4.90 935–945",
       "status": "PROVED GIVEN E10",
       "claim": "All three sextic pairs have a zero strictly below 57016/65536",
       "declarations": "Turan.sextic_chart_gap",
@@ -479,7 +479,7 @@
     },
     {
       "place": "Section 4, quintic charts",
-      "lines": "v4.70 935–945",
+      "lines": "v4.90 935–945",
       "status": "PROVED GIVEN F1",
       "claim": "The (3,5) pair has a zero strictly below 29491/32768",
       "declarations": "Turan.quintic_chart_gap",
@@ -488,7 +488,7 @@
     },
     {
       "place": "Appendix A.1, low trinomials",
-      "lines": "v4.70 1047–1056",
+      "lines": "v4.90 1072–1081",
       "status": "PROVED",
       "claim": "The degrees two and three have a zero in the rectangle",
       "declarations": "Turan.trinomial_small",
@@ -497,7 +497,7 @@
     },
     {
       "place": "Appendix A.1, finite trinomials",
-      "lines": "v4.70 1058–1090",
+      "lines": "v4.90 1083–1115",
       "status": "PROVED GIVEN G1",
       "claim": "The 76 finite trinomial degrees have a zero in the rectangle",
       "declarations": "Turan.trinomial_finite",
@@ -506,7 +506,7 @@
     },
     {
       "place": "Appendix A.1, large trinomials",
-      "lines": "v4.70 1092–1145",
+      "lines": "v4.90 1117–1170",
       "status": "PROVED",
       "claim": "All trinomial degrees at least 80 have a zero in the rectangle",
       "declarations": "Turan.trinomial_large",
@@ -515,7 +515,7 @@
     },
     {
       "place": "Figure 1, full criterion",
-      "lines": "v4.70 130–146",
+      "lines": "v4.90 130–146",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "The working half-widths are precisely the real numbers at least h",
       "declarations": "Turan.figure_one_width",
@@ -524,7 +524,7 @@
     },
     {
       "place": "Introduction, qualitative trinomial bound",
-      "lines": "v4.70 69–73",
+      "lines": "v4.90 69–73",
       "status": "PROVED",
       "claim": "One closed strip contains a zero for every trinomial",
       "declarations": "Turan.trinomial_exists_strip",
@@ -533,7 +533,7 @@
     },
     {
       "place": "Introduction, quadratic least width",
-      "lines": "v4.70 73–76",
+      "lines": "v4.90 73–76, 975",
       "status": "PROVED",
       "claim": "The least half-width for degree two alone is exactly one half",
       "declarations": "Turan.quadratic_trinomial_least_width",
@@ -542,7 +542,7 @@
     },
     {
       "place": "Section 3, auxiliary cubic data",
-      "lines": "v4.70 353–361",
+      "lines": "v4.90 353–361",
       "status": "PROVED",
       "claim": "Monotonicity of the real cubic and all three Viète identities",
       "declarations": "Turan.cubic_auxiliary_increasing Turan.cubic_auxiliary_vieta",
@@ -551,7 +551,7 @@
     },
     {
       "place": "Section 3, denominator roots",
-      "lines": "v4.70 381–382, 453–454",
+      "lines": "v4.90 381–382, 453–454",
       "status": "PROVED",
       "claim": "The scale denominator has real part 1/2 at every zero; the third-root denominator vanishes precisely at the two stated poles",
       "declarations": "Turan.cubic_scale_root_real_part Turan.third_poles",
@@ -560,7 +560,7 @@
     },
     {
       "place": "Section 3, translated relation",
-      "lines": "v4.70 425–435",
+      "lines": "v4.90 425–435",
       "status": "PROVED",
       "claim": "Translation preserves the symmetric equation and controls the imaginary part of either square root",
       "declarations": "Turan.translated_root_relation Turan.square_root_imaginary_identity",
@@ -569,7 +569,7 @@
     },
     {
       "place": "Section 3, boundary and contact calculations",
-      "lines": "v4.70 459–474, 482–486",
+      "lines": "v4.90 459–474, 482–486",
       "status": "PROVED",
       "claim": "Strict convexity, derivative and minimum of the boundary quartic; decay of the rational map and exact translated contact height",
       "declarations": "Turan.boundary_quartic_convex Turan.third_decay Turan.contact_pole_height",
@@ -578,7 +578,7 @@
     },
     {
       "place": "Section 2, original filter step",
-      "lines": "v4.70 225–244, 295–317",
+      "lines": "v4.90 225–244, 295–317",
       "status": "PROVED",
       "claim": "The normalized four-slot sequence flattens locally; derivative ratios tend to zero, the filter quotient tends to one, and filtered polynomials eventually avoid each disk",
       "declarations": "Turan.slot_flat_limit Turan.slot_derivative_limit Turan.slot_filter_limit",
@@ -587,7 +587,7 @@
     },
     {
       "place": "Section 2, harmonic disk estimate and persistence",
-      "lines": "v4.70 270–277, 336–339",
+      "lines": "v4.90 270–277, 336–339",
       "status": "PROVED",
       "claim": "Sharp disk Harnack bounds and persistence of a limiting zero under locally uniform entire convergence",
       "declarations": "Turan.harnack_disk Turan.zeros_persist_locally",
@@ -596,7 +596,7 @@
     },
     {
       "place": "Appendix A.1, Hermite series",
-      "lines": "v4.70 999–1012",
+      "lines": "v4.90 1024–1037",
       "status": "PROVED",
       "claim": "The generating function, Cauchy bound, term majorant and 0.74 estimate; the full Mehler kernel and locally uniform convergence on bounded balls at 1/5",
       "declarations": "Turan.hermite_generating Turan.normalized_cauchy_bound Turan.mehler_term_majorant Turan.mehler_growth_ratio Turan.mehler_kernel Turan.mehler_uniform_on_balls",
@@ -605,7 +605,7 @@
     },
     {
       "place": "Section 4, uniform perturbation",
-      "lines": "v4.70 842–849",
+      "lines": "v4.90 842–849",
       "status": "PROVED GIVEN UniformTransferCheck",
       "claim": "Each selected C1 inner disk works for every polynomial perturbation smaller than 1/64 on the disk of radius 5/4",
       "declarations": "Turan.transfer_arbitrary_perturbation",
@@ -614,7 +614,7 @@
     },
     {
       "place": "Section 4, actual rectangle",
-      "lines": "v4.70 868–880",
+      "lines": "v4.90 868–880",
       "status": "PROVED",
       "claim": "An enclosed zero exists in the compact convex set that contains the certified polygonal chain",
       "declarations": "Turan.polygon_forces_zero_in_convex_set",
@@ -623,7 +623,7 @@
     },
     {
       "place": "Section 4, signed angles",
-      "lines": "v4.70 889–908",
+      "lines": "v4.90 889–908",
       "status": "PROVED",
       "claim": "Cotangent of the integrated signed angle, and the even or odd multiple of pi summed over all roots",
       "declarations": "Turan.interval_angle_cot Turan.equal_value_angle_sum",
@@ -632,7 +632,7 @@
     },
     {
       "place": "Appendix A.2, logarithmic estimate and filter",
-      "lines": "v4.70 1331–1336, 1356–1369",
+      "lines": "v4.90 1356–1361, 1381–1394",
       "status": "PROVED",
       "claim": "The positive-real-part disk estimate in every derivative order and the explicit rational quotient in the two-mode filter identity",
       "declarations": "Turan.caratheodory_all_orders Turan.projected_mode_identity",
@@ -641,7 +641,7 @@
     },
     {
       "place": "Appendix A.3, exact stationary point",
-      "lines": "v4.70 1600–1615, 1644–1659",
+      "lines": "v4.90 1625–1640, 1669–1684",
       "status": "PROVED",
       "claim": "The ratio and its derivative at the upper root, the zero and derivative of Delta there, strict positivity elsewhere, and the square-root line criterion",
       "declarations": "Turan.quartic_ratio_contact Turan.quartic_delta_contact Turan.quartic_delta_criterion",
@@ -650,7 +650,7 @@
     },
     {
       "place": "Introduction, maximum height as an attained maximum",
-      "lines": "v4.70 155–157",
+      "lines": "v4.90 155–157",
       "status": "PROVED GIVEN G1, MiddleChecks, F1, E10",
       "claim": "h is the greatest of the least absolute imaginary parts attained by roots of individual family members.",
       "declarations": "Turan.attained_height_maximum_given",
@@ -659,7 +659,7 @@
     },
     {
       "place": "Lemma 6 proof, modulus identity and equality route",
-      "lines": "v4.70 440–443",
+      "lines": "v4.90 440–443",
       "status": "PROVED",
       "claim": "Contact forces equality of both heights and equality in the plane Cauchy–Schwarz bound. At equal positive height this forces the two factors to coincide.",
       "declarations": "Turan.contact_implies_alignment Turan.vector_alignment_at_equal_height",
@@ -668,7 +668,7 @@
     },
     {
       "place": "Lemma 7 proof, intermediate lower bound for q₊",
-      "lines": "v4.70 467–468",
+      "lines": "v4.90 467–468",
       "status": "PROVED",
       "claim": "The lower boundary polynomial is at least 16h⁴−2, which is positive since h⁴>1/8.",
       "declarations": "Turan.lower_boundary_margin",
@@ -677,7 +677,7 @@
     },
     {
       "place": "Lemma 7 proof, harmonicity of the imaginary part",
-      "lines": "v4.70 472",
+      "lines": "v4.90 472",
       "status": "PROVED",
       "claim": "The imaginary part of the third-root map is harmonic on a neighborhood of every point in the closed half-plane and has absolute value strictly less than h above its boundary.",
       "declarations": "Turan.third_harmonic_and_interior",
@@ -686,7 +686,7 @@
     },
     {
       "place": "Section 4, equal-value endpoints for arbitrary degrees",
-      "lines": "v4.70 889–895, 923–927",
+      "lines": "v4.90 889–895, 923–927",
       "status": "PROVED",
       "claim": "The two equal divided differences give equal normalized family values, their endpoint quotient and the corresponding quotient product over all roots with multiplicity.",
       "declarations": "Turan.equal_nodes_family Turan.equal_nodes_ratio_and_product",
@@ -695,7 +695,7 @@
     },
     {
       "place": "Section 4, product over roots at equal-value endpoints in the small pairs",
-      "lines": "v4.70 923–927",
+      "lines": "v4.90 923–927",
       "status": "PROVED",
       "claim": "For a family with no real zero, take two distinct equal-value endpoints ν<ν′, both different from −1/2. The complex product of (ν′−z)/(ν−z) over all family roots with multiplicity equals (2ν′+1)/(2ν+1). Apply the node product at x=ν′+1/2 and y=ν+1/2. The two (4,5) and five (5,6) node-pair products are combined in their respective fixed-product proofs.",
       "declarations": "Turan.equal_nodes_family Turan.equal_nodes_ratio_and_product Turan.lemma_twenty_one Turan.lemma_twenty_two",
@@ -704,7 +704,7 @@
     },
     {
       "place": "A.3 Nodes, normalized family",
-      "lines": "v4.70 1529–1531",
+      "lines": "v4.90 1554–1556",
       "status": "PROVED",
       "claim": "The shifted family equals w times its normalized expression for every nonzero complex w.",
       "declarations": "Turan.family_node_form",
@@ -713,7 +713,7 @@
     },
     {
       "place": "A.3 Nodes, powers",
-      "lines": "v4.70 1534–1537",
+      "lines": "v4.90 1559–1562",
       "status": "PROVED",
       "claim": "The five divided differences of w, w², w³, w⁴ and 1/w are expressed in the sum and product of the nodes.",
       "declarations": "Turan.divided_powers",
@@ -722,7 +722,7 @@
     },
     {
       "place": "A.3 Nodes, common value",
-      "lines": "v4.70 1545–1547",
+      "lines": "v4.90 1570–1572",
       "status": "PROVED",
       "claim": "At equal nodes the normalized family takes the same value for every choice of coefficients.",
       "declarations": "Turan.equal_nodes_family",
@@ -731,7 +731,7 @@
     },
     {
       "place": "A.3 Nodes, endpoint quotient",
-      "lines": "v4.70 1550–1552",
+      "lines": "v4.90 1575–1577",
       "status": "PROVED",
       "claim": "The family endpoint quotient and the product of the root-factor quotients both equal the node ratio.",
       "declarations": "Turan.equal_nodes_ratio_and_product",
@@ -740,7 +740,7 @@
     },
     {
       "place": "A.3 (2,4), derivative-based root count",
-      "lines": "v4.70 1567–1569",
+      "lines": "v4.90 1592–1594",
       "status": "PROVED",
       "claim": "The quartic derivative has the indicated sign on each real half-line, with exactly one real zero on each side of zero.",
       "declarations": "Turan.quartic_real_sign_intervals",
@@ -749,7 +749,7 @@
     },
     {
       "place": "A.3 (2,4), squared-height comparison",
-      "lines": "v4.70 1576–1578",
+      "lines": "v4.90 1601–1603",
       "status": "PROVED",
       "claim": "The squared height of the upper root lies strictly between 433/675 and 3/4, and 433/675 exceeds 16/25.",
       "declarations": "Turan.quartic_squared_height_vieta_comparison",
@@ -758,7 +758,7 @@
     },
     {
       "place": "Lemma 18, poles and analytic quotient",
-      "lines": "v4.70 1595–1598",
+      "lines": "v4.90 1620–1623",
       "status": "PROVED",
       "claim": "The quadratic denominator has exactly the two stated zeros. Above the contact height the quotient is analytic and its square equation is equivalent to the pencil root equation.",
       "declarations": "Turan.quartic_denominator_zeros Turan.quartic_ratio_analytic_and_pencil",
@@ -767,7 +767,7 @@
     },
     {
       "place": "Lemma 18(c), analytic derivative at the upper root",
-      "lines": "v4.70 1647–1650",
+      "lines": "v4.90 1672–1675",
       "status": "PROVED",
       "claim": "At contact the quotient has an analytic square-root branch with derivative −1. The imaginary part along the horizontal line has derivative zero.",
       "declarations": "Turan.quartic_square_root_branch_at_contact",
@@ -776,7 +776,7 @@
     },
     {
       "place": "Section 4, uniform dominant coefficient on a box",
-      "lines": "v4.70 740–743",
+      "lines": "v4.90 740–743",
       "status": "PROVED",
       "claim": "A common lower bound for one coefficient that exceeds a summable majorant of all other coefficients gives the exact zero count for each parameter.",
       "declarations": "Turan.uniform_dominant_coefficient",
@@ -785,7 +785,7 @@
     },
     {
       "place": "Section 4, class (a), disk-only scope of the joint row",
-      "lines": "v4.70 775–781",
+      "lines": "v4.90 775–781",
       "status": "PROVED",
       "claim": "Zero-freeness on the open disk gives the joint first-coefficient inequality for the two modes under the stated phase and weight conditions.",
       "declarations": "Turan.circle_joint_cut_on_disk",
@@ -794,7 +794,7 @@
     },
     {
       "place": "Section 4, class (c), outer comparison",
-      "lines": "v4.70 848–853",
+      "lines": "v4.90 848–853",
       "status": "PROVED",
       "claim": "The outer circle gives a positive endpoint minimum for the high mode and bounds the perturbation coefficient by the actual maximum of the pencil norm divided by that minimum.",
       "declarations": "Turan.transfer_outer_cap",
@@ -803,7 +803,7 @@
     },
     {
       "place": "Section 4, sum and parity for general F",
-      "lines": "v4.70 901–904",
+      "lines": "v4.90 901–904",
       "status": "PROVED",
       "claim": "A continuous argument along the real axis increases by the sum of the signed angles over all roots with multiplicity. At equal nodes the increment is an even or odd multiple of π according to their signs.",
       "declarations": "Turan.polynomial_argument_on_real_axis Turan.equal_nodes_angle_parity Turan.node_pair_continuous_increment",
@@ -812,7 +812,7 @@
     },
     {
       "place": "A.3 Nodes, sign of argument change",
-      "lines": "v4.70 1547–1551",
+      "lines": "v4.90 1572–1576",
       "status": "PROVED",
       "claim": "At two real nodes the increment of a continuous polynomial argument equals the signed root-angle sum and has the parity prescribed by the signs of the nodes.",
       "declarations": "Turan.node_pair_continuous_increment",
@@ -821,7 +821,7 @@
     },
     {
       "place": "Lemma 18(d), exclusion on the line",
-      "lines": "v4.70 1656–1659",
+      "lines": "v4.90 1681–1684",
       "status": "PROVED",
       "claim": "The contact square equation has two algebraic possibilities. A root on the threshold line has the contact position and parameter zero.",
       "declarations": "Turan.quartic_contact_square_alternatives Turan.quartic_pencil_line_identification",
@@ -830,7 +830,7 @@
     },
     {
       "place": "Lemma 18(e), root-count continuity",
-      "lines": "v4.70 1661–1664",
+      "lines": "v4.90 1686–1689",
       "status": "PROVED",
       "claim": "The number of pencil roots strictly above a fixed line, with multiplicities, stays constant on any parameter interval on which no root crosses the line.",
       "declarations": "Turan.quartic_pencil_count_on_interval",
@@ -839,7 +839,7 @@
     },
     {
       "place": "Lemma 18(e), local uniformity and Hurwitz",
-      "lines": "v4.70 1661–1669",
+      "lines": "v4.90 1686–1694",
       "status": "PROVED",
       "claim": "Both pencil rescalings converge locally uniformly. For large absolute parameter each of the four specified disks contains exactly one root, the two scaled roots are real, and the four exhaust the roots.",
       "declarations": "Turan.quartic_pencil_large_parameter_limits Turan.quartic_pencil_large_parameter_roots",
@@ -848,7 +848,7 @@
     },
     {
       "place": "Lemma 19(ii), real and polar cases",
-      "lines": "v4.70 1689–1694",
+      "lines": "v4.90 1714–1719",
       "status": "PROVED",
       "claim": "For shifted squares of product −1/2 the real case gives a real zero. In the nonreal case a common choice of conjugation gives the complementary-angle polar forms.",
       "declarations": "Turan.quartic_shifted_squares_real Turan.quartic_shifted_squares_polar",
@@ -857,7 +857,7 @@
     },
     {
       "place": "Lemma 19(ii), radial lower bounds",
-      "lines": "v4.70 1694–1702",
+      "lines": "v4.90 1719–1727",
       "status": "PROVED",
       "claim": "The imaginary-height condition on a shifted square gives the printed quadratic inequality and the positive radial threshold.",
       "declarations": "Turan.quartic_shifted_square_radial_bound",
@@ -866,7 +866,7 @@
     },
     {
       "place": "Lemma 19(ii), stronger height estimate",
-      "lines": "v4.70 1701–1704",
+      "lines": "v4.90 1726–1729",
       "status": "PROVED",
       "claim": "The least root height y of a nonzero homogeneous quartic pencil satisfies 8y⁴+4y²≤1 and y²≤(√3−1)/4.",
       "declarations": "Turan.quartic_homogeneous_height_sq_bound",
@@ -875,7 +875,7 @@
     },
     {
       "place": "Lemma 19(iii), normalized unbounded sequence",
-      "lines": "v4.70 1706–1710",
+      "lines": "v4.90 1731–1735",
       "status": "PROVED",
       "claim": "An unbounded coefficient sequence has a subsequence whose norms diverge and whose normalized polynomials converge locally uniformly to a nonzero homogeneous pencil.",
       "declarations": "Turan.quartic_unbounded_normalized_subsequence",
@@ -884,7 +884,7 @@
     },
     {
       "place": "Lemma 19(iii), Hurwitz exclusion of escape",
-      "lines": "v4.70 1708–1711",
+      "lines": "v4.90 1733–1736",
       "status": "PROVED",
       "claim": "A small zero of the homogeneous limit persists in the original sequence, so a sequence with limiting height above 1/2 has bounded coefficients.",
       "declarations": "Turan.quartic_normalized_escape_low_zero Turan.quartic_coefficients_bounded_of_height_limit",
@@ -893,7 +893,7 @@
     },
     {
       "place": "Lemma 19(iii), limit of the maximizing subsequence",
-      "lines": "v4.70 1710–1713",
+      "lines": "v4.90 1735–1738",
       "status": "PROVED",
       "claim": "A sequence whose heights tend to their supremum has a convergent coefficient subsequence attaining that supremum, with each limiting zero approached by actual roots.",
       "declarations": "Turan.quartic_maximizing_subsequence",
@@ -902,7 +902,7 @@
     },
     {
       "place": "Lemma 19(vi), intermediate upper bound for X",
-      "lines": "v4.70 1766",
+      "lines": "v4.90 1791",
       "status": "PROVED",
       "claim": "The balanced-coefficient inequalities give the stated intermediate bound on X.",
       "declarations": "Turan.quartic_balanced_intermediate_bound",
@@ -911,7 +911,7 @@
     },
     {
       "place": "Lemma 19(vii), positive imaginary coefficient",
-      "lines": "v4.70 1783–1787",
+      "lines": "v4.90 1808–1812",
       "status": "PROVED",
       "claim": "The divided quartic coefficient has positive imaginary part, and the two real coefficients are recovered by the printed identities.",
       "declarations": "Turan.quartic_upper_divided_coefficient Turan.quartic_upper_divided_recovery",
@@ -920,7 +920,7 @@
     },
     {
       "place": "Lemma 19(vii), parametrization after repetition",
-      "lines": "v4.70 1795–1798",
+      "lines": "v4.90 1820–1823",
       "status": "PROVED",
       "claim": "Repeated upper roots give the displayed offsets, including the triple-root case.",
       "declarations": "Turan.quartic_repeated_upper_offsets",
@@ -929,7 +929,7 @@
     },
     {
       "place": "A.3 (4,5), Elimination equivalence",
-      "lines": "v4.70 1904–1908",
+      "lines": "v4.90 1929–1933",
       "status": "PROVED",
       "claim": "The two divided-difference equations are equivalent to the sextic eliminant and the printed rational formula for the product of nodes.",
       "declarations": "Turan.Small45.divided_differences_zero_iff_eliminant",
@@ -938,7 +938,7 @@
     },
     {
       "place": "A.3 (4,5), Poles, infinity and uniform boundary margin",
-      "lines": "v4.70 1945–1948",
+      "lines": "v4.90 1970–1973",
       "status": "PROVED",
       "claim": "The nominal quotient has precisely the two stated finite poles, tends to one at infinity, and has a uniform boundary margin below 225.",
       "declarations": "Turan.Small45.model_poles_and_infinity Turan.Small45.model_boundary_margin",
@@ -947,7 +947,7 @@
     },
     {
       "place": "A.3 (4,5), Maximum modulus on half-disks",
-      "lines": "v4.70 1946–1949",
+      "lines": "v4.90 1971–1974",
       "status": "PROVED",
       "claim": "The large semicircles and filled half-disks preserve the boundary bound. Conjugation gives the same bound on the lower exterior.",
       "declarations": "Turan.Small45.model_half_disk_extension",
@@ -956,7 +956,7 @@
     },
     {
       "place": "A.3 (4,5), Strict intermediate transfer margin",
-      "lines": "v4.70 1954–1958",
+      "lines": "v4.90 1979–1983",
       "status": "PROVED",
       "claim": "The four actual node intervals give the strict exterior estimate for the transferred quotient.",
       "declarations": "Turan.Small45.node_quotient_strict_transfer",
@@ -965,7 +965,7 @@
     },
     {
       "place": "Section 4, class (d), nominal chord inside the edge disk",
-      "lines": "v4.70 871–874",
+      "lines": "v4.90 871–874",
       "status": "PROVED",
       "claim": "Specializing the uniform edge enclosure at the box center puts the two nominal endpoints and their entire chord in the same open disk as the polynomial edge.",
       "declarations": "Turan.nominal_chord_in_edge_disk Turan.box_center_edge_chord",
@@ -974,7 +974,7 @@
     },
     {
       "place": "Section 4, class (d), equality of winding numbers",
-      "lines": "v4.70 871–876",
+      "lines": "v4.90 871–876",
       "status": "PROVED",
       "claim": "Summing continuous local changes of argument along the polynomial edges gives exactly 2π times the signed crossings of the nominal polygon, including when roots lie inside the polygon.",
       "declarations": "Turan.checked_edges_winding_equality",
@@ -983,7 +983,7 @@
     },
     {
       "place": "Lemma 7 proof, half-disk maximum principle",
-      "lines": "v4.70 472–475",
+      "lines": "v4.90 472–475",
       "status": "PROVED",
       "claim": "The imaginary part of the third-root map obeys the boundary estimate on every sufficiently large semicircle and the weak estimate throughout each filled half-disk. The strong maximum principle gives strictness in the open half-plane.",
       "declarations": "Turan.imaginary_half_disk_maximum Turan.third_half_disks",
@@ -992,7 +992,7 @@
     },
     {
       "place": "Section 4, (5,6) strict exterior comparison",
-      "lines": "v4.70 929–931",
+      "lines": "v4.90 929–931",
       "status": "PROVED",
       "claim": "The true-node quotient has modulus strictly less than 181/100 on the entire exterior with absolute imaginary part at least 43/50.",
       "declarations": "Turan.small56_strict_exterior",
@@ -1001,7 +1001,7 @@
     },
     {
       "place": "A.2, strip factors, disk inequality and equality case",
-      "lines": "v4.70 1417–1419",
+      "lines": "v4.90 1442–1444",
       "status": "PROVED",
       "claim": "The modulus of the complex hyperbolic tangent factor is at most one throughout the strip, with equality precisely on its two boundary lines.",
       "declarations": "Turan.StripDetails.strip_factor_modulus",
@@ -1010,7 +1010,7 @@
     },
     {
       "place": "A.2, strip factors, uniform limit",
-      "lines": "v4.70 1419–1420",
+      "lines": "v4.90 1444–1445",
       "status": "PROVED",
       "claim": "The factor modulus tends uniformly to one at both horizontal ends of the closed strip.",
       "declarations": "Turan.StripDetails.strip_factor_uniform_limit",
@@ -1019,7 +1019,7 @@
     },
     {
       "place": "A.2, strip factors, zeros and poles",
-      "lines": "v4.70 1420–1422",
+      "lines": "v4.90 1445–1447",
       "status": "PROVED",
       "claim": "The hyperbolic sine numerator vanishes exactly on the specified integer lattice, the hyperbolic cosine denominator has no zero below twice the working height in absolute value, and the unique zero in the wider strip is simple.",
       "declarations": "Turan.StripDetails.strip_factor_divisor",
@@ -1028,7 +1028,7 @@
     },
     {
       "place": "Lemma 19(iv), value and tangency equations",
-      "lines": "v4.70 1717–1721",
+      "lines": "v4.90 1742–1746",
       "status": "PROVED",
       "claim": "The shifted value and derivative equations at a quartic contact use the two explicit mode derivatives.",
       "declarations": "Turan.quartic_contact_equations Turan.quartic_contact_mode_derivatives",
@@ -1037,7 +1037,7 @@
     },
     {
       "place": "Lemma 19(iv), two simple contacts",
-      "lines": "v4.70 1727–1731",
+      "lines": "v4.90 1752–1756",
       "status": "PROVED",
       "claim": "Dependent value rows force real nodes, so the rows at two distinct nonreal quartic contacts are independent.",
       "declarations": "Turan.quartic_dependent_value_rows Turan.quartic_equal_row_nodes_real Turan.quartic_distinct_contact_rows",
@@ -1046,7 +1046,7 @@
     },
     {
       "place": "Lemma 19(iv), double-contact independence",
-      "lines": "v4.70 1731–1735",
+      "lines": "v4.90 1756–1760",
       "status": "PROVED",
       "claim": "The tangent row at a double contact is independent of the value row, by the explicit critical-point equations.",
       "declarations": "Turan.quartic_dependent_tangent_row Turan.quartic_contact_critical_arithmetic Turan.quartic_double_contact_rows",
@@ -1055,7 +1055,7 @@
     },
     {
       "place": "A.3 (3,4), Cotangent monotonicity argument",
-      "lines": "v4.70 1835–1840",
+      "lines": "v4.90 1860–1865",
       "status": "PROVED",
       "claim": "The cotangent of a single root angle varies monotonically with horizontal squared distance and vertical height in the indicated ranges. The resulting envelope bounds the angle comparisons.",
       "declarations": "Turan.small34_cot_monotonicity Turan.small34_cot_envelope",
@@ -1064,7 +1064,7 @@
     },
     {
       "place": "A.3 (3,4), Full leading monic expansion",
-      "lines": "v4.70 1852–1854",
+      "lines": "v4.90 1877–1879",
       "status": "PROVED",
       "claim": "Normalizing the quartic by its leading coefficient gives the printed monic expansion, including its cubic and linear terms.",
       "declarations": "Turan.small34_monic_expansion",
@@ -1073,7 +1073,7 @@
     },
     {
       "place": "A.3 (3,4), Continuous argument change",
-      "lines": "v4.70 1859–1861",
+      "lines": "v4.90 1884–1886",
       "status": "PROVED",
       "claim": "For every continuous argument lift along the interval, its real increment equals the sum of the four signed root angles.",
       "declarations": "Turan.small34_continuous_argument_change",
@@ -1082,7 +1082,7 @@
     },
     {
       "place": "A.3 (3,4), Monic degree of Z±",
-      "lines": "v4.70 1881–1883",
+      "lines": "v4.90 1906–1908",
       "status": "PROVED",
       "claim": "The two boundary products have the stated monic degree and polynomial coefficients.",
       "declarations": "Turan.small34_boundary_product_polynomials",
@@ -1091,7 +1091,7 @@
     },
     {
       "place": "A.3 (3,4), Exact sine prefactor",
-      "lines": "v4.70 1887–1888",
+      "lines": "v4.90 1912–1913",
       "status": "PROVED",
       "claim": "The upper sine expression has the exact negative square-root prefactor, with the stated sign.",
       "declarations": "Turan.small34_upper_sine_prefactor",
@@ -1100,7 +1100,7 @@
     },
     {
       "place": "A.3 (3,4), Boundary extrema and harmonic extension",
-      "lines": "v4.70 1888–1894",
+      "lines": "v4.90 1913–1919",
       "status": "PROVED",
       "claim": "The angle combinations are harmonic, decay at infinity and obey their sharp boundary comparisons throughout the half-plane.",
       "declarations": "Turan.small34_angle_harmonic_decay Turan.small34_boundary_extrema Turan.small34_halfplane_boundary_bounds",
@@ -1109,7 +1109,7 @@
     },
     {
       "place": "A.3 (5,6), Remainder criterion",
-      "lines": "v4.70 1962–1965",
+      "lines": "v4.90 1987–1990",
       "status": "PROVED",
       "claim": "Polynomial division by the quadratic node equation gives the symmetric divided differences and the equivalence with the two vanishing remainders.",
       "declarations": "Turan.Small56.divided_difference_of_remainder Turan.Small56.nodes_iff_zero_remainders",
@@ -1118,7 +1118,7 @@
     },
     {
       "place": "A.3 (5,6), Strict per-node lower comparison",
-      "lines": "v4.70 2011–2013",
+      "lines": "v4.90 2036–2038",
       "status": "PROVED",
       "claim": "The node equation excludes the adverse corners of the closed enclosures and gives the strict lower bound for each tabulated node ratio.",
       "declarations": "Turan.Small56.table_entry_strict_lower",
@@ -1127,7 +1127,7 @@
     },
     {
       "place": "A.3 (5,6), Strict exterior bound for actual K",
-      "lines": "v4.70 2015–2016, 2030–2032",
+      "lines": "v4.90 2040–2041, 2055–2057",
       "status": "PROVED",
       "claim": "The true-node quotient on the exterior satisfies the strict transfer estimate with the stated accumulated factor.",
       "declarations": "Turan.Small56.node_quotient_strict_transfer",
@@ -1136,7 +1136,7 @@
     },
     {
       "place": "A.3 (5,6), Model quotient strictness",
-      "lines": "v4.70 2025–2027",
+      "lines": "v4.90 2050–2052",
       "status": "PROVED",
       "claim": "The cleared nominal polynomial gives a strict modulus bound of 9/5 for the rational model on the whole exterior.",
       "declarations": "Turan.Small56.model_quotient_strict",
@@ -1145,7 +1145,7 @@
     },
     {
       "place": "A.4 (2,5), Shifted endpoints",
-      "lines": "v4.70 2041–2044, 2060–2064",
+      "lines": "v4.90 2066–2069, 2085–2089",
       "status": "PROVED",
       "claim": "The shifted quintic nodes satisfy the printed sum, product and divided-difference identities.",
       "declarations": "Turan.quintic_shifted_node_identities",
@@ -1154,7 +1154,7 @@
     },
     {
       "place": "A.4 (2,5), Derivative argument",
-      "lines": "v4.70 2056–2058",
+      "lines": "v4.90 2081–2083",
       "status": "PROVED",
       "claim": "The derivative test gives the stated monotonicity and isolation for the polynomial defining the nodes.",
       "declarations": "Turan.quintic_node_derivative_test",
@@ -1163,7 +1163,7 @@
     },
     {
       "place": "A.4 (2,5), Cotangent monotonicity",
-      "lines": "v4.70 2085–2088",
+      "lines": "v4.90 2110–2113",
       "status": "PROVED",
       "claim": "The cotangent quotient has the stated horizontal and vertical ordering.",
       "declarations": "Turan.quintic_cot_quotient_monotonicity",
@@ -1172,7 +1172,7 @@
     },
     {
       "place": "A.4 (2,5), Initial count of upper roots",
-      "lines": "v4.70 2092–2094",
+      "lines": "v4.90 2117–2119",
       "status": "PROVED",
       "claim": "The signed-angle relation and the separation of five roots imply that the normalized upper-half-plane count is three or four.",
       "declarations": "Turan.quintic_initial_upper_count",
@@ -1181,7 +1181,7 @@
     },
     {
       "place": "A.4 (2,5), Orthogonal projection identity",
-      "lines": "v4.70 2104–2113",
+      "lines": "v4.90 2129–2138",
       "status": "PROVED",
       "claim": "Orthogonal projection of the fifth coordinate onto the complement of the constant and imaginary-part vectors gives the exact squared norm and the printed bound for the fifth real coordinate.",
       "declarations": "Turan.quintic_fifth_orthogonal_projection",
@@ -1190,7 +1190,7 @@
     },
     {
       "place": "A.4 (2,5), Intermediate square-root comparison",
-      "lines": "v4.70 2126–2130",
+      "lines": "v4.90 2151–2155",
       "status": "PROVED",
       "claim": "The successive square-root comparisons give the positive lower bound for the cleared difference.",
       "declarations": "Turan.quintic_difference_sqrt_chain",
@@ -1199,7 +1199,7 @@
     },
     {
       "place": "A.4 (2,5), Rectangle monotonicity",
-      "lines": "v4.70 2140–2144",
+      "lines": "v4.90 2165–2169",
       "status": "PROVED",
       "claim": "The quadratic bound increases with half-length and decreases with height throughout the indicated rectangle.",
       "declarations": "Turan.quintic_rectangle_quadratic_monotonicity",
@@ -1208,7 +1208,7 @@
     },
     {
       "place": "A.4 (2,5), Strict 10.4 comparison",
-      "lines": "v4.70 2156–2159",
+      "lines": "v4.90 2181–2184",
       "status": "PROVED",
       "claim": "The real discriminant exceeds 10.4 and the imaginary separation is less than four, using the given rectangle for three roots.",
       "declarations": "Turan.quintic_discriminant_sqrt_separation",
@@ -1217,7 +1217,7 @@
     },
     {
       "place": "A.4 (2,5), All-five moment bounds",
-      "lines": "v4.70 2167–2171",
+      "lines": "v4.90 2192–2196",
       "status": "PROVED",
       "claim": "The real and imaginary second moments over all five roots obey the printed upper bounds, including the imaginary square sum below 9.39.",
       "declarations": "Turan.quintic_all_five_moment_bounds",
@@ -1226,7 +1226,7 @@
     },
     {
       "place": "Lemma 19(iv), displaced contacts and one row",
-      "lines": "v4.70 1721–1727",
+      "lines": "v4.90 1746–1752",
       "status": "PROVED",
       "claim": "The nonzero singleton contact row and the independent pairs of rows admit continuous coefficient interpolation for the prescribed vertical shifts.",
       "declarations": "Turan.quartic_single_contact_row Turan.quartic_vertical_interpolation",
@@ -1235,7 +1235,7 @@
     },
     {
       "place": "Lemma 19(iv), persistence under vertical motion",
-      "lines": "v4.70 1735–1739",
+      "lines": "v4.90 1760–1764",
       "status": "PROVED",
       "claim": "Under the constructed vertical displacement the contact zeros move as prescribed and the other zeros retain their strict height margin, with multiplicities accounted for.",
       "declarations": "Turan.quartic_vertical_persistence",
@@ -1244,7 +1244,7 @@
     },
     {
       "place": "A.3 (5,6), Pole and maximum-modulus extension",
-      "lines": "v4.70 2025–2027",
+      "lines": "v4.90 2050–2052",
       "status": "PROVED",
       "claim": "The nominal quotient has precisely the stated finite poles and tends to one at infinity. The line bound propagates through the filled half-disks and the full exterior.",
       "declarations": "Turan.Small56.model_poles_and_infinity Turan.Small56.model_boundary_margin Turan.Small56.model_half_disk_extension",
@@ -1253,7 +1253,7 @@
     },
     {
       "place": "A.2, strip weight, boundary comparison",
-      "lines": "v4.70 1411–1414",
+      "lines": "v4.90 1436–1439",
       "status": "PROVED",
       "claim": "On a boundary line the weighted mode quotient has the explicit coefficient 16800(165/151)⁴, strictly below 23952.",
       "declarations": "Turan.StripDetails.boundary_weighted_quotient",
@@ -1262,7 +1262,7 @@
     },
     {
       "place": "A.2, maximum principle, division at nodes",
-      "lines": "v4.70 1424–1426",
+      "lines": "v4.90 1449–1451",
       "status": "PROVED",
       "claim": "After division by the fourth-power weight and all selected node factors, the actual mode quotient has a holomorphic extension throughout the wider strip.",
       "declarations": "Turan.StripDetails.strip_remove_nodes Turan.StripDetails.strip_quotient_application",
@@ -1271,7 +1271,7 @@
     },
     {
       "place": "A.2, maximum principle, behavior of V_j",
-      "lines": "v4.70 1429–1430",
+      "lines": "v4.90 1454–1455",
       "status": "PROVED",
       "claim": "The same extended quotient tends uniformly to zero at both horizontal ends of the closed working strip and has the stated boundary modulus.",
       "declarations": "Turan.StripDetails.strip_quotient_application",
@@ -1280,7 +1280,7 @@
     },
     {
       "place": "A.2, maximum principle, rectangles and interior constant",
-      "lines": "v4.70 1430–1433",
+      "lines": "v4.90 1455–1458",
       "status": "PROVED",
       "claim": "The maximum modulus principle on finite rectangles gives a bound strictly below the boundary constant on each sufficiently wide rectangle, and the actual quotient satisfies the strict 23952 estimate on the full closed strip.",
       "declarations": "Turan.StripDetails.strip_rectangle_maximum Turan.StripDetails.strip_quotient_application",
@@ -1289,7 +1289,7 @@
     },
     {
       "place": "A.2, maximum principle, center weight",
-      "lines": "v4.70 1433–1435",
+      "lines": "v4.90 1458–1460",
       "status": "PROVED",
       "claim": "The center weight has modulus (1+2/m)². Using the strict interior bound and this weight gives the stated estimate for the actual node product, including when the center itself is a node.",
       "declarations": "Turan.StripDetails.strip_center_weight Turan.StripDetails.strip_quotient_application",
@@ -1298,7 +1298,7 @@
     },
     {
       "place": "Lower-index Step 1, 0.14m coefficient",
-      "lines": "v4.70 523–525",
+      "lines": "v4.90 523–525",
       "status": "PROVED",
       "claim": "For integer m≥450, 2m+1−t²>0.14m throughout [√(9m/5), √(9m/5)+3π/√m], including both endpoints.",
       "declarations": "Turan.LowerTailSteps.far_potential",
@@ -1307,7 +1307,7 @@
     },
     {
       "place": "Lower-index Step 1, even central value",
-      "lines": "v4.70 532–534",
+      "lines": "v4.90 532–534",
       "status": "PROVED",
       "claim": "For every k≥0, ψ₂ₖ(0)²=binom(2k,k)/4ᵏ as a complex square, and |ψ₂ₖ(0)|²≥1/(2k+1).",
       "declarations": "Turan.LowerTailSteps.even_center",
@@ -1316,7 +1316,7 @@
     },
     {
       "place": "Lower-index Step 1, slope constant",
-      "lines": "v4.70 534–535",
+      "lines": "v4.90 534–535",
       "status": "PROVED",
       "claim": "For m≥450, every real zero x of ψ_m in [√(9m/5), √(9m/5)+3π/√m] satisfies |φ′_m(x)|>0.26. The Step 1 circle has such a center.",
       "declarations": "Turan.LowerTailSteps.far_zero_slope Turan.large_mode_circle",
@@ -1325,7 +1325,7 @@
     },
     {
       "place": "Lower-index Step 1, logarithmic concavity route",
-      "lines": "v4.70 542–544",
+      "lines": "v4.90 542–544",
       "status": "PROVED",
       "claim": "On a circle of radius r>0 and real center x, log|z−s| for real s is concave in t=cos θ wherever |z−s|²>0. The Gaussian log modulus log|exp(−z²/2)| is concave on all of [−1,1].",
       "declarations": "Turan.LowerTailSteps.polar_log_concavity Turan.LowerTailSteps.polar_log_values",
@@ -1334,7 +1334,7 @@
     },
     {
       "place": "Lower-index Step 2, universal stronger affine bound",
-      "lines": "v4.70 565–566",
+      "lines": "v4.90 565–566",
       "status": "PROVED",
       "claim": "For m≥450 on the Step 1 circle Γ, |1+2z|<2.78√m and |1+2z|<55m exp(−0.9m)|ψ_m(z)|. The factor 55m exp(−0.9m) is strictly below 20√m exp(−0.197m).",
       "declarations": "Turan.LowerTailSteps.far_affine Turan.LowerTailSteps.far_affine_ratio Turan.large_mode_circle Turan.MehlerJets.step_two_affine_arithmetic",
@@ -1343,7 +1343,7 @@
     },
     {
       "place": "Lower-index Step 4, real energy minimum",
-      "lines": "v4.70 597–600",
+      "lines": "v4.90 597–600",
       "status": "PROVED",
       "claim": "For n≥1 the real energy I(t)=|ψ_n(t)|²+|ψ′_n(t)|²/(2n) has derivative 2t|ψ′_n(t)|²/n for every real t, and I(t)≥I(0)≥1/(n+1).",
       "declarations": "Turan.LowerTailSteps.realEnergy_derivative_min",
@@ -1352,7 +1352,7 @@
     },
     {
       "place": "Lower-index Step 4, normalized maximum floor",
-      "lines": "v4.70 601–602",
+      "lines": "v4.90 601–602",
       "status": "PROVED",
       "claim": "For n≥1, 2n≤m and every complex c, max(|ψ_n(c)|, |ψ′_n(c)|/√(2n))≥1/√(2n+2)≥1/√(m+2).",
       "declarations": "Turan.LowerTailSteps.complex_mode_floor",
@@ -1361,7 +1361,7 @@
     },
     {
       "place": "Lower-index Step 4, real-to-vertical route",
-      "lines": "v4.70 607–611",
+      "lines": "v4.90 607–611",
       "status": "PROVED",
       "claim": "For m≥1 and c=X+iY with |X|≤2, |Y|<0.76, the normalized energy satisfies I(X)≤exp(2X²). Propagating V=(ψ_m,ψ′_m/√(2m)) from X to c gives |V(c)|≤|V(X)|exp((√(2m)+4.28)|Y|) and |ψ_m(c)|<exp(8+0.76√(2m)).",
       "declarations": "Turan.LowerTailSteps.lower_vertical_chain Turan.LowerTailSteps.real_segment Turan.LowerTailSteps.vertical_segment",
@@ -1370,7 +1370,7 @@
     },
     {
       "place": "Lower-index Step 4, monotonicity for every real m",
-      "lines": "v4.70 616–617",
+      "lines": "v4.90 616–617",
       "status": "PROVED",
       "claim": "The logarithm of 2200000 M⁵ exp(8+0.76√(2M)−0.197M) is below −12 at M=450 and strictly decreases on the real interval [450,∞).",
       "declarations": "Turan.LowerTailSteps.logTail_decreases",
@@ -1379,7 +1379,7 @@
     },
     {
       "place": "A.1, real energy differential comparison",
-      "lines": "v4.70 1210–1212",
+      "lines": "v4.90 1235–1237",
       "status": "PROVED",
       "claim": "For m≥1, I′(t)=2t|ψ′_m(t)|²/m on ℝ and I′(t)≤4tI(t) on t≥0. The energy is even and I(t)≤I(0)exp(2t²) for every real t.",
       "declarations": "Turan.LowerTailSteps.realEnergy_comparison Turan.LowerTailSteps.realEnergy_derivative_min",
@@ -1388,7 +1388,7 @@
     },
     {
       "place": "A.1, origin energy parity formulas",
-      "lines": "v4.70 1212–1215",
+      "lines": "v4.90 1237–1240",
       "status": "PROVED",
       "claim": "For m=2k with k≥1, I(0)=binom(2k,k)/4ᵏ≤1. For m=2k+1 with k≥0, I(0)=|ψ₂ₖ(0)|²≤1.",
       "declarations": "Turan.LowerTailSteps.realEnergy_origin_even Turan.LowerTailSteps.realEnergy_origin_odd",
@@ -1397,7 +1397,7 @@
     },
     {
       "place": "A.1, real vector bound",
-      "lines": "v4.70 1215–1216, 1221–1222",
+      "lines": "v4.90 1240–1241, 1246–1247",
       "status": "PROVED",
       "claim": "For m≥1 and |X|≤2, I(X)≤exp(2X²)≤exp(8), and the Euclidean norm of (ψ_m(X), ψ′_m(X)/√(2m)) equals √I(X) and is at most exp(4).",
       "declarations": "Turan.LowerTailSteps.real_segment",
@@ -1406,7 +1406,7 @@
     },
     {
       "place": "A.1, vertical operator norm and Gronwall",
-      "lines": "v4.70 1218–1223",
+      "lines": "v4.90 1243–1248",
       "status": "PROVED",
       "claim": "For m≥1 the Euclidean operator norm of the Hermite system matrix C(z) is at most √(2m)+2|z|. For c=X+iY with |X|≤2 and |Y|<0.76, |z|<2.14 along [X,c] and |V(c)|≤|V(X)|exp((√(2m)+4.28)|Y|).",
       "declarations": "Turan.LowerTailSteps.vertical_operator Turan.LowerTailSteps.vertical_segment",
@@ -1415,7 +1415,7 @@
     },
     {
       "place": "A.1, Step 4 derivative route",
-      "lines": "v4.70 1228–1231",
+      "lines": "v4.90 1253–1256",
       "status": "PROVED",
       "claim": "For real M≥450 the derivative of the Step 4 logarithm is 5/M+0.76/√(2M)−0.197 and is strictly decreasing. At M=450 it equals −289/1800, strictly between −0.1606 and −0.1605.",
       "declarations": "Turan.LowerTailSteps.logTail_rate",
@@ -1424,7 +1424,7 @@
     },
     {
       "place": "A.1, radial integral equation",
-      "lines": "v4.70 1244–1249",
+      "lines": "v4.90 1269–1274",
       "status": "PROVED",
       "claim": "For j≥0, real ξ, ρ>0 and |v|≤1, put u(v)=φ_j(ξ+ρv), δ=ρφ′_j(ξ) and q(v)=ρ²(2j+1−(ξ+ρv)²). Then |q(v)|≤Q_j and u(v)=u(0)+δv−v²∫₀¹(1−s)q(sv)u(sv) ds.",
       "declarations": "Turan.LowerTailSteps.radial_integral_equation",
@@ -1433,7 +1433,7 @@
     },
     {
       "place": "A.1, factorial integral",
-      "lines": "v4.70 1249–1252",
+      "lines": "v4.90 1274–1277",
       "status": "PROVED",
       "claim": "For every integer ℓ≥0, ∫₀¹(1−s)s^ℓ/ℓ! ds=1/(ℓ+2)!.",
       "declarations": "Turan.LowerTailSteps.factorial_integral",
@@ -1442,7 +1442,7 @@
     },
     {
       "place": "A.1, Volterra successive approximations",
-      "lines": "v4.70 1249–1253",
+      "lines": "v4.90 1274–1278",
       "status": "PROVED",
       "claim": "On |v|≤1 the k-th Volterra iterate of u₀(v)=u(0)+δv satisfies |u_k(v)|≤Q_j^k(|u(0)||v|^(2k)/(2k)!+|δ||v|^(2k+1)/(2k+1)!) for every k≥0.",
       "declarations": "Turan.LowerTailSteps.volterra_factorial_bounds",
@@ -1451,7 +1451,7 @@
     },
     {
       "place": "A.1, Volterra convergence and equation",
-      "lines": "v4.70 1252–1254",
+      "lines": "v4.90 1277–1279",
       "status": "PROVED",
       "claim": "The partial sums of the Volterra iterates converge uniformly on the closed unit disk to a continuous function F. The sum itself satisfies F(v)=u(0)+δv−v²∫₀¹(1−s)q(sv)F(sv) ds there.",
       "declarations": "Turan.LowerTailSteps.volterra_series_solves",
@@ -1460,7 +1460,7 @@
     },
     {
       "place": "A.1, Volterra uniqueness",
-      "lines": "v4.70 1254–1256",
+      "lines": "v4.90 1279–1281",
       "status": "PROVED",
       "claim": "If f and g are continuous solutions with the same affine seed on the closed unit disk, then |f(v)−g(v)|≤M Q_j^k/(2k)! for all k≥0, where M is the maximum of |f−g| on that disk. Thus f=g there and the iterate series sums to φ_j(ξ+ρv).",
       "declarations": "Turan.LowerTailSteps.volterra_unique Turan.LowerTailSteps.radialMode_hasSum",
@@ -1469,7 +1469,7 @@
     },
     {
       "place": "A.1, Volterra remainder comparison",
-      "lines": "v4.70 1256–1259",
+      "lines": "v4.90 1281–1284",
       "status": "PROVED",
       "claim": "On |v|≤1, u(v)−δv=u(0)+Σ_{k≥1}u_k(v). Its modulus is at most |u(0)|Σ_{k≥0}Q_j^k/(2k)!+|δ|Σ_{k≥1}Q_j^k/(2k+1)!, whose two series equal cosh(√Q_j) and sinh(√Q_j)/√Q_j−1.",
       "declarations": "Turan.LowerTailSteps.volterra_remainder_series",
@@ -1478,7 +1478,7 @@
     },
     {
       "place": "Upper-index reduction, analytic quotients",
-      "lines": "v4.70 619–623",
+      "lines": "v4.90 619–623",
       "status": "PROVED",
       "claim": "Under the strip zero-free hypothesis on F, both U_n=aψ_n/F and U_m=bψ_m/F are analytic at every point with |Im z|<0.87.",
       "declarations": "Turan.UpperTailStrip.quotient_analytic Turan.StripDetails.strip_quotient_application",
@@ -1487,7 +1487,7 @@
     },
     {
       "place": "Upper-index identity, affine denominator",
-      "lines": "v4.70 649–650",
+      "lines": "v4.90 649–650",
       "status": "PROVED",
       "claim": "For 2≤n<m the sole zero of P_nm(z)=1+2(1−1/n)(1−1/m)z is the real point −1/[2(1−1/n)(1−1/m)], so P_nm is nonzero at every nonreal z.",
       "declarations": "Turan.UpperTailStrip.affine_zero Turan.projected_mode_identity",
@@ -1496,7 +1496,7 @@
     },
     {
       "place": "Upper-index identity, strict affine ratio",
-      "lines": "v4.70 659–661",
+      "lines": "v4.90 659–661",
       "status": "PROVED",
       "claim": "For m≥450, m/2≤n<m, either ordering (j,j′) of (n,m), and |Im z|=7/11, the actual Q_j=P_j′/P_nm satisfies Q_j−1=z/[(j−1)(z−x_*)] and |Q_j−1|<2.59/j<5/j, where x_* is the real zero of P_nm.",
       "declarations": "Turan.UpperTailStrip.named_ratio_line",
@@ -1505,7 +1505,7 @@
     },
     {
       "place": "Upper-index maximum principle, printed weight lower bound",
-      "lines": "v4.70 664–666",
+      "lines": "v4.90 664–666",
       "status": "PROVED",
       "claim": "For m≥450 and |Im z|≤y_*=7/11, put A=√(2m), Ω²=2m+16(Re z)² and Π=(1−4iz/A)⁴. Then Π≠0 and |Π|≥(1−4y_*/A)⁴Ω⁴/(4m²).",
       "declarations": "Turan.UpperTailStrip.variable_weight_lower",
@@ -1514,7 +1514,7 @@
     },
     {
       "place": "Upper-index maximum principle, decay at both ends",
-      "lines": "v4.70 667–669",
+      "lines": "v4.90 667–669",
       "status": "PROVED",
       "claim": "For m≥450, m/2≤n<m and j=n,m, U_j/Π tends uniformly to zero as |Re z|→∞ on |Im z|≤7/11. Under the zero-free hypothesis its modulus on either boundary line is <23952m²/[j(m−n)].",
       "declarations": "Turan.UpperTailStrip.weighted_decay Turan.lemma_fifteen Turan.StripDetails.boundary_weighted_quotient Turan.StripDetails.strip_quotient_application",
@@ -1523,7 +1523,7 @@
     },
     {
       "place": "Upper-index maximum principle, strip map onto disk",
-      "lines": "v4.70 669–671",
+      "lines": "v4.90 669–671",
       "status": "PROVED",
       "claim": "For real s and y_*=7/11, tanh(π(z−s)/(4y_*)) maps |Im z|<y_* onto the open unit disk, has modulus one on both boundary lines, and has s as its only zero in the closed strip.",
       "declarations": "Turan.UpperTailStrip.strip_tanh_image",
@@ -1532,7 +1532,7 @@
     },
     {
       "place": "Upper-index Step 2, log-coth convexity",
-      "lines": "v4.70 683–684",
+      "lines": "v4.90 683–684",
       "status": "PROVED",
       "claim": "For α=11π/28, ω(v)=log coth(αv) is strictly convex and strictly decreasing on v>0. For the noncentral Hermite node pairs this gives the midpoint lower bound for the full weight before truncation.",
       "declarations": "Turan.UpperTailNodes.logCoth_shape Turan.UpperTailNodes.pair_midpoint Turan.UpperTailNodes.full_node_lower_bound",
@@ -1541,7 +1541,7 @@
     },
     {
       "place": "Upper-index Step 3, monotonicity in j",
-      "lines": "v4.70 696–697",
+      "lines": "v4.90 696–697",
       "status": "PROVED",
       "claim": "For real m≥450 and m/2≤n≤m−1, 0.608√(2j−11.25)−0.315 strictly increases and log(50000m²/[j(m−n)]) strictly decreases on n≤j≤m. The strict comparison at j=n implies it at j=m.",
       "declarations": "Turan.UpperTailReal.compare_j",
@@ -1550,7 +1550,7 @@
     },
     {
       "place": "Upper-index Step 3, concavity in n",
-      "lines": "v4.70 697–700",
+      "lines": "v4.90 697–700",
       "status": "PROVED",
       "claim": "For each real m≥450 the difference D_m(n) at j=n is strictly concave on [m/2,m−1], with minimum equal to the smaller endpoint value. The right-hand logarithm equals log 200000 at m/2 and is ≤log(50200m) at m−1.",
       "declarations": "Turan.UpperTailReal.minimum_at_an_endpoint Turan.UpperTailReal.left_endpoint Turan.UpperTailReal.right_endpoint",
@@ -1559,7 +1559,7 @@
     },
     {
       "place": "Upper-index Step 3, differentiation beyond 450",
-      "lines": "v4.70 699–701",
+      "lines": "v4.90 699–701",
       "status": "PROVED",
       "claim": "At m=450 the left endpoint margin exceeds 0.214 and the right endpoint lower bound exceeds 0.857. The left margin and the right lower bound both have positive derivative and strictly increase on real m≥450, so both endpoint comparisons persist.",
       "declarations": "Turan.UpperTailReal.endpoint_derivatives Turan.UpperTailReal.endpoint_persistence Turan.UpperTailReal.left_endpoint Turan.UpperTailReal.right_endpoint Turan.UpperTailReal.global_minimum",
@@ -1568,7 +1568,7 @@
     },
     {
       "place": "A.2, nodes, derivatives, monotonicity and convexity",
-      "lines": "v4.70 1448–1452",
+      "lines": "v4.90 1473–1477",
       "status": "PROVED",
       "claim": "For α=11π/28 and v>0, ω(v)=log coth(αv)>0, ω′(v)=−2α/sinh(2αv), and ω″(v)=4α²cosh(2αv)/sinh²(2αv). The weight is strictly decreasing and strictly convex there.",
       "declarations": "Turan.UpperTailNodes.logCoth_shape",
@@ -1577,7 +1577,7 @@
     },
     {
       "place": "A.2, Pairing, first and consecutive ordered nodes",
-      "lines": "v4.70 1463–1472",
+      "lines": "v4.90 1488–1497",
       "status": "PROVED",
       "claim": "For j≥225 with ψ_j(−1/2)≠0, the first N=⌊3/η⌋ zeros on each side have increasing distances 0<d_k^±≤3 and exactly k−1 nearer zeros on that side. Both first distances are <η, their sum is ≤η, successive gaps are ≤η, and d_k⁺+d_k⁻≤(2k−1)η.",
       "declarations": "Turan.UpperTailNodes.ordered_nodes",
@@ -1586,7 +1586,7 @@
     },
     {
       "place": "A.2, Pairing, midpoint comparison",
-      "lines": "v4.70 1472–1475",
+      "lines": "v4.90 1497–1500",
       "status": "PROVED",
       "claim": "For j≥225 and ψ_j(−1/2)≠0, each ordered pair satisfies ω(d_k⁺)+ω(d_k⁻)≥2ω((k−1/2)η) for the full log-coth weight. Every omitted node has positive weight.",
       "declarations": "Turan.UpperTailNodes.ordered_nodes Turan.UpperTailNodes.logCoth_shape Turan.UpperTailNodes.pair_midpoint Turan.UpperTailNodes.full_node_lower_bound",
@@ -1595,7 +1595,7 @@
     },
     {
       "place": "A.2, Pairing, full odd-series identity",
-      "lines": "v4.70 1475–1480",
+      "lines": "v4.90 1500–1505",
       "status": "PROVED",
       "claim": "For j≥225 and ψ_j(−1/2)≠0, −log(node product)≥2Σ_{k=1}^N ω((k−1/2)η). This midpoint sum equals the convergent sum 2Σ_{ℓ positive odd}(1−exp(−2αℓNη))/(ℓ sinh(αℓη)).",
       "declarations": "Turan.UpperTailNodes.full_midpoint_series Turan.UpperTailNodes.full_node_lower_bound",
@@ -1604,7 +1604,7 @@
     },
     {
       "place": "A.2, Five terms, numerator comparison",
-      "lines": "v4.70 1483–1484",
+      "lines": "v4.90 1508–1509",
       "status": "PROVED",
       "claim": "For j≥225, Nη>3−η>2.849 and η<0.151. For each ℓ=1,3,5,7,9 the numerator satisfies 1−exp(−2αℓNη)≥1−exp(−2α·2.849)>0.998.",
       "declarations": "Turan.UpperTailNodes.numerator_chain",
@@ -1613,7 +1613,7 @@
     },
     {
       "place": "A.2, Five terms, factorial and series comparison",
-      "lines": "v4.70 1485–1487",
+      "lines": "v4.90 1510–1512",
       "status": "PROVED",
       "claim": "For every k≥0, (2k+1)!≥6^k. For t>0 and t²<6, termwise comparison gives sinh(t)/t≤Σ_{k≥0}(t²/6)^k=1/(1−t²/6). Thus 1/t−t/6≤1/sinh(t), also for t²≥6 where the left side is ≤0.",
       "declarations": "Turan.UpperTailNodes.factorial_bound Turan.UpperTailNodes.small_sinh_series Turan.UpperTailNodes.large_sinh_sign",
@@ -1622,7 +1622,7 @@
     },
     {
       "place": "A.2, Five terms, linear comparison",
-      "lines": "v4.70 1491–1496",
+      "lines": "v4.90 1516–1521",
       "status": "PROVED",
       "claim": "For j≥225 with ψ_j(−1/2)≠0, the node gain is ≥2·0.998(Σ/(αη)−5αη/6)≥[2·0.998Σ/(απ)]√(2j−11.25)−5αη/3. Here Σ=117469/99225>1.18386, the slope exceeds 2.36299/3.8774>0.6094>0.608, and 5αη/3<0.3107<0.315.",
       "declarations": "Turan.UpperTailNodes.five_term_linear",
@@ -1631,7 +1631,7 @@
     },
     {
       "place": "A.2, Step 3, concavity and endpoints",
-      "lines": "v4.70 1499–1503",
+      "lines": "v4.90 1524–1528",
       "status": "PROVED",
       "claim": "For real m≥450 and m/2≤n≤m−1, D_m″(n)=−0.608/(√(2n−11.25))³−1/n²−1/(m−n)²<0. D_m is strictly concave on this closed interval and attains its minimum at an endpoint.",
       "declarations": "Turan.UpperTailReal.margin_second Turan.UpperTailReal.minimum_at_an_endpoint",
@@ -1640,7 +1640,7 @@
     },
     {
       "place": "A.2, Step 3, left endpoint and monotonicity",
-      "lines": "v4.70 1502–1504",
+      "lines": "v4.90 1527–1529",
       "status": "PROVED",
       "claim": "D_m(m/2)=0.608√(m−11.25)−0.315−log 200000 strictly increases for real m≥450 and D_450(225)>12.4203−12.2061>0.214.",
       "declarations": "Turan.UpperTailReal.left_endpoint Turan.UpperTailReal.endpoint_derivatives Turan.UpperTailReal.endpoint_persistence",
@@ -1649,7 +1649,7 @@
     },
     {
       "place": "A.2, Step 3, right endpoint comparison",
-      "lines": "v4.70 1504–1506",
+      "lines": "v4.90 1529–1531",
       "status": "PROVED",
       "claim": "For real m≥450, 50000m/(m−1)≤50000·450/449<50200. Hence the right-endpoint logarithm is ≤log(50200m) and D_m(m−1)≥0.608√(2m−13.25)−0.315−log(50200m).",
       "declarations": "Turan.UpperTailReal.right_endpoint",
@@ -1658,7 +1658,7 @@
     },
     {
       "place": "A.2, Step 3, right endpoint derivative",
-      "lines": "v4.70 1506–1509",
+      "lines": "v4.90 1531–1534",
       "status": "PROVED",
       "claim": "The right-endpoint lower bound exceeds 17.7902−16.9331>0.857 at m=450. Its derivative 0.608/√(2m−13.25)−1/m is positive for m≥450, where 0.369664m²−2m+13.25>0 and the quadratic has negative discriminant.",
       "declarations": "Turan.UpperTailReal.right_endpoint Turan.UpperTailReal.endpoint_derivatives Turan.UpperTailReal.endpoint_persistence",
@@ -1667,7 +1667,7 @@
     },
     {
       "place": "A.2, Step 3, real-variable positivity",
-      "lines": "v4.70 1510–1511",
+      "lines": "v4.90 1535–1536",
       "status": "PROVED",
       "claim": "D_m(n)=0.608√(2n−11.25)−0.315−log(50000m²/[n(m−n)])>0 for all real m≥450 and real n∈[m/2,m−1].",
       "declarations": "Turan.UpperTailReal.margin_pos",
@@ -1676,7 +1676,7 @@
     },
     {
       "place": "A.2, Step 3, global smallest margin",
-      "lines": "v4.70 1510–1511",
+      "lines": "v4.90 1535–1536",
       "status": "PROVED",
       "claim": "The least value of D_m(n) over real m≥450 and m/2≤n≤m−1 is attained at (m,n)=(450,225) and is strictly greater than 0.214.",
       "declarations": "Turan.UpperTailReal.global_minimum",
@@ -1685,7 +1685,7 @@
     },
     {
       "place": "A.1, positive-term extraction",
-      "lines": "v4.70 1008–1014",
+      "lines": "v4.90 1033–1039",
       "status": "PROVED",
       "claim": "At (z,conj z) and r=1/5 the kth summand equals aₖ=5^(−k)|ψₖ(z)|²≥0. These terms have real sum S=(1−1/25)^(−1/2) exp(X²/3+Y²/2), and aₙ≤S for every n≥0, where z=X+iY.",
       "declarations": "Turan.MehlerJets.mehler_diagonal_extraction Turan.LowerTailSteps.mehler_diagonal_term",
@@ -1694,7 +1694,7 @@
     },
     {
       "place": "A.1, Mehler diagonal exponent",
-      "lines": "v4.70 1010–1012",
+      "lines": "v4.90 1035–1037",
       "status": "PROVED",
       "claim": "For z=X+iY and 0≤r<1 the conjugate-diagonal kernel exponent equals 2rX²/(1+r)+2rY²/(1−r). At r=1/5 it equals X²/3+Y²/2 exactly.",
       "declarations": "Turan.MehlerJets.diagonal_exponent Turan.MehlerJets.diagonal_substitution",
@@ -1703,7 +1703,7 @@
     },
     {
       "place": "A.1, Mehler conjugate algebra",
-      "lines": "v4.70 1010–1012",
+      "lines": "v4.90 1035–1037",
       "status": "PROVED",
       "claim": "For z=X+iY, z·conj(z)=X²+Y² and z²+conj(z)²=2(X²−Y²). Substitution in the diagonal kernel gives numerator 2r(X²+Y²)−2r²(X²−Y²).",
       "declarations": "Turan.MehlerJets.diagonal_substitution",
@@ -1712,7 +1712,7 @@
     },
     {
       "place": "A.1, Step 2 strict geometry",
-      "lines": "v4.70 1019–1021",
+      "lines": "v4.90 1044–1046",
       "status": "PROVED",
       "claim": "For real m≥450, s=√m, x≥√(1.8m) and |X+iY−x|=1/s, X≥x−1/s>0. The map t↦t²−2t/s is nondecreasing on [1/s,∞), and X²−Y²≥(x−1/s)²−1/m=x²−2x/s≥1.8m−2√1.8>1.8m−2.7.",
       "declarations": "Turan.MehlerJets.step_two_strict_geometry",
@@ -1721,7 +1721,7 @@
     },
     {
       "place": "A.1, Step 2 low-mode comparison",
-      "lines": "v4.70 1025–1030",
+      "lines": "v4.90 1050–1055",
       "status": "PROVED",
       "claim": "On the Step 1 circle, for 2n≤m and m≥450, put P=(25/24)^(1/4) and E=−(0.6−log(5)/4)m+0.9+5/(12m). Then |ψₙ/ψₘ|<5P√m exp(E), E<−0.197m+0.901 and 5P exp(0.901)<12.5, giving |ψₙ|<12.5√m exp(−0.197m)|ψₘ|.",
       "declarations": "Turan.MehlerJets.step_two_low_mode Turan.large_mode_circle Turan.lemma_nine",
@@ -1730,7 +1730,7 @@
     },
     {
       "place": "A.1, Step 2 affine comparison",
-      "lines": "v4.70 1031–1036",
+      "lines": "v4.90 1056–1061",
       "status": "PROVED",
       "claim": "On the Step 1 circle for m≥450, s=√m, |1+2z|≤[2√1.8+1/s+(6π+2)/m]s<2.78s. The ratio |(1+2z)/ψₘ| is <14 exp(1.35)m exp(−0.9m)<55m exp(−0.9m)<20s exp(−0.197m), with 2.75s<exp(0.703m).",
       "declarations": "Turan.MehlerJets.step_two_affine_arithmetic Turan.LowerTailSteps.far_affine_ratio Turan.large_mode_circle",
@@ -1739,7 +1739,7 @@
     },
     {
       "place": "A.1, trinomial product identity",
-      "lines": "v4.70 1045–1048",
+      "lines": "v4.90 1070–1073",
       "status": "PROVED",
       "claim": "For n≥2, a≠0 and w₀=−1/2, the product of |ζ−w₀| over all roots of G=1+2z+aψₙ, counted with multiplicity, is exactly 2^(−n)|Hₙ(w₀)|.",
       "declarations": "Turan.MehlerJets.trinomial_distance_product",
@@ -1748,7 +1748,7 @@
     },
     {
       "place": "A.1, G1 higher-order recurrence",
-      "lines": "v4.70 1082–1087",
+      "lines": "v4.90 1107–1112",
       "status": "PROVED",
       "claim": "For 4≤n≤79, N=⌈√(2n)⌉ and 2|ω|≤N, let γⱼ be the coefficients of Ψ(ω+u/N) and Dⱼ=j!γⱼ. For every j, Dⱼ=Ψ⁽ʲ⁾(ω)/Nʲ and Dⱼ₊₂=(2ω/N)Dⱼ₊₁+[2(j−n)/N²]Dⱼ. The first multiplier has modulus ≤1, the second does for j≤n, and γⱼ=0 for j>n.",
       "declarations": "Turan.MehlerJets.g1_derivative_recurrence",
@@ -1757,7 +1757,7 @@
     },
     {
       "place": "A.1, G1 factorial tail induction",
-      "lines": "v4.70 1082–1087",
+      "lines": "v4.90 1107–1112",
       "status": "PROVED",
       "claim": "For 4≤n≤79, N=⌈√(2n)⌉ and 2|ω|≤N, the coefficients of Ψ(ω+u/N) satisfy j!|γⱼ|≤2ʲ max(|γ₀|,|γ₁|) at every j≥0, including j>12 and j>n.",
       "declarations": "Turan.MehlerJets.g1_factorial_tail Turan.MehlerJets.g1_derivative_recurrence",
@@ -1766,7 +1766,7 @@
     },
     {
       "place": "Section 2, end: coefficient limit",
-      "lines": "v4.70 329–337",
+      "lines": "v4.90 329–337",
       "status": "PROVED",
       "claim": "For fixed distinct degrees and low coefficients tending to one, division by a largest-modulus Hermite coefficient gives a coefficientwise and locally uniformly convergent subsequence. A bounded subsequence retains a nonzero H_1 coefficient. Otherwise both low coefficients vanish and some higher limiting coefficient has modulus one. The limit has positive degree and a complex zero.",
       "declarations": "Turan.SectionTwo.largest_coefficient_limit",
@@ -1775,7 +1775,7 @@
     },
     {
       "place": "Section 2, single-slot filter",
-      "lines": "v4.70 218–223",
+      "lines": "v4.90 218–223",
       "status": "PROVED",
       "claim": "For every real μ>0, (1+T/μ) multiplies H_k by 1−2k/μ. It kills precisely the mode with 2k=μ and fixes H_0.",
       "declarations": "Turan.SectionTwo.single_filter_action",
@@ -1784,7 +1784,7 @@
     },
     {
       "place": "Section 2, Step 4: derivative limits",
-      "lines": "v4.70 295–303",
+      "lines": "v4.90 295–303",
       "status": "PROVED",
       "claim": "For the harmonic limit u, Φ=u_x−i u_y is entire. Writing Q_k=f_j^(k)/(Ω_j^k f_j), Q_1 is the complex gradient of u_j off the zeros and Q_k′/Ω_j=Q_{k+1}−Q_k Q_1. For every fixed k≥1, Q_k→Φ^k and Q_k′/Ω_j→0 locally uniformly.",
       "declarations": "Turan.SectionTwo.scaled_quotient_identities Turan.SectionTwo.harmonic_jet_limits",
@@ -1793,7 +1793,7 @@
     },
     {
       "place": "Section 2, Step 1: normalization and growth",
-      "lines": "v4.70 257–269",
+      "lines": "v4.90 257–269",
       "status": "PROVED",
       "claim": "For a nonzero s-slot sum with Λ≥1, one scalar makes max_{0≤l<2s}|f^(l)(0)|/Ω^l=1. The scaled jet system has entries bounded by C_R Ω. After normalization |f|≤exp(C_R Ω) on |z|≤R, and some |z|≤1 has |f(z)|≥1/(2s−1)!.",
       "declarations": "Turan.SectionTwo.normalize_initial_jet Turan.SectionTwo.scaled_jet_system Turan.SectionTwo.normalized_growth",
@@ -1802,7 +1802,7 @@
     },
     {
       "place": "Section 2, Step 4: vanishing gradient",
-      "lines": "v4.70 303–310",
+      "lines": "v4.90 303–310",
       "status": "PROVED",
       "claim": "The scaled slot annihilator and jet limits give ∏_v(Φ²+γ_v)=0 everywhere. Conjugation symmetry makes Φ real on the real axis. Since all γ_v≥0, Φ vanishes there and hence everywhere, so u is constant.",
       "declarations": "Turan.SectionTwo.harmonic_jet_limits Turan.SectionTwo.harmonic_slot_limit_symmetry Turan.SectionTwo.slot_characteristic_equation Turan.SectionTwo.symmetric_gradient_vanishes",
@@ -1811,7 +1811,7 @@
     },
     {
       "place": "Section 2, Step 5",
-      "lines": "v4.70 312–318",
+      "lines": "v4.90 312–318",
       "status": "PROVED",
       "claim": "For every fixed k≥1, ((T/Ω_j²)^k f_j)/f_j→0 locally uniformly. Each removed slot has Ω_j²/λ_v→1/γ_v and eventually |Ω_j²/λ_v|≤2/γ_v. The selected filter quotient tends uniformly to one on |z|=R and the filtered polynomials are eventually zero-free on |z|≤R for each R>0.",
       "declarations": "Turan.SectionTwo.harmonic_jet_limits Turan.SectionTwo.symmetric_gradient_vanishes Turan.SectionTwo.scaled_operator_power_limit Turan.SectionTwo.positive_ratio_reciprocal_bound Turan.slot_filter_limit",
@@ -1820,7 +1820,7 @@
     },
     {
       "place": "Section 2, Step 2: local harmonicity",
-      "lines": "v4.70 271–274",
+      "lines": "v4.90 271–274",
       "status": "PROVED",
       "claim": "For normalized escaping slot sums with Ω_j→∞, u_j=log|f_j|/Ω_j is eventually harmonic on |z|<R and bounded above by C_R on |z|≤R. Some |z_j|≤1 has u_j(z_j)≥−log((2s−1)!)/Ω_j, whose right side tends to zero.",
       "declarations": "Turan.SectionTwo.normalized_log_bounds",
@@ -1829,7 +1829,7 @@
     },
     {
       "place": "Section 2, Step 2: harmonic subsequence",
-      "lines": "v4.70 275–278",
+      "lines": "v4.90 275–278",
       "status": "PROVED",
       "claim": "The disk upper bounds and moving unit-disk lower bound for u_j give eventual uniform two-sided bounds on every compact set and a single subsequence converging locally uniformly on the plane to a harmonic function.",
       "declarations": "Turan.SectionTwo.normalized_log_bounds Turan.SectionTwo.harmonic_subsequence_from_anchor",
@@ -1838,7 +1838,7 @@
     },
     {
       "place": "Section 2, limiting filter multipliers",
-      "lines": "v4.70 233–239",
+      "lines": "v4.90 233–239",
       "status": "PROVED",
       "claim": "As Λ_j tends to infinity, filtering over V={t : γ_t>0} eventually multiplies each H_{k_v} by the product of 1−λ_v/λ_t over t in V. The multiplier is eventually zero for v in V and tends to one when γ_v=0.",
       "declarations": "Turan.SectionTwo.surviving_multipliers",
@@ -1847,7 +1847,7 @@
     },
     {
       "place": "Section 2, Step 1: scaled annihilator",
-      "lines": "v4.70 246–257",
+      "lines": "v4.90 246–257",
       "status": "PROVED",
       "claim": "The commuting scaled shifts annihilate the s-slot sum. For 2≤s≤4 and Λ≥1 their product is monic of order 2s in D=∂/Ω, with commutator [D,−2z/Ω]=−2/Ω² and lower coefficients polynomial in z/Ω, 1/Ω² and λ_v/Λ, uniformly bounded on fixed disks.",
       "declarations": "Turan.SectionTwo.scaled_commutations Turan.SectionTwo.scaled_annihilator_normal_form",
@@ -1856,7 +1856,7 @@
     },
     {
       "place": "Section 2, Step 3: isolating one slot",
-      "lines": "v4.70 280–289",
+      "lines": "v4.90 280–289",
       "status": "PROVED",
       "claim": "For any designated slot v among 2≤s≤4 distinct degrees, the printed normalized projector recovers a_v H_{k_v}. Every other eigenvalue differs by at least 2 in absolute value. The projected value at z is bounded by C(s,z,ε)(1+Λ)^(s−1) times the supremum of |f| on |w−z|≤ε, for ε>0.",
       "declarations": "Turan.SectionTwo.project_slot_estimate",
@@ -1865,7 +1865,7 @@
     },
     {
       "place": "Section 2, Step 3: symmetry of the limit",
-      "lines": "v4.70 290–293",
+      "lines": "v4.90 290–293",
       "status": "PROVED",
       "claim": "For a locally uniform harmonic limit u of the scaled logarithms of escaping slot sums with Ω_j→∞, u(conj z)≤max_{|w−z|≤ε} u(w) for every ε>0, and u(conj z)=u(z) everywhere.",
       "declarations": "Turan.SectionTwo.harmonic_slot_limit_symmetry Turan.SectionTwo.project_slot_estimate Turan.hermite_symmetry",
@@ -1874,7 +1874,7 @@
     },
     {
       "place": "Section 2, subsequence choices",
-      "lines": "v4.70 212–216, 229–232",
+      "lines": "v4.90 212–216, 229–232",
       "status": "PROVED",
       "claim": "Failure of a uniform radius supplies family members zero-free on the open disks of radii j+1, hence eventually on every fixed closed disk. A subsequence has fixed nonzero support, each active degree constant or tending to infinity, and simultaneous ratios to the active maximum converging in [0,1].",
       "declarations": "Turan.SectionTwo.select_escaping_polynomials Turan.SectionTwo.select_active_slots",
@@ -1883,7 +1883,7 @@
     },
     {
       "place": "A.1, (A) root separation and derivatives",
-      "lines": "v4.70 1096–1099",
+      "lines": "v4.90 1121–1124",
       "status": "PROVED",
       "claim": "On |z−w₀|=0.65 under outer-disk exclusion, each p=G,G* has all roots at distance ≥0.11 and |z|≤1.15. With d=0.11, |p′/p|≤n/d, |p″/p|≤n(n−1)/d² and |Lₙp/p|≤1+1.15/d+(n−1)/(2d²)<43n.",
       "declarations": "Turan.TrinomialAE.boundary_derivatives Turan.TrinomialAE.reciprocal_ratios",
@@ -1892,7 +1892,7 @@
     },
     {
       "place": "A.1, (A) affine quotient",
-      "lines": "v4.70 1100–1103",
+      "lines": "v4.90 1125–1128",
       "status": "PROVED",
       "claim": "On |z−w₀|=R=0.65, LₙG=LₙG*=1+2(1−1/n)z=2(1−1/n)(z−w₀)+1/n. Its modulus is at least 1.3(1−1/n)−1/n>0, and |(1+2z)/LₙG|≤R/[R(1−1/n)−1/(2n)]≤R/0.635625<1.03 for n≥80.",
       "declarations": "Turan.TrinomialAE.affine_quotient",
@@ -1901,7 +1901,7 @@
     },
     {
       "place": "A.1, (B) two reciprocal bounds",
-      "lines": "v4.70 1105–1107",
+      "lines": "v4.90 1130–1132",
       "status": "PROVED",
       "claim": "For n≥80, a≠0 and local zero exclusion for both pencils on B(z,0.11), each ordered pair (p,q)=(G,G*) or (G*,G) on the 0.65 circle satisfies |q/p|≤1+2|(1+2z)/Lₙp|·|Lₙp/p|<1+2·1.03·43n<90n.",
       "declarations": "Turan.TrinomialAE.reciprocal_ratios",
@@ -1910,7 +1910,7 @@
     },
     {
       "place": "A.1, (C) logarithmic branch",
-      "lines": "v4.70 1109",
+      "lines": "v4.90 1134",
       "status": "PROVED",
       "claim": "If G is zero-free on |z−w₀|<0.76, it has an analytic logarithm L there, and f(z)=L(z)−conj(L(conj z)) is an analytic logarithm of G/G* throughout the same open disk.",
       "declarations": "Turan.TrinomialAE.outer_log Turan.hermite_symmetry",
@@ -1919,7 +1919,7 @@
     },
     {
       "place": "A.1, (C) harmonic comparison",
-      "lines": "v4.70 1110–1112",
+      "lines": "v4.90 1135–1137",
       "status": "PROVED",
       "claim": "For an outer-disk branch f=log(G/G*), Re f is harmonic. The two strict 90n bounds on the circle imply Re f=log|G/G*| and |Re f|<log(90n) on the entire closed 0.65 disk.",
       "declarations": "Turan.TrinomialAE.closed_log_bound Turan.TrinomialAE.outer_log Turan.TrinomialAE.reciprocal_ratios Turan.hermite_symmetry",
@@ -1928,7 +1928,7 @@
     },
     {
       "place": "A.1, (C) real diameter and argument derivative",
-      "lines": "v4.70 1112–1114",
+      "lines": "v4.90 1137–1139",
       "status": "PROVED",
       "claim": "For any outer-disk quotient log f, G has a continuous argument θ on |t−w₀|<0.65. Every such lift satisfies θ′(t)=Im(G′(t)/G(t)), Re f(t)=0 and f′(t)=2iθ′(t) there.",
       "declarations": "Turan.TrinomialAE.diameter_derivative Turan.TrinomialAE.outer_log",
@@ -1937,7 +1937,7 @@
     },
     {
       "place": "A.1, (C) tangent normalization",
-      "lines": "v4.70 1114–1116",
+      "lines": "v4.90 1139–1141",
       "status": "PROVED",
       "claim": "For each real |t−w₀|<R=0.65 put F=π(f−f(t))/(4log(90n)). Then |Re F|<π/4 on the open R-disk, tan F is holomorphic into the open unit disk, (tan F)(t)=0 and (tan F)′(t)=F′(t).",
       "declarations": "Turan.TrinomialAE.tangent_normalization Turan.TrinomialAE.closed_log_bound Turan.TrinomialAE.diameter_derivative",
@@ -1946,7 +1946,7 @@
     },
     {
       "place": "A.1, (C) Schwarz–Pick derivative comparison",
-      "lines": "v4.70 1116–1119",
+      "lines": "v4.90 1141–1144",
       "status": "PROVED",
       "claim": "For each |t−w₀|<R=0.65, Schwarz–Pick applied to tan fₜ gives |fₜ′(t)|≤R/[R²−(t−w₀)²]. Every continuous phase θ of G satisfies |θ′(t)|≤(2log(90n)/π)R/[R²−(t−w₀)²].",
       "declarations": "Turan.TrinomialAE.schwarz_pick_at_real Turan.TrinomialAE.phase_derivative_bound Turan.TrinomialAE.closed_log_bound",
@@ -1955,7 +1955,7 @@
     },
     {
       "place": "A.1, (D) consecutive endpoints",
-      "lines": "v4.70 1125–1128",
+      "lines": "v4.90 1150–1153",
       "status": "PROVED",
       "claim": "For n≥80 and ψₙ(w₀)≠0, ψₙ has a greatest zero s₁ in [w₀−βₙ,w₀] and a least zero s₂ in [w₀,w₀+βₙ]. They satisfy s₁<w₀<s₂, ψₙ≠0 on (s₁,s₂), and s₂−s₁<βₙ=π/√(2n).",
       "declarations": "Turan.TrinomialAE.consecutive_nodes Turan.hermite_sturm_interval",
@@ -1964,7 +1964,7 @@
     },
     {
       "place": "A.1, (E) real coefficient",
-      "lines": "v4.70 1130–1131",
+      "lines": "v4.90 1155–1156",
       "status": "PROVED",
       "claim": "If a is real and s₁<w₀<s₂ are zeros of ψₙ, then G(s₁)=2(s₁−w₀)<0<2(s₂−w₀)=G(s₂) and G has a real zero strictly inside (s₁,s₂).",
       "declarations": "Turan.TrinomialAE.real_coefficient_zero",
@@ -1973,7 +1973,7 @@
     },
     {
       "place": "A.1, (E) exact phase change",
-      "lines": "v4.70 1131–1132",
+      "lines": "v4.90 1156–1157",
       "status": "PROVED",
       "claim": "For Im a≠0 and consecutive ψₙ zeros s₁<w₀<s₂, Im G=(Im a)ψₙ has one strict sign on (s₁,s₂). A continuous argument on [s₁,s₂] exists and every such lift has |θ(s₂)−θ(s₁)|=π.",
       "declarations": "Turan.TrinomialAE.exact_phase_change Turan.TrinomialAE.consecutive_nodes",
@@ -1982,7 +1982,7 @@
     },
     {
       "place": "A.1, (E) artanh primitive and convexity",
-      "lines": "v4.70 1133–1135",
+      "lines": "v4.90 1158–1160",
       "status": "PROVED",
       "claim": "With R=0.65, J(u)=artanh(u/R) satisfies J(0)=0 and J′(u)=R/(R²−u²) for −R<u<R. It is convex on [0,R), and J(u)+J(v)≤J(u+v) for u,v≥0 and u+v<R.",
       "declarations": "Turan.TrinomialAE.artanh_primitive",
@@ -1991,7 +1991,7 @@
     },
     {
       "place": "A.1, (E) displayed component decimals",
-      "lines": "v4.70 1139–1144",
+      "lines": "v4.90 1164–1169",
       "status": "PROVED",
       "claim": "At n=80, 0.382099<β₈₀/0.65<0.382100, 8.8818<log(7200)<8.88185 and 0.402515<artanh(β₈₀/0.65)<0.40252. Thus 2log(7200)artanh(β₈₀/0.65)<7.2 and π²>9.8.",
       "declarations": "Turan.TrinomialAE.threshold_components",
@@ -2000,7 +2000,7 @@
     },
     {
       "place": "A.1, (E) monotonicity for all degrees",
-      "lines": "v4.70 1141–1145",
+      "lines": "v4.90 1166–1170",
       "status": "PROVED",
       "claim": "The function artanh(u)/u strictly increases on (0,1). On [80,∞), log(90x)/√x strictly decreases, J(βₓ)≤√(80/x)J(β₈₀), and 2log(90x)J(βₓ) strictly decreases. Thus the n=80 upper bound holds for every integer n≥80.",
       "declarations": "Turan.TrinomialAE.uniform_monotonicity Turan.TrinomialAE.threshold_components",
@@ -2009,7 +2009,7 @@
     },
     {
       "place": "A.1, recovery geometry and scale",
-      "lines": "v4.70 1156–1157",
+      "lines": "v4.90 1181–1182",
       "status": "PROVED",
       "claim": "For m≥450, |Re c|≤2 and |Im c|<0.76 give |c|<√(4+0.76²)<2.14 and D=100m/11≥4090. The empty 0.87 strip gives F(c)≠0 and bounds |F⁽ᵏ⁾(c)/F(c)| by Dᵏ for k=1,…,5.",
       "declarations": "Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2018,7 +2018,7 @@
     },
     {
       "place": "A.1, recovery sharp operator estimates",
-      "lines": "v4.70 1162–1170",
+      "lines": "v4.90 1187–1195",
       "status": "PROVED",
       "claim": "At the recovery point, |c²−2|<6.84 and 2.2/D+6.84/D²+6.6/D³+1/D⁴<0.001. For D=100m/11, the first and second oscillator derivative quotients have upper bounds D³/2+2.2D²+D<0.501D³ and D⁵/4+2.2D⁴+6.84D³+6.6D²+D<0.251D⁵.",
       "declarations": "Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.recovery_operators Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2027,7 +2027,7 @@
     },
     {
       "place": "A.1, reciprocal recovery sharp comparison",
-      "lines": "v4.70 1173–1180",
+      "lines": "v4.90 1198–1205",
       "status": "PROVED",
       "claim": "At the recovery point, (1−1/m)/|F(c)|≤D+(1/2+1/m)0.501D³+0.251D⁵/(2m), where D=100m/11. After division by m⁴ the three terms are nonincreasing for m≥450 and are at most 10⁻⁶, 0.50223·0.501·(100/11)³/m and 0.251(100/11)⁵/2, respectively. The first two symbolic bounds are strict and the third is an equality. The last two bounds are strictly below 0.43 and 7792.6. Since m/(m−1)≤1.0023, 1/|F(c)|<7811m⁴ and 1<9000m⁴|F(c)|.",
       "declarations": "Turan.RecoveryDetails.reciprocal_recovery Turan.RecoveryDetails.reciprocal_arithmetic Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2036,7 +2036,7 @@
     },
     {
       "place": "A.1, lower coefficient filter bounds",
-      "lines": "v4.70 1182–1184",
+      "lines": "v4.90 1207–1209",
       "status": "PROVED",
       "claim": "At c, with D=100m/11, the single-filter value quotient is at most 1+(D²/2+2.2D)/m=(100/11)²m/2+21<41.33m+21<43m. The derivative quotient is at most D+0.501D³/m<376.41m²+9.1m<390m².",
       "declarations": "Turan.RecoveryDetails.recovery_one_filter Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2045,7 +2045,7 @@
     },
     {
       "place": "A.1, lower coefficient subtraction and scaling",
-      "lines": "v4.70 1188–1194",
+      "lines": "v4.90 1213–1219",
       "status": "PROVED",
       "claim": "Put T=|F(c)| and g=1−n/m≥1/2. Then |aψₙ(c)|g<43mT+5.4<(43m+48600m⁴)T and |aψₙ′(c)|g<390m²T+2<(390m²+18000m⁴)T. Dividing by g and using √(2n)≥2 bounds |aψₙ(c)| and |aψₙ′(c)|/√(2n) strictly by 100000m⁴T.",
       "declarations": "Turan.RecoveryDetails.recovery_subtraction Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2054,7 +2054,7 @@
     },
     {
       "place": "A.1, weighted maximum in Step 4",
-      "lines": "v4.70 1194–1196",
+      "lines": "v4.90 1219–1221",
       "status": "PROVED",
       "claim": "For 2≤n≤m/2, max(|ψₙ(c)|, |ψₙ′(c)|/√(2n))≥1/√(2n+2)≥1/√(m+2). At the recovery point with m≥450, |a|<100000m⁴√(m+2)|F(c)|.",
       "declarations": "Turan.RecoveryDetails.recovery_weighted_max Turan.RecoveryDetails.recovery_weighted_coefficient Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2063,7 +2063,7 @@
     },
     {
       "place": "A.1, final lower coefficient arithmetic",
-      "lines": "v4.70 1196–1199",
+      "lines": "v4.90 1221–1224",
       "status": "PROVED",
       "claim": "For m≥450 let B=m^(9/2)|F(c)|. The two recovery bounds give 1+|a|<(9000/√m+100000√(1+2/m))B<100650B<110000B, using 9000/√450<424.3 and 100000√(1+2/450)<100222.",
       "declarations": "Turan.RecoveryDetails.recovery_final_arithmetic Turan.RecoveryDetails.reciprocal_recovery Turan.RecoveryDetails.recovery_weighted_coefficient Turan.RecoveryDetails.recovery_geometry Turan.RecoveryDetails.normalizedPoly_eval Turan.RecoveryDetails.jetBound_of_emptyStrip",
@@ -2072,7 +2072,7 @@
     },
     {
       "place": "A.2, Growth, commuting operators",
-      "lines": "v4.70 1293–1295",
+      "lines": "v4.90 1318–1320",
       "status": "PROVED",
       "claim": "For every complex polynomial p and shifts j,k, (E_*+j)(E_*+k)p=(E_*+k)(E_*+j)p. In particular the four shifts 0,1,n,m commute pairwise.",
       "declarations": "Turan.UpperEstimates.shifted_operators_commute",
@@ -2081,7 +2081,7 @@
     },
     {
       "place": "A.2, Growth, radial Gronwall",
-      "lines": "v4.70 1306–1309",
+      "lines": "v4.90 1331–1334",
       "status": "PROVED",
       "claim": "On the scaled disk, with ρ=Ω|z−z₀|≤7, the full eight-component state satisfies ‖G(z)‖≤exp(1.75ρ)‖G(z₀)‖, including ρ=0.",
       "declarations": "Turan.UpperEstimates.radial_state",
@@ -2090,7 +2090,7 @@
     },
     {
       "place": "A.2, Cauchy, one-filter cost",
-      "lines": "v4.70 1313–1315",
+      "lines": "v4.90 1338–1340",
       "status": "PROVED",
       "claim": "For 1/2≤r≤7 and 0≤ν≤3, put B=‖Gν‖ᵣ. The half-radius bounds for the first and second scaled derivatives are 2B and 8B. The next stage has norm ≤10.12B≤11B. The last comparison is strict if B>0 and equality if B=0.",
       "declarations": "Turan.UpperEstimates.half_radius_filter",
@@ -2099,7 +2099,7 @@
     },
     {
       "place": "A.2, Cauchy, center derivatives and strict bound",
-      "lines": "v4.70 1316–1320",
+      "lines": "v4.90 1341–1345",
       "status": "PROVED",
       "claim": "For B=‖F‖₂>0 and Rν=2−ν/2, each ν=0,1,2,3 satisfies max_{|z−z₀|≤Rν/Ω}|Gν(z)|≤11^ν B and |DGν(z₀)|≤11^ν B/Rν. The largest of the eight bounds, for DG₃/1.75, gives ‖G(z₀)‖≤(2·11³/1.75)B=(10648/7)B<1600B.",
       "declarations": "Turan.UpperEstimates.state_center_sharp",
@@ -2108,7 +2108,7 @@
     },
     {
       "place": "A.2, Harnack, harmonic majorant",
-      "lines": "v4.70 1322–1325",
+      "lines": "v4.90 1347–1350",
       "status": "PROVED",
       "claim": "On |z−z₀|≤7/Ω the normalized family F is zero-free, M₀=exp(12.25)‖G(z₀)‖>0, and Υ(z)=log(M₀/|F(z)|) is harmonic at each point and nonnegative throughout the closed disk.",
       "declarations": "Turan.UpperEstimates.harmonic_majorant Turan.lemma_fourteen",
@@ -2117,7 +2117,7 @@
     },
     {
       "place": "A.2, Harnack, centered comparison",
-      "lines": "v4.70 1325–1327",
+      "lines": "v4.90 1350–1352",
       "status": "PROVED",
       "claim": "For this Υ and any maximizing point z₁ on |z−z₀|≤2/Ω, Υ(z₁)<12.25+log(1600)<19.628 and Υ(z₀)≤(9/5)Υ(z₁)<35.34.",
       "declarations": "Turan.UpperEstimates.centered_comparison Turan.UpperEstimates.harmonic_majorant Turan.UpperEstimates.state_center_sharp Turan.lemma_fourteen Turan.harnack_disk",
@@ -2126,7 +2126,7 @@
     },
     {
       "place": "A.2, quotient Q_j, zero and factorization",
-      "lines": "v4.70 1362–1365",
+      "lines": "v4.90 1387–1390",
       "status": "PROVED",
       "claim": "For either index order the sole zero x_*=−1/[2(1−1/n)(1−1/m)] satisfies |x_*|≤1/(1−1/m)≤450/449. P_nm=2(1−1/j′)(1−1/j)(z−x_*), P_{j′}−P_nm=−E_*P_{j′}/j=2(1−1/j′)z/j, and Q_j−1=z/[(j−1)(z−x_*)] for z≠x_*.",
       "declarations": "Turan.UpperEstimates.affine_factorization Turan.projected_mode_identity",
@@ -2135,7 +2135,7 @@
     },
     {
       "place": "A.2, quotient Q_j, strict line bounds",
-      "lines": "v4.70 1366–1369",
+      "lines": "v4.90 1391–1394",
       "status": "PROVED",
       "claim": "For |Im z|=7/11 and either index order, |z−x_*|≥7/11 and |z/(z−x_*)|≤1+|x_*|/(7/11)≤1+(450/449)(11/7)<2.575. Consequently |Q_j−1|<2.59/j<5/j and |Q_j|<1+5/j≤46/45.",
       "declarations": "Turan.UpperEstimates.projection_strict_lines Turan.UpperTailStrip.named_ratio_line",
@@ -2144,7 +2144,7 @@
     },
     {
       "place": "A.2, quotients of F, strict operator bounds",
-      "lines": "v4.70 1373–1382",
+      "lines": "v4.90 1398–1407",
       "status": "PROVED",
       "claim": "On |Im z₀|=7/11, |E_*F/F|≤(11Ω)²/2+11|z₀|Ω<(60.5+11·0.272)Ω²<64Ω². Also |E_*²F/F|≤[11⁴/4+11³·0.272+11²(0.272²+1/900)+11·0.272/900]Ω⁴<4035Ω⁴.",
       "declarations": "Turan.UpperEstimates.line_operator_quotients Turan.lemma_fourteen",
@@ -2153,7 +2153,7 @@
     },
     {
       "place": "A.2, strip weight, location of zero",
-      "lines": "v4.70 1399–1403",
+      "lines": "v4.90 1424–1428",
       "status": "PROVED",
       "claim": "For m≥450 the only zero of Π(z)=(1−4iz/√(2m))⁴ is −i√(2m)/4. Its imaginary part is at most −7.5.",
       "declarations": "Turan.UpperEstimates.strip_weight_zero",
@@ -2162,7 +2162,7 @@
     },
     {
       "place": "A.2, strip weight, modulus and lower bound",
-      "lines": "v4.70 1403–1410",
+      "lines": "v4.90 1428–1435",
       "status": "PROVED",
       "claim": "For |Y|≤7/11, write z=X+iY, s=√(2m), Ω²=2m+16X² and γ=4(7/11)/s≤14/165. Then |1−4iz/s|²=(1+4Y/s)²+16X²/(2m)≥(1−γ)²Ω²/(2m), giving |Π(z)|≥(151/165)⁴Ω⁴/(4m²).",
       "declarations": "Turan.UpperEstimates.strip_weight_lower",
@@ -2171,7 +2171,7 @@
     },
     {
       "place": "Lower-index Step 2, Mehler series route",
-      "lines": "v4.70 550–552",
+      "lines": "v4.90 550–552",
       "status": "PROVED",
       "claim": "At z=X+iY and r=1/5, the nonnegative diagonal Mehler sum bounds its nth term 5⁻ⁿ|ψₙ(z)|². Taking square roots and multiplying by exp(−X²/2) gives |ψₙ(z)|exp(−X²/2)≤(1−1/25)^(−1/4)exp(−X²/3+Y²/4+(n/2)log 5).",
       "declarations": "Turan.MehlerJets.weighted_diagonal_estimate Turan.MehlerJets.weight_of_squared_diagonal Turan.LowerTailSteps.mehler_diagonal_term Turan.MehlerJets.mehler_diagonal_extraction",
@@ -2180,7 +2180,7 @@
     },
     {
       "place": "A.1, complex Mehler continuation",
-      "lines": "v4.70 1006–1008",
+      "lines": "v4.90 1031–1033",
       "status": "PROVED",
       "claim": "At r=1/5 the Mehler series converges uniformly on bounded balls. Its two spatial slices are holomorphic. Agreement with the analytic kernel on ℝ² extends first in one variable and then in the other, giving equality on ℂ² and joint entireness of both functions.",
       "declarations": "Turan.MehlerJets.mehler_continuation_from_real Turan.MehlerJets.mehler_spatial_identity Turan.MehlerJets.mehler_spatial_entire Turan.MehlerJets.spatial_eq_of_real_plane",
@@ -2189,7 +2189,7 @@
     },
     {
       "place": "A.1, (E) integrated obstruction",
-      "lines": "v4.70 1135–1139",
+      "lines": "v4.90 1160–1164",
       "status": "PROVED",
       "claim": "For n≥80 and Im a≠0, zero exclusion for G=1+2z+aψₙ in |z−w₀|<0.76 yields nearest bracketing Hermite zeros s₁,s₂ with gap <βₙ. A single continuous argument of G has absolute increment π between these zeros and yields π≤C[J(w₀−s₁)+J(s₂−w₀)]≤C J(βₙ). Thus π²≤2 log(90n)J(βₙ), with J(u)=artanh(u/0.65) and C=2log(90n)/π.",
       "declarations": "Turan.TrinomialAE.pencil_integrated_obstruction Turan.TrinomialAE.integrated_obstruction Turan.TrinomialAE.phase_derivative_bound Turan.TrinomialAE.exact_phase_change Turan.TrinomialAE.consecutive_nodes",
@@ -2198,7 +2198,7 @@
     },
     {
       "place": "A.1, cubic final contradiction",
-      "lines": "v4.70 1056–1059",
+      "lines": "v4.90 1081–1084",
       "status": "PROVED",
       "claim": "The three roots of the actual normalized cubic, with multiplicities, have imaginary parts summing to zero and a shifted distance product of 5/8. The 1.52 lower bound on one imaginary part under rectangle avoidance contradicts that product.",
       "declarations": "Turan.MehlerJets.cubic_large_imaginary_factor Turan.MehlerJets.cubic_trinomial_root_triple",
@@ -2207,7 +2207,7 @@
     },
     {
       "place": "A.1, G1 count in original coordinates",
-      "lines": "v4.70 1087–1090",
+      "lines": "v4.90 1112–1115",
       "status": "PROVED GIVEN G1",
       "claim": "For each of the two finite charts and every parameter in its closed rectangle, the G1 input supplies an admissible lattice center, radius and order. The polynomial has exactly that many roots in the original open disk, counted with multiplicities, all inside the printed rectangle.",
       "declarations": "Turan.MehlerJets.g1_original_disk_count Turan.MehlerJets.g1_chart_count_given",
@@ -2216,7 +2216,7 @@
     },
     {
       "place": "A.1, Step 4 endpoint logarithm",
-      "lines": "v4.70 1227–1231",
+      "lines": "v4.90 1252–1256",
       "status": "PROVED",
       "claim": "The two logarithmic summands at m=450 round to 14.6040 and 30.5462. The full exponent rounds to −12.6998 and its derivative equals −289/1800.",
       "declarations": "Turan.LowerTailSteps.rounded_logTail_at_450",
@@ -2225,7 +2225,7 @@
     },
     {
       "place": "Section 2, end: bounded-index reduction",
-      "lines": "v4.70 320–329",
+      "lines": "v4.90 320–329",
       "status": "PROVED",
       "claim": "After passage to a subsequence, at most two rounds of the specified differential filters leave fixed indices. The constant and linear slots survive with multipliers tending to one, their common normalization persists, and the filtered polynomials still escape every fixed disk.",
       "declarations": "Turan.SectionTwo.reduce_to_constant_indices",
