@@ -1,10 +1,10 @@
 # Audit notes
 
-The source is the short edition of *Turán’s Hermite strip problem*, v4.60. The flat TeX has MD5 `7d8c2936bdd303ad45c9e389def9f497` and the PDF has MD5 `315418a592e5000e9c6a98d45ae1229a`. The expanded edition’s sharp second-place constant is outside the short paper’s main theorem. The v4.60 claim map also identifies the multiset product in the small-pair summary.
+The source is the short edition of *Turán’s Hermite strip problem*, v4.70. The flat TeX has MD5 `d62dc95301719e646069d2f976834f77` and the PDF has MD5 `dc0179609bce1e99329fe9e846f04c0f`. The expanded edition’s sharp second-place constant is outside the short paper’s main theorem. The v4.70 claim map also identifies the multiset product in the small-pair summary.
 
 ## Mathematical scope
 
-The [claim map](CLAIM_MAP.tsv) identifies passages by their printed subject and source label. Line numbers refer specifically to the frozen v4.60 flat TeX. The map quotes the printed words for the sextic chart basis, the two numerical passages in Appendix A.1, the reciprocal estimate and the zero-stage bound in Appendix A.2. The source polynomial is the physicists’ Hermite polynomial. Its recurrence, complex coefficients, and the cases in which a coefficient vanishes are part of the formalization. The least-width assertion quantifies over all admissible degrees and coefficients. The equality statement identifies two distinct polynomials.
+The [claim map](CLAIM_MAP.tsv) identifies passages by their printed subject and source label. Line numbers refer specifically to the frozen v4.70 flat TeX. The map quotes the printed words for the sextic chart basis, the two numerical passages in Appendix A.1, the reciprocal estimate and the zero-stage bound in Appendix A.2. The source polynomial is the physicists’ Hermite polynomial. Its recurrence, complex coefficients, and the cases in which a coefficient vanishes are part of the formalization. The least-width assertion quantifies over all admissible degrees and coefficients. The equality statement identifies two distinct polynomials.
 
 ## Proofs that use another route
 
