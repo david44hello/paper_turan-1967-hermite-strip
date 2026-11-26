@@ -1,5 +1,7 @@
 # Turán’s Hermite strip problem
 
+The paper: https://doi.org/10.5281/zenodo.24547227
+
 ## What is in this repository
 
 * [lean/](lean/) contains the formal statements, proofs, certificate assumptions, and instructions for checking them.
