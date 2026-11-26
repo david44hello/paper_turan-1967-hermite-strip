@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.ProjectiveDefs
-import Turan.Rouche
+public import Turan.ProjectiveDefs
+public import Turan.Rouche
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

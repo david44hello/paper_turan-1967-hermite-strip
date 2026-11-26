@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoHarmonicEstimates
-import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
-import Mathlib.Topology.MetricSpace.UniformConvergence
-import Mathlib.Analysis.Complex.LocallyUniformLimit
+public import Turan.SectionTwoHarmonicEstimates
+public import Mathlib.Topology.ContinuousMap.Bounded.ArzelaAscoli
+public import Mathlib.Topology.MetricSpace.UniformConvergence
+public import Mathlib.Analysis.Complex.LocallyUniformLimit
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric InnerProductSpace BoundedContinuousFunction

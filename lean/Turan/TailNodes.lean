@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailNodesGeometry
-import Turan.TailNodesProduct
-import Turan.TailHyperbolic
+public import Turan.TailNodesGeometry
+public import Turan.TailNodesProduct
+public import Turan.TailHyperbolic
+
+@[expose] public section
 
 namespace Turan
 

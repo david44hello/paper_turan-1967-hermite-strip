@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.LowerTailCenter
-import Turan.Vertical
-import Turan.Recover
+public import Turan.LowerTailCenter
+public import Turan.Vertical
+public import Turan.Recover
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set Polynomial

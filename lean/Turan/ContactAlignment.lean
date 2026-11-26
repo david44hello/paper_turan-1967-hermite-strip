@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CubicProofSteps
+public import Turan.CubicProofSteps
+
+@[expose] public section
 namespace Turan
 
 theorem contact_implies_alignment (k : ℝ) (hk : 0 < k) (U V S : ℂ)

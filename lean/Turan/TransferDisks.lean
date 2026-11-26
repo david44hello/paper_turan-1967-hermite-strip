@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TransferDefs
-import Turan.Circles
-import Turan.CircleMinimum
-import Turan.RealZeros
+public import Turan.TransferDefs
+public import Turan.Circles
+public import Turan.CircleMinimum
+public import Turan.RealZeros
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

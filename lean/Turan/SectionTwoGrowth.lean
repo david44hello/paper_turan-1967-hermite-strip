@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoSystem
-import Turan.SectionTwoProjection
-import Mathlib.Analysis.ODE.Gronwall
-import Mathlib.Analysis.Complex.RealDeriv
-import Mathlib.Analysis.Calculus.Deriv.Prod
+public import Turan.SectionTwoSystem
+public import Turan.SectionTwoProjection
+public import Mathlib.Analysis.ODE.Gronwall
+public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Analysis.Calculus.Deriv.Prod
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

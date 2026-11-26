@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small34Cubic
-import Turan.Small34Counting
-import Turan.Small34AngleBound
+public import Turan.Small34Cubic
+public import Turan.Small34Counting
+public import Turan.Small34AngleBound
+
+@[expose] public section
 
 namespace Turan
 

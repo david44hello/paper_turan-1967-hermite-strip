@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.IntervalAngles
-import Turan.Degree
-import Mathlib.Topology.Covering.AddCircle
-import Mathlib.Tactic
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+public import Turan.IntervalAngles
+public import Turan.Degree
+public import Mathlib.Topology.Covering.AddCircle
+public import Mathlib.Tactic
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Real Set

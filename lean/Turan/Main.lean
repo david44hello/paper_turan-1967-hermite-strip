@@ -1,14 +1,18 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Cubic
-import Turan.Decimal
-import Turan.LowerTail
-import Turan.Middle
-import Turan.Projective
-import Turan.QuarticSharp
-import Turan.Small34
-import Turan.Small45
-import Turan.Small56
-import Turan.Quintic
+public import Turan.Cubic
+public import Turan.Decimal
+public import Turan.LowerTail
+public import Turan.Middle
+public import Turan.Projective
+public import Turan.QuarticSharp
+public import Turan.Small34
+public import Turan.Small45
+public import Turan.Small56
+public import Turan.Quintic
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

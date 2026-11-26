@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Hermite
-import Turan.Normalized
-import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
-import Mathlib.Analysis.Matrix.Hermitian
-import Mathlib.Tactic
+public import Turan.Hermite
+public import Turan.Normalized
+public import Mathlib.LinearAlgebra.Matrix.Charpoly.Basic
+public import Mathlib.Analysis.Matrix.Hermitian
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Matrix

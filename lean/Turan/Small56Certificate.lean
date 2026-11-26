@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Tactic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 namespace Turan.Small56
 namespace Certificate
@@ -33,8 +37,8 @@ abbrev Row := List ℤ
 abbrev Coeffs := List Row
 private noncomputable abbrev ev (t : ℝ) := horner (fun n : ℤ => (n:ℝ)) t
 private noncomputable abbrev val (x t : ℝ) := horner (ev t) x
-private abbrev addRow := addWith (· + · : ℤ → ℤ → ℤ)
-private abbrev add := addWith addRow
+abbrev addRow := addWith (· + · : ℤ → ℤ → ℤ)
+abbrev add := addWith addRow
 
 def linear (a b : ℤ) (p : Row) : Row :=
   addRow (p.map (a * ·)) (0 :: p.map (b * ·))

@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Defs
-import Turan.RouteDefs
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.Convex.Function
+public import Turan.Defs
+public import Turan.RouteDefs
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.Convex.Function
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

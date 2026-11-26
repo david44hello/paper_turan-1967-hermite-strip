@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoGradients
-import Turan.CompactnessTools
-import Mathlib.Analysis.Complex.BorelCaratheodory
+public import Turan.SectionTwoGradients
+public import Turan.CompactnessTools
+public import Mathlib.Analysis.Complex.BorelCaratheodory
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric InnerProductSpace

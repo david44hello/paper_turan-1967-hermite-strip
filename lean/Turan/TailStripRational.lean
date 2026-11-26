@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Degree
-import Turan.TailDefs
-import Turan.TailStripFactors
-import Mathlib.Analysis.Polynomial.Basic
+public import Turan.Degree
+public import Turan.TailDefs
+public import Turan.TailStripFactors
+public import Mathlib.Analysis.Polynomial.Basic
+
+@[expose] public section
 
 noncomputable section
 namespace Turan.TailStrip

@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TrinomialSmall
-import Turan.TrinomialFinite
-import Turan.TrinomialLarge
+public import Turan.TrinomialSmall
+public import Turan.TrinomialFinite
+public import Turan.TrinomialLarge
+
+@[expose] public section
 
 namespace Turan
 

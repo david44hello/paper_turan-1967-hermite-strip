@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Challenge.UpperSourceDefs
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Challenge.UpperSourceDefs
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

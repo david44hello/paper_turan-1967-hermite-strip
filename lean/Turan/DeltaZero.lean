@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.DeltaCriterion
-import Turan.QuarticPencil
+public import Turan.DeltaCriterion
+public import Turan.QuarticPencil
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

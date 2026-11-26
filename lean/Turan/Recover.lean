@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Turan.Degree
-import Turan.RealZeros
-import Mathlib.Tactic
+public import Turan.TailDefs
+public import Turan.Degree
+public import Turan.RealZeros
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

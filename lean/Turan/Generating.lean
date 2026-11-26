@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.GeneratingBounds
-import Turan.GeneratingKernel
-import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Turan.GeneratingBounds
+public import Turan.GeneratingKernel
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric

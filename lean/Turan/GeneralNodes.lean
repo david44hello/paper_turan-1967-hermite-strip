@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.NodeDefs
-import Turan.IntervalAngles
-import Turan.Third
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Turan.NodeDefs
+public import Turan.IntervalAngles
+public import Turan.Third
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 noncomputable section
 open Polynomial
 namespace Turan

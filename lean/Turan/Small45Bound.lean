@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small45Sextic
-import Turan.Small45Product
+public import Turan.Small45Sextic
+public import Turan.Small45Product
+
+@[expose] public section
 
 namespace Turan.Small45
 

@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.WindingDefs
-import Turan.ChartReduction
-import Turan.Transfer
-import Turan.Rouche
-import Turan.Polygon
+public import Turan.WindingDefs
+public import Turan.ChartReduction
+public import Turan.Transfer
+public import Turan.Rouche
+public import Turan.Polygon
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

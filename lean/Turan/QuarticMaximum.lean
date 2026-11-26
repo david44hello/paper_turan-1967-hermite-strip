@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuarticStability
-import Turan.QuarticEscape
+public import Turan.QuarticStability
+public import Turan.QuarticEscape
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Set Metric Filter

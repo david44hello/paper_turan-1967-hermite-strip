@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailStrip
-import Turan.TailNodes
-import Turan.TailComparison
-import Turan.TailGapCore
+public import Turan.TailStrip
+public import Turan.TailNodes
+public import Turan.TailComparison
+public import Turan.TailGapCore
+
+@[expose] public section
 
 namespace Turan
 

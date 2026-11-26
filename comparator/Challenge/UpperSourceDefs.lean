@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Turan.RouteDefs
-import Turan.TailGrowthSystem
-import Turan.TailStripFactors
+public import Turan.TailDefs
+public import Turan.RouteDefs
+public import Turan.TailGrowthSystem
+public import Turan.TailStripFactors
+
+@[expose] public section
 noncomputable section
 namespace Turan.TailStrip
 open Complex

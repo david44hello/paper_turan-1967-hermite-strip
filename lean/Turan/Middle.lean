@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CircleCertificate
-import Turan.Ratio
-import Turan.Transfer
-import Turan.Winding
-import Turan.MiddleDefs
+public import Turan.CircleCertificate
+public import Turan.Ratio
+public import Turan.Transfer
+public import Turan.Winding
+public import Turan.MiddleDefs
+
+@[expose] public section
 
 namespace Turan
 theorem middle_gap (checks : MiddleChecks) (n m : ℕ) (hn : 2 ≤ n) (hnm : n < m)

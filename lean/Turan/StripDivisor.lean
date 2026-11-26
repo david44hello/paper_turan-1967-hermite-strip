@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.StripDetailDefs
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
-import Mathlib.Analysis.Complex.RemovableSingularity
+public import Turan.StripDetailDefs
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+@[expose] public section
 noncomputable section
 open Filter Set
 namespace Turan.StripDetails

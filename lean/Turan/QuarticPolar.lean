@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Defs
-import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+public import Turan.Defs
+public import Mathlib.Analysis.SpecialFunctions.Complex.Arg
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

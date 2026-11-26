@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Turan.TrinomialDefs
-import Turan.Oscillator
+public import Turan.TailDefs
+public import Turan.TrinomialDefs
+public import Turan.Oscillator
+
+@[expose] public section
 namespace Turan
 
 theorem large_mode_circle (m : ℕ) (hm : 450 ≤ m) :

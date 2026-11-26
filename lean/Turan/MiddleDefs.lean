@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.RatioDefs
-import Turan.WindingDefs
+public import Turan.RatioDefs
+public import Turan.WindingDefs
+
+@[expose] public section
 
 namespace Turan
 

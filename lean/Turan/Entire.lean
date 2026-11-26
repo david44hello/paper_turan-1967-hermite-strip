@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Rouche
-import Mathlib.Analysis.Analytic.Order
-import Mathlib.Analysis.Normed.Module.Connected
-import Mathlib.Analysis.Complex.RemovableSingularity
+public import Turan.Rouche
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.Analysis.Normed.Module.Connected
+public import Mathlib.Analysis.Complex.RemovableSingularity
+
+@[expose] public section
 
 noncomputable section
 open Metric Polynomial Set

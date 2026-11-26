@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TrinomialDefs
-import Turan.MiddleDefs
-import Turan.ProjectiveDefs
+public import Turan.TrinomialDefs
+public import Turan.MiddleDefs
+public import Turan.ProjectiveDefs
+
+@[expose] public section
 namespace Turan
 
 theorem attained_height_maximum_given (G1 : TrinomialDiskCheck) (middle : MiddleChecks)

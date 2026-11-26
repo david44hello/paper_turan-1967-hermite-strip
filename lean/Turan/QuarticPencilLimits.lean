@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuarticPencilDefs
-import Turan.QuarticPencilAlgebra
-import Turan.QuarticRoot
-import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
-import Mathlib.Tactic
+public import Turan.QuarticPencilDefs
+public import Turan.QuarticPencilAlgebra
+public import Turan.QuarticRoot
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Set Metric

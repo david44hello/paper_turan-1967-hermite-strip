@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoShifts
-import Turan.SectionTwoExpansion
-import Mathlib.Topology.Algebra.MvPolynomial
+public import Turan.SectionTwoShifts
+public import Turan.SectionTwoExpansion
+public import Mathlib.Topology.Algebra.MvPolynomial
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric Turan.SectionTwo.Expansion

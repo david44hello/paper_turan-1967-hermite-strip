@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoRoundSelection
-import Turan.SectionTwoRoundLimits
-import Turan.SectionTwoRoundAlgebra
-import Turan.SectionTwoRoundFlat
-import Turan.SectionTwoFilterEscape
+public import Turan.SectionTwoRoundSelection
+public import Turan.SectionTwoRoundLimits
+public import Turan.SectionTwoRoundAlgebra
+public import Turan.SectionTwoRoundFlat
+public import Turan.SectionTwoFilterEscape
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric

@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Mathlib.Analysis.Convex.Deriv
+public import Turan.TailDefs
+public import Mathlib.Analysis.Convex.Deriv
+
+@[expose] public section
 
 noncomputable section
 open Set

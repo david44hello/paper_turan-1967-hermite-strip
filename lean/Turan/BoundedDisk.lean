@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Recover
-import Turan.TailGapCore
-import Turan.TailLinesHermite
+public import Turan.Recover
+public import Turan.TailGapCore
+public import Turan.TailLinesHermite
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

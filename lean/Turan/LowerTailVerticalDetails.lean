@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Analysis.Calculus.Deriv.Prod
-import Turan.LowerTailRealEnergy
-import Mathlib.Analysis.CStarAlgebra.Matrix
-import Mathlib.Analysis.ODE.Gronwall
+public import Mathlib.Analysis.Calculus.Deriv.Prod
+public import Turan.LowerTailRealEnergy
+public import Mathlib.Analysis.CStarAlgebra.Matrix
+public import Mathlib.Analysis.ODE.Gronwall
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set Polynomial

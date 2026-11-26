@@ -1,11 +1,15 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.StripRemoveNodes
-import Turan.StripRectangle
-import Turan.StripWeightDetails
-import Turan.UpperTailStripAffine
-import Turan.UpperTailStripWeight
-import Turan.UpperTailStripMap
-import Turan.TailLines
+public import Turan.StripRemoveNodes
+public import Turan.StripRectangle
+public import Turan.StripWeightDetails
+public import Turan.UpperTailStripAffine
+public import Turan.UpperTailStripWeight
+public import Turan.UpperTailStripMap
+public import Turan.TailLines
+
+@[expose] public section
 open Set
 noncomputable section
 namespace Turan.StripDetails

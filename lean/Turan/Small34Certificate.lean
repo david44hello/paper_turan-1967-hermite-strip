@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small34CertificateChart
-import Turan.Small34CertificateChecks
+public import Turan.Small34CertificateChart
+public import Turan.Small34CertificateChecks
+
+@[expose] public section
 
 noncomputable section
 open Complex

@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Circles
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Analysis.Complex.Harmonic.MeanValue
-import Mathlib.Analysis.Complex.Harmonic.Poisson
-import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+public import Turan.Circles
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Complex.Harmonic.MeanValue
+public import Mathlib.Analysis.Complex.Harmonic.Poisson
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+
+@[expose] public section
 
 open Metric Filter
 open scoped Topology
@@ -36,12 +40,16 @@ theorem harnack_disk (f : ℂ → ℝ) (c z : ℂ) (R : ℝ)
     apply Real.circleAverage_mono (hscalar lo) hweighted
     rw [abs_of_pos hR]
     intro w hw
-    exact mul_le_mul_of_nonneg_right (le_re_herglotzRieszKernel hw hz) (hn w hw)
+    have hkernel : lo ≤ K w := by
+      simpa only [K, Function.comp_apply, lo, herglotzRieszKernel_def] using le_re_herglotzRieszKernel hw hz
+    exact mul_le_mul_of_nonneg_right hkernel (hn w hw)
   have upper : Real.circleAverage (K • f) c R ≤ Real.circleAverage (hi • f) c R := by
     apply Real.circleAverage_mono hweighted (hscalar hi)
     rw [abs_of_pos hR]
     intro w hw
-    exact mul_le_mul_of_nonneg_right (re_herglotzRieszKernel_le hw hz) (hn w hw)
+    have hkernel : K w ≤ hi := by
+      simpa only [K, Function.comp_apply, hi, herglotzRieszKernel_def] using re_herglotzRieszKernel_le hw hz
+    exact mul_le_mul_of_nonneg_right hkernel (hn w hw)
   rw [hpoisson] at lower upper
   simpa only [Real.circleAverage_smul, hmean, smul_eq_mul] using And.intro lower upper
 

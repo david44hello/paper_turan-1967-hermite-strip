@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Volterra
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Turan.Volterra
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+
+@[expose] public section
 
 open Set
 namespace Turan

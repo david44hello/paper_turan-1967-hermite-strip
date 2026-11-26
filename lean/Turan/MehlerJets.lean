@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Generating
-import Turan.Hermite
-import Turan.MehlerJetsSpatial
-import Turan.MehlerJetsGeometry
-import Turan.MehlerJetsRoots
-import Turan.MehlerJetsG1
+public import Turan.Generating
+public import Turan.Hermite
+public import Turan.MehlerJetsSpatial
+public import Turan.MehlerJetsGeometry
+public import Turan.MehlerJetsRoots
+public import Turan.MehlerJetsG1
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

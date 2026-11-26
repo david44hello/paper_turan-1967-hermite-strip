@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Normalized
-import Challenge.MehlerDiagonalDef
-import Challenge.GirouxModeDefs
-import Turan.Oscillator
-import Turan.TransferDefs
-import Turan.TrinomialDefs
+public import Turan.Normalized
+public import Challenge.MehlerDiagonalDef
+public import Challenge.GirouxModeDefs
+public import Turan.Oscillator
+public import Turan.TransferDefs
+public import Turan.TrinomialDefs
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

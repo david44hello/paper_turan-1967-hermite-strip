@@ -1,7 +1,12 @@
+module
+public meta import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Rational
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Defs
-import Mathlib.Tactic
-import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Tactic
+public import Turan.Defs
+public import Mathlib.Tactic
+public import Mathlib.Tactic.Inclusion.Extension.IntervalDyadicReal.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Set

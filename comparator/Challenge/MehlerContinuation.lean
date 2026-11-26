@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Challenge.MehlerJets
+public import Challenge.MehlerJets
+
+@[expose] public section
 open scoped Topology
 noncomputable section
 namespace Turan.MehlerJets

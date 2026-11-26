@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.WindingDefs
-import Mathlib.Analysis.Complex.BranchLogRoot
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Convex.Contractible
-import Mathlib.Analysis.Normed.Module.Convex
-import Mathlib.Topology.Covering.AddCircle
+public import Turan.WindingDefs
+public import Mathlib.Analysis.Complex.BranchLogRoot
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Convex.Contractible
+public import Mathlib.Analysis.Normed.Module.Convex
+public import Mathlib.Topology.Covering.AddCircle
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Set

@@ -1,0 +1,90 @@
+version: v0.4
+project:
+  name: Sharp horizontal strips for Hermite quadrinomials
+  description: For complex a and b and integers 2 ≤ n < m, a zero of 1 + 2z + aHₙ(z) + bHₘ(z) lies in
+    the closed horizontal strip of half-width h = 0.903669747226… around the real axis, provided four
+    finite certificate conditions hold. Under the same conditions, exactly two conjugate cubics avoid
+    the open strip of that width. An explicit cubic proves, without certificate assumptions, that every
+    smaller half-width fails.
+  authors:
+  - Dave Goel
+  license: Apache-2.0
+  responsible_maintainers:
+  - Dave Goel
+classification:
+  arxiv:
+  - math.CV
+  - math.CA
+  msc2020:
+  - 30C15
+  - 33C45
+  - 65G30
+sources:
+- title: 'Turán''s Hermite strip problem (1967) is resolved: the sharp half-width is 0.90366…'
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24547228
+  type: paper
+  location: https://doi.org/10.5281/zenodo.24547228
+  relationship: formalizes
+- title: 'Turán''s Hermite strip problem (1967) is resolved: the sharp half-width is 0.90366…, and other
+    miscellanea'
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24547222
+  type: paper
+  location: https://doi.org/10.5281/zenodo.24547222
+  relationship: background
+- title: 'Proof records for the Hermite strip problem: certificates, input data and verifier programs'
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24547214
+  type: computational supplement
+  location: https://doi.org/10.5281/zenodo.24547214
+  relationship: background
+status:
+  scope: The three compared statements formalize the upper bound, a counterexample to every smaller width
+    and the equality classification of Theorem 1. The upper bound and classification take TrinomialDiskCheck
+    (G1), MiddleChecks, QuinticChartCheck (F1) and SexticChartCheck (E10) as explicit propositions. MiddleChecks
+    uses the circle, ratio, transfer or winding tests for each eligible pair in its finite range. These
+    predicates describe numerical inequalities. The supplement’s programs verify them outside Lean. The
+    lower-bound witness uses only Lean’s three standard axioms.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Quot.sound
+  - Classical.choice
+automation:
+  methods:
+  - method: agent
+    tool_setup: AI agents wrote Lean and carried out machine checks under the author’s direction.
+fidelity:
+  divergences: The analytic proof derives the closed-strip guarantee and equality case conditional on
+    four supplied finite checks. The supplement establishes the numerical conditions. The sharpness counterexample
+    is unconditional.
+review:
+  status: agent-reviewed
+  reviewers:
+  - OpenAI Codex
+  notes: The independent OpenAI Codex check compared the selected theorem statements and assumptions with
+    the published proof and paper. The paper release has a signed clean build, kernel replay, six export
+    checks and standard and paranoid comparator results. The numerical certificates were replayed separately.
+alignment:
+  namespace: Turan
+  statements:
+  - source: Theorem 1, closed strip
+    lean: Turan.theorem_one_closed_given
+    module: RegistryChallenge
+    status: proved
+    note: Assumes G1, MiddleChecks, F1 and E10.
+  - source: Theorem 1, lower bound
+    lean: Turan.theorem_one_sharp
+    module: RegistryChallenge
+    status: proved
+    note: Every smaller half-width fails. The proof exhibits a cubic.
+  - source: Theorem 1, extremizers
+    lean: Turan.theorem_one_extremizers_given
+    module: RegistryChallenge
+    status: proved
+    note: With the same four inputs, precisely the two conjugate cubic coefficient choices give equality.

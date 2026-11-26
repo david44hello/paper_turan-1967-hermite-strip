@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.GeneratingBounds
-import Mathlib.Analysis.Normed.Group.FunctionSeries
-import Mathlib.Analysis.Complex.LocallyUniformLimit
-import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Turan.GeneratingBounds
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Analysis.Complex.LocallyUniformLimit
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric Filter

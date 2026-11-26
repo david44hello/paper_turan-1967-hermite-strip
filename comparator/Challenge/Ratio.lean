@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.RatioDefs
+public import Turan.RatioDefs
+
+@[expose] public section
 namespace Turan
 theorem ratio_certificate_gap (n m : ℕ) (hn : 2 ≤ n) (hnm : n < m)
     (check : RatioCertificate n m) (a b : ℂ) :

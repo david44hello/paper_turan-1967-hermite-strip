@@ -1,12 +1,16 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Degree
-import Turan.Rouche
-import Turan.Sturm
-import Mathlib.Analysis.Complex.HasPrimitives
-import Mathlib.Analysis.Complex.Schwarz
-import Mathlib.Analysis.Calculus.Deriv.Star
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-import Mathlib.Analysis.Real.Pi.Bounds
+public import Turan.Degree
+public import Turan.Rouche
+public import Turan.Sturm
+public import Mathlib.Analysis.Complex.HasPrimitives
+public import Mathlib.Analysis.Complex.Schwarz
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric Set

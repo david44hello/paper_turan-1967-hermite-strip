@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Defs
-import Turan.RouteDefs
+public import Turan.Defs
+public import Turan.RouteDefs
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

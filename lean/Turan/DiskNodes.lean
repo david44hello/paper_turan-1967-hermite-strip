@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Sturm
-import Turan.DiskProjection
-import Mathlib.Analysis.Complex.AbsMax
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.SpecificLimits.Normed
-import Mathlib.Data.Nat.Sqrt
+public import Turan.Sturm
+public import Turan.DiskProjection
+public import Mathlib.Analysis.Complex.AbsMax
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.SpecificLimits.Normed
+public import Mathlib.Data.Nat.Sqrt
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Polynomial

@@ -1,11 +1,15 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CompactnessTools
-import Turan.QuarticEscape
-import Turan.QuarticStability
-import Turan.QuarticCandidate
-import Turan.QuarticRoot
-import Mathlib.Topology.UniformSpace.CompactConvergence
-import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+public import Turan.CompactnessTools
+public import Turan.QuarticEscape
+public import Turan.QuarticStability
+public import Turan.QuarticCandidate
+public import Turan.QuarticRoot
+public import Mathlib.Topology.UniformSpace.CompactConvergence
+public import Mathlib.Topology.UniformSpace.LocallyUniformConvergence
+
+@[expose] public section
 
 noncomputable section
 open Filter Polynomial Metric

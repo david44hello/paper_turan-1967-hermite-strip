@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CaratheodoryBound
-import Turan.CaratheodoryCoefficient
+public import Turan.CaratheodoryBound
+public import Turan.CaratheodoryCoefficient
+
+@[expose] public section
 
 open Metric Filter
 open scoped Topology

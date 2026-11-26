@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.NodeDefs
-import Turan.RouteDefs
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Turan.NodeDefs
+public import Turan.RouteDefs
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 open Polynomial
 namespace Turan
 

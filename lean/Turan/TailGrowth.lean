@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Turan.Hermite
-import Turan.TailGrowthSystem
+public import Turan.TailDefs
+public import Turan.Hermite
+public import Turan.TailGrowthSystem
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

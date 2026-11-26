@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TrinomialFinite
-import Turan.Degree
-import Turan.TransferDefs
-import Mathlib.Algebra.Polynomial.Taylor
-import Mathlib.Data.Nat.Sqrt
+public import Turan.TrinomialFinite
+public import Turan.Degree
+public import Turan.TransferDefs
+public import Mathlib.Algebra.Polynomial.Taylor
+public import Mathlib.Data.Nat.Sqrt
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

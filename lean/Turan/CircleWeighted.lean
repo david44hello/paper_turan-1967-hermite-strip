@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CircleWeightedExpansion
-import Turan.ScaledFamily
-import Turan.Circles
+public import Turan.CircleWeightedExpansion
+public import Turan.ScaledFamily
+public import Turan.Circles
+
+@[expose] public section
 
 open Metric
 namespace Turan

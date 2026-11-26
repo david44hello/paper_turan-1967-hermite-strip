@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.ProjectedMode
-import Turan.CompactnessTools
-import Mathlib.Analysis.Complex.ExponentialBounds
-import Turan.TailGrowthSystem
-import Turan.TailStripWeight
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Turan.ProjectedMode
+public import Turan.CompactnessTools
+public import Mathlib.Analysis.Complex.ExponentialBounds
+public import Turan.TailGrowthSystem
+public import Turan.TailStripWeight
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

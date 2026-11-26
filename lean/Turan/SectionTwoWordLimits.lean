@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoNormalForm
-import Turan.SectionTwoLimitsDefs
-import Turan.SlotDerivatives
+public import Turan.SectionTwoNormalForm
+public import Turan.SectionTwoLimitsDefs
+public import Turan.SlotDerivatives
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric Turan.SectionTwo.Expansion

@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuarticContactRows
-import Turan.QuarticVerticalDefs
-import Mathlib.Analysis.Analytic.Polynomial
-import Mathlib.Analysis.Calculus.FDeriv.Analytic
-import Mathlib.Tactic
+public import Turan.QuarticContactRows
+public import Turan.QuarticVerticalDefs
+public import Mathlib.Analysis.Analytic.Polynomial
+public import Mathlib.Analysis.Calculus.FDeriv.Analytic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Filter Polynomial Set

@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CircleDefs
-import Turan.TailDefs
+public import Turan.CircleDefs
+public import Turan.TailDefs
+
+@[expose] public section
 namespace Turan
 
 theorem giroux_family (n m : ℕ) (hn : 2 ≤ n) (hnm : n < m) (a b : ℂ)

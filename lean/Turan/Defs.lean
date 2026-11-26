@@ -1,7 +1,33 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Analysis.SpecialFunctions.Arsinh
-import Mathlib.Analysis.Complex.Polynomial.Basic
-import Mathlib.Analysis.Analytic.Basic
+public import Mathlib.Analysis.SpecialFunctions.Arsinh
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+public import Mathlib.Analysis.Analytic.Basic
+
+@[expose] public section
+
+namespace Turan.NumeralFacts
+/-- Proof instances for the fixed integer literals in the certificate formulas. -/
+scoped instance (priority := 2000) atLeastTwo2 : Nat.AtLeastTwo 2 := inferInstance
+scoped instance (priority := 2000) atLeastTwo3 : Nat.AtLeastTwo 3 := inferInstance
+scoped instance (priority := 2000) atLeastTwo4 : Nat.AtLeastTwo 4 := inferInstance
+scoped instance (priority := 2000) atLeastTwo5 : Nat.AtLeastTwo 5 := inferInstance
+scoped instance (priority := 2000) atLeastTwo6 : Nat.AtLeastTwo 6 := inferInstance
+scoped instance (priority := 2000) atLeastTwo9 : Nat.AtLeastTwo 9 := inferInstance
+scoped instance (priority := 2000) atLeastTwo10 : Nat.AtLeastTwo 10 := inferInstance
+scoped instance (priority := 2000) atLeastTwo15 : Nat.AtLeastTwo 15 := inferInstance
+scoped instance (priority := 2000) atLeastTwo16 : Nat.AtLeastTwo 16 := inferInstance
+scoped instance (priority := 2000) atLeastTwo30 : Nat.AtLeastTwo 30 := inferInstance
+scoped instance (priority := 2000) atLeastTwo36 : Nat.AtLeastTwo 36 := inferInstance
+scoped instance (priority := 2000) atLeastTwo76 : Nat.AtLeastTwo 76 := inferInstance
+scoped instance (priority := 2000) atLeastTwo87 : Nat.AtLeastTwo 87 := inferInstance
+scoped instance (priority := 2000) atLeastTwo100 : Nat.AtLeastTwo 100 := inferInstance
+scoped instance (priority := 2000) atLeastTwo256 : Nat.AtLeastTwo 256 := inferInstance
+scoped instance (priority := 2000) atLeastTwo1000 : Nat.AtLeastTwo 1000 := inferInstance
+scoped instance (priority := 2000) atLeastTwo1733 : Nat.AtLeastTwo 1733 := inferInstance
+end Turan.NumeralFacts
+open scoped Turan.NumeralFacts
 
 noncomputable section
 namespace Turan

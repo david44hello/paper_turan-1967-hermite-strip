@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Analysis.Complex.PhragmenLindelof
-import Mathlib.Analysis.Complex.RemovableSingularity
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.Complex.PhragmenLindelof
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+
+@[expose] public section
 
 noncomputable section
 namespace Turan
@@ -15,10 +19,10 @@ def strip : Set ℂ := {z | |z.im| ≤ height}
 def farBound (f : ℂ → ℂ) : Prop :=
   ∃ C R : ℝ, ∀ z : ℂ, R ≤ |z.re| → z ∈ strip → ‖f z‖ ≤ C
 
-private def k : ℝ := 11 * Real.pi / 14
+def k : ℝ := 11 * Real.pi / 14
 private theorem k_pos : 0 < k := by unfold k; positivity
 private theorem k_height : k * height = Real.pi / 2 := by unfold k height; ring
-private def E (s : ℝ) (z : ℂ) := Complex.exp ((k : ℂ) * (z - s))
+def E (s : ℝ) (z : ℂ) := Complex.exp ((k : ℂ) * (z - s))
 def factor (s : ℝ) (z : ℂ) : ℂ := (E s z - 1) / (E s z + 1)
 
 private theorem E_diff (s : ℝ) : Differentiable ℂ (E s) := by unfold E; fun_prop

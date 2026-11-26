@@ -1,6 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TransferDefs
-import Turan.TrinomialDefs
+public import Turan.TransferDefs
+public import Turan.TrinomialDefs
+
+@[expose] public section
+
+open scoped Turan.NumeralFacts
 
 noncomputable section
 open Polynomial

@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuinticAngle
-import Mathlib.Data.Fin.Tuple.Sort
+public import Turan.QuinticAngle
+public import Mathlib.Data.Fin.Tuple.Sort
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

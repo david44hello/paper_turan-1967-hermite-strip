@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CubicRoots
-import Turan.QuinticNodes
-import Turan.QuinticOrder
-import Turan.QuinticFactors
-import Turan.QuinticTop
-import Turan.QuinticRectangle
+public import Turan.CubicRoots
+public import Turan.QuinticNodes
+public import Turan.QuinticOrder
+public import Turan.QuinticFactors
+public import Turan.QuinticTop
+public import Turan.QuinticRectangle
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

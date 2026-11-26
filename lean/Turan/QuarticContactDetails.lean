@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.DeltaDifferential
-import Mathlib.Analysis.Complex.SqrtDeriv
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Complex.RealDeriv
-import Mathlib.Tactic
+public import Turan.DeltaDifferential
+public import Mathlib.Analysis.Complex.SqrtDeriv
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

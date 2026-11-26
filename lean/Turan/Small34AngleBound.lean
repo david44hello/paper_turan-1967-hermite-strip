@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small34Angles
-import Turan.Small34Branch
-import Turan.Small34Sign
+public import Turan.Small34Angles
+public import Turan.Small34Branch
+public import Turan.Small34Sign
+
+@[expose] public section
 
 noncomputable section
 open Real Complex Set Filter

@@ -1,67 +1,71 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Circles
-import Turan.Coefficients
-import Turan.Coverage
-import Turan.Cubic
-import Turan.Decimal
-import Turan.Degree
-import Turan.Disk
-import Turan.Intro
-import Turan.Mehler
-import Turan.Quintic
-import Turan.Projective
-import Turan.ProofSteps
-import Turan.RealZeros
-import Turan.CircleMinimum
-import Turan.Rouche
-import Turan.LowerTail
-import Turan.Vertical
-import Turan.Volterra
-import Turan.Attained
-import Turan.GeneralNodes
-import Turan.QuarticContactDetails
-import Turan.ContactAlignment
-import Turan.QuarticPolar
-import Turan.QuarticPencilLimits
-import Turan.QuarticPencilCount
-import Turan.QuarticSubsequence
-import Turan.QuarticRadial
-import Turan.QuarticCoefficientDetails
-import Turan.MiddleDetails
-import Turan.QuarticPencilRoots
-import Turan.Small45Details
-import Turan.HalfDisk
-import Turan.QuarticContactRows
-import Turan.QuinticInitialDetails
-import Turan.Small34AngleDetails
-import Turan.QuinticProjection
-import Turan.QuinticMomentDetails
-import Turan.Small34BoundaryProducts
-import Turan.Small34HarmonicDetails
-import Turan.Small34HalfplaneComparison
-import Turan.Small56DetailsAlgebra
-import Turan.Small56DetailsTable
-import Turan.Small56DetailsBounds
-import Turan.StripRemoveNodes
-import Turan.ThirdHalfDisk
-import Turan.QuarticVerticalMotion
-import Turan.QuarticVerticalPersistence
-import Turan.Small56DetailsAnalytic
-import Turan.StripRectangle
-import Turan.StripWeightDetails
-import Turan.StripApplication
-import Turan.SectionTwoAlgebra
-import Turan.UpperTailReal
-import Turan.UpperTailStrip
-import Turan.UpperTailNodes
-import Turan.LowerTailDetails
-import Turan.MehlerJets
-import Turan.RecoveryDetails
-import Turan.UpperEstimates
-import Turan.TrinomialAE
-import Turan.SectionTwoLimits
-import Turan.MehlerWeighted
-import Turan.MehlerRootApplications
-import Turan.TrinomialApplication
-import Turan.Endpoint430
-import Turan.SectionTwoReduction
+public import Turan.Circles
+public import Turan.Coefficients
+public import Turan.Coverage
+public import Turan.Cubic
+public import Turan.Decimal
+public import Turan.Degree
+public import Turan.Disk
+public import Turan.Intro
+public import Turan.Mehler
+public import Turan.Quintic
+public import Turan.Projective
+public import Turan.ProofSteps
+public import Turan.RealZeros
+public import Turan.CircleMinimum
+public import Turan.Rouche
+public import Turan.LowerTail
+public import Turan.Vertical
+public import Turan.Volterra
+public import Turan.Attained
+public import Turan.GeneralNodes
+public import Turan.QuarticContactDetails
+public import Turan.ContactAlignment
+public import Turan.QuarticPolar
+public import Turan.QuarticPencilLimits
+public import Turan.QuarticPencilCount
+public import Turan.QuarticSubsequence
+public import Turan.QuarticRadial
+public import Turan.QuarticCoefficientDetails
+public import Turan.MiddleDetails
+public import Turan.QuarticPencilRoots
+public import Turan.Small45Details
+public import Turan.HalfDisk
+public import Turan.QuarticContactRows
+public import Turan.QuinticInitialDetails
+public import Turan.Small34AngleDetails
+public import Turan.QuinticProjection
+public import Turan.QuinticMomentDetails
+public import Turan.Small34BoundaryProducts
+public import Turan.Small34HarmonicDetails
+public import Turan.Small34HalfplaneComparison
+public import Turan.Small56DetailsAlgebra
+public import Turan.Small56DetailsTable
+public import Turan.Small56DetailsBounds
+public import Turan.StripRemoveNodes
+public import Turan.ThirdHalfDisk
+public import Turan.QuarticVerticalMotion
+public import Turan.QuarticVerticalPersistence
+public import Turan.Small56DetailsAnalytic
+public import Turan.StripRectangle
+public import Turan.StripWeightDetails
+public import Turan.StripApplication
+public import Turan.SectionTwoAlgebra
+public import Turan.UpperTailReal
+public import Turan.UpperTailStrip
+public import Turan.UpperTailNodes
+public import Turan.LowerTailDetails
+public import Turan.MehlerJets
+public import Turan.RecoveryDetails
+public import Turan.UpperEstimates
+public import Turan.TrinomialAE
+public import Turan.SectionTwoLimits
+public import Turan.MehlerWeighted
+public import Turan.MehlerRootApplications
+public import Turan.TrinomialApplication
+public import Turan.Endpoint430
+public import Turan.SectionTwoReduction
+
+@[expose] public section

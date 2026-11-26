@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.LargeCircle
-import Turan.LowerComparison
-import Turan.Trinomial
-import Turan.Recover
-import Turan.TailUpper
-import Turan.Vertical
+public import Turan.LargeCircle
+public import Turan.LowerComparison
+public import Turan.Trinomial
+public import Turan.Recover
+public import Turan.TailUpper
+public import Turan.Vertical
+
+@[expose] public section
 
 noncomputable section
 open Metric

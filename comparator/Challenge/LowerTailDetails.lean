@@ -1,13 +1,17 @@
--- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
-import Challenge.LowerRadialDefs
-import Challenge.LowerEnergyDef
-import Challenge.LowerScalarDefs
-import Turan.Oscillator
+module
 
-import Mathlib.Analysis.CStarAlgebra.Matrix
-import Mathlib.Analysis.Convex.Function
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+-- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
+public import Turan.TailDefs
+public import Challenge.LowerRadialDefs
+public import Challenge.LowerEnergyDef
+public import Challenge.LowerScalarDefs
+public import Turan.Oscillator
+
+public import Mathlib.Analysis.CStarAlgebra.Matrix
+public import Mathlib.Analysis.Convex.Function
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set

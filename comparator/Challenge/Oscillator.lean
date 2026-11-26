@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Oscillator
+public import Turan.Oscillator
+
+@[expose] public section
 namespace Turan
 
 theorem lemma_nine (n : ℕ) (z : ℂ) :

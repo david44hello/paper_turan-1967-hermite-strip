@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small56DetailsBounds
-import Mathlib.Analysis.Complex.AbsMax
+public import Turan.Small56DetailsBounds
+public import Mathlib.Analysis.Complex.AbsMax
+
+@[expose] public section
 
 noncomputable section
 open scoped Topology

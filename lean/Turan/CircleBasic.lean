@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.ScaledFamily
-import Turan.Circles
-import Turan.CircleMinimum
-import Turan.RealZeros
-import Turan.Rouche
+public import Turan.ScaledFamily
+public import Turan.Circles
+public import Turan.CircleMinimum
+public import Turan.RealZeros
+public import Turan.Rouche
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

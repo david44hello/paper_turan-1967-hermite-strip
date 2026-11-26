@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.MiddleDefs
-import Turan.ProjectiveDefs
+public import Turan.MiddleDefs
+public import Turan.ProjectiveDefs
+
+@[expose] public section
 open scoped ComplexConjugate
 namespace Turan
 

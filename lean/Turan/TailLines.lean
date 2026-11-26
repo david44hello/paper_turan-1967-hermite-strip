@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailLinesHelper
-import Turan.TailDerivatives
+public import Turan.TailLinesHelper
+public import Turan.TailDerivatives
+
+@[expose] public section
 
 namespace Turan
 

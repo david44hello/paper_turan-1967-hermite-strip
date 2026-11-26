@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Degree
-import Turan.Small45Nodes
-import Turan.Small45Bound
+public import Turan.Degree
+public import Turan.Small45Nodes
+public import Turan.Small45Bound
+
+@[expose] public section
 
 open Polynomial
 namespace Turan

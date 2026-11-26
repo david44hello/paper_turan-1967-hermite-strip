@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small56Certificate
+public import Turan.Small56Certificate
+
+@[expose] public section
 
 namespace Turan.Small34Certificate
 

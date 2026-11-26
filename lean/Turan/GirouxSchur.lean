@@ -1,11 +1,15 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.ScaledFamily
-import Turan.Degree
-import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
-import Mathlib.Analysis.InnerProductSpace.Adjoint
-import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
-import Mathlib.LinearAlgebra.Charpoly.ToMatrix
-import Mathlib.Tactic
+public import Turan.ScaledFamily
+public import Turan.Degree
+public import Mathlib.Analysis.InnerProductSpace.Projection.FiniteDimensional
+public import Mathlib.Analysis.InnerProductSpace.Adjoint
+public import Mathlib.LinearAlgebra.Eigenspace.Triangularizable
+public import Mathlib.LinearAlgebra.Charpoly.ToMatrix
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Module Matrix

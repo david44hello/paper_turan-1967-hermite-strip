@@ -1,22 +1,27 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Degree
-import Turan.GirouxJacobi
-import Turan.SlotDefs
-import Turan.Sturm
-import Mathlib.Analysis.Calculus.Deriv.Star
-import Mathlib.Analysis.Complex.AbsMax
-import Mathlib.Analysis.Complex.ExponentialBounds
-import Mathlib.Analysis.Complex.Harmonic.Analytic
-import Mathlib.Analysis.Complex.HasPrimitives
-import Mathlib.Analysis.Complex.Schwarz
-import Mathlib.Analysis.Convex.Deriv
-import Mathlib.Analysis.Convex.Slope
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.SpecialFunctions.Artanh
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.ComplexDeriv
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
-import Mathlib.Topology.Covering.AddCircle
+public import Turan.Degree
+public import Turan.GirouxJacobi
+public import Turan.SlotDefs
+public import Turan.Sturm
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Analysis.Complex.AbsMax
+public import Mathlib.Analysis.Complex.ExponentialBounds
+public import Mathlib.Analysis.Complex.Harmonic.Analytic
+public import Mathlib.Analysis.Complex.HasPrimitives
+public import Mathlib.Analysis.Complex.Schwarz
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.Convex.Slope
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Artanh
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.ComplexDeriv
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv
+public import Mathlib.Topology.Covering.AddCircle
+
+@[expose] public section
 
 /-! The disk argument for the large-degree trinomial in Appendix A.1. -/
 

@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.UpperTailRealEndpoints
-import Mathlib.Analysis.Convex.Deriv
-import Mathlib.Analysis.Convex.Jensen
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Turan.UpperTailRealEndpoints
+public import Mathlib.Analysis.Convex.Deriv
+public import Mathlib.Analysis.Convex.Jensen
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

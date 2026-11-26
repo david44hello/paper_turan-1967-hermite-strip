@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailLogDisk
-import Mathlib.Analysis.Complex.Liouville
-import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+public import Turan.TailLogDisk
+public import Mathlib.Analysis.Complex.Liouville
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

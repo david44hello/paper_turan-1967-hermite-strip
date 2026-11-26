@@ -1,67 +1,71 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Challenge.Section3
-import Challenge.HermiteRows
-import Challenge.Circles
-import Challenge.Vertical
-import Challenge.PolynomialCount
-import Challenge.Oscillator
-import Challenge.Quintic
-import Challenge.RealZeros
-import Challenge.Sturm
-import Challenge.Tail
-import Challenge.Trinomial
-import Challenge.LowerTail
-import Challenge.Disk
-import Challenge.SmallPairs
-import Challenge.Projective
-import Challenge.CircleChecks
-import Challenge.Transfer
-import Challenge.Ratio
-import Challenge.Winding
-import Challenge.Global
-import Challenge.Coverage
-import Challenge.Supporting
-import Challenge.Entire
-import Challenge.Intro
-import Challenge.CubicProofSteps
-import Challenge.CompactnessTools
-import Challenge.Generating
-import Challenge.RouteLinks
-import Challenge.Stationary
-import Challenge.SlotLimit
-import Challenge.GeneralNodes
-import Challenge.NodeBridges
-import Challenge.RecoveryDetails
-import Challenge.UpperTailReal
-import Challenge.Attained
-import Challenge.SectionTwoAlgebra
-import Challenge.MehlerJets
-import Challenge.LowerTailDetails
-import Challenge.TrinomialAE
-import Challenge.IV129_132
-import Challenge.IV133_135
-import Challenge.IV136_138
-import Challenge.IV139_141
-import Challenge.RecoveryBridge
-import Challenge.SectionTwoLimits
-import Challenge.UpperTailNodes
-import Challenge.UpperEstimates
-import Challenge.UpperTailStrip
-import Challenge.IV142_146
-import Challenge.IV147_149
-import Challenge.IV150_152
-import Challenge.IV153_155
-import Challenge.IV156_159
-import Challenge.IV160_164
-import Challenge.IV165_168
-import Challenge.IV169_173
-import Challenge.MiddleDetails
-import Challenge.HalfDisk
-import Challenge.BoxCenter
-import Challenge.StripDetails
-import Challenge.Applications
-import Challenge.StripApplication
-import Challenge.MehlerApplications
-import Challenge.MehlerContinuation
-import Challenge.Endpoint430
-import Challenge.TrinomialApplication
+public import Challenge.Section3
+public import Challenge.HermiteRows
+public import Challenge.Circles
+public import Challenge.Vertical
+public import Challenge.PolynomialCount
+public import Challenge.Oscillator
+public import Challenge.Quintic
+public import Challenge.RealZeros
+public import Challenge.Sturm
+public import Challenge.Tail
+public import Challenge.Trinomial
+public import Challenge.LowerTail
+public import Challenge.Disk
+public import Challenge.SmallPairs
+public import Challenge.Projective
+public import Challenge.CircleChecks
+public import Challenge.Transfer
+public import Challenge.Ratio
+public import Challenge.Winding
+public import Challenge.Global
+public import Challenge.Coverage
+public import Challenge.Supporting
+public import Challenge.Entire
+public import Challenge.Intro
+public import Challenge.CubicProofSteps
+public import Challenge.CompactnessTools
+public import Challenge.Generating
+public import Challenge.RouteLinks
+public import Challenge.Stationary
+public import Challenge.SlotLimit
+public import Challenge.GeneralNodes
+public import Challenge.NodeBridges
+public import Challenge.RecoveryDetails
+public import Challenge.UpperTailReal
+public import Challenge.Attained
+public import Challenge.SectionTwoAlgebra
+public import Challenge.MehlerJets
+public import Challenge.LowerTailDetails
+public import Challenge.TrinomialAE
+public import Challenge.IV129_132
+public import Challenge.IV133_135
+public import Challenge.IV136_138
+public import Challenge.IV139_141
+public import Challenge.RecoveryBridge
+public import Challenge.SectionTwoLimits
+public import Challenge.UpperTailNodes
+public import Challenge.UpperEstimates
+public import Challenge.UpperTailStrip
+public import Challenge.IV142_146
+public import Challenge.IV147_149
+public import Challenge.IV150_152
+public import Challenge.IV153_155
+public import Challenge.IV156_159
+public import Challenge.IV160_164
+public import Challenge.IV165_168
+public import Challenge.IV169_173
+public import Challenge.MiddleDetails
+public import Challenge.HalfDisk
+public import Challenge.BoxCenter
+public import Challenge.StripDetails
+public import Challenge.Applications
+public import Challenge.StripApplication
+public import Challenge.MehlerApplications
+public import Challenge.MehlerContinuation
+public import Challenge.Endpoint430
+public import Challenge.TrinomialApplication
+
+@[expose] public section

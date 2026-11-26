@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.GaussianParts
-import Turan.HermiteMoments
-import Turan.Normalized
-import Turan.GaussianBound
-import Turan.MehlerScalar
+public import Turan.GaussianParts
+public import Turan.HermiteMoments
+public import Turan.Normalized
+public import Turan.GaussianBound
+public import Turan.MehlerScalar
+
+@[expose] public section
 
 noncomputable section
 open Polynomial MeasureTheory

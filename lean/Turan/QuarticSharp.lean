@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CubicRoots
-import Turan.QuarticMaximum
-import Turan.QuarticContacts
-import Turan.QuarticPosition
-import Turan.QuarticCandidate
+public import Turan.CubicRoots
+public import Turan.QuarticMaximum
+public import Turan.QuarticContacts
+public import Turan.QuarticPosition
+public import Turan.QuarticCandidate
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

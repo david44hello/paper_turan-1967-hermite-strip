@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.DeltaCriterion
-import Mathlib.Analysis.InnerProductSpace.Calculus
+public import Turan.DeltaCriterion
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+
+@[expose] public section
 
 noncomputable section
 namespace Turan

@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.UpperTailNodesWeight
-import Turan.UpperTailNodesOrder
+public import Turan.UpperTailNodesWeight
+public import Turan.UpperTailNodesOrder
+
+@[expose] public section
 
 noncomputable section
 open Real

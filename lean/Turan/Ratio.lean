@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.RatioTail
-import Turan.ChartReduction
+public import Turan.RatioTail
+public import Turan.ChartReduction
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric

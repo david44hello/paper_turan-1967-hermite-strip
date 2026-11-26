@@ -1,6 +1,10 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.LowerTailScalarDetails
-import Mathlib.Analysis.Complex.ExponentialBounds
+public import Turan.LowerTailScalarDetails
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 namespace Turan.LowerTailSteps
 
 theorem rounded_logTail_at_450 :

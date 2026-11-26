@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.WindingDefs
+public import Turan.WindingDefs
+
+@[expose] public section
 namespace Turan
 theorem polygon_forces_zero (p : Polynomial ℂ) (h : ℝ) (check : PolygonCheck p h) :
     ∃ z : ℂ, p.eval z = 0 ∧ |z.im| < h := by sorry

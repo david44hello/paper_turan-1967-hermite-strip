@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Degree
-import Turan.GirouxJacobi
-import Turan.Rouche
-import Turan.TransferDefs
-import Turan.TrinomialDefs
+public import Turan.Degree
+public import Turan.GirouxJacobi
+public import Turan.Rouche
+public import Turan.TransferDefs
+public import Turan.TrinomialDefs
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

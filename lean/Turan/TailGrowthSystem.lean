@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Analysis.Complex.Liouville
-import Mathlib.Analysis.Complex.RealDeriv
-import Mathlib.Analysis.Calculus.Deriv.Prod
-import Mathlib.Analysis.Calculus.Deriv.Polynomial
-import Mathlib.Analysis.ODE.Gronwall
+public import Mathlib.Analysis.Complex.Liouville
+public import Mathlib.Analysis.Complex.RealDeriv
+public import Mathlib.Analysis.Calculus.Deriv.Prod
+public import Mathlib.Analysis.Calculus.Deriv.Polynomial
+public import Mathlib.Analysis.ODE.Gronwall
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Metric
@@ -22,7 +26,7 @@ structure TailGrowthSystem where
 
 namespace TailGrowthSystem
 
-private abbrev scale : ℂ := ((4/7 : ℝ) : ℂ)
+abbrev scale : ℂ := ((4/7 : ℝ) : ℂ)
 
 private theorem scale_norm : ‖scale‖ = 4/7 := by
   rw [Complex.norm_real, Real.norm_eq_abs, abs_of_pos (by norm_num)]

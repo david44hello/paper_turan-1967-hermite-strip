@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.LowerTailVolterraBounds
-import Mathlib.Analysis.Normed.Group.FunctionSeries
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
+public import Turan.LowerTailVolterraBounds
+public import Mathlib.Analysis.Normed.Group.FunctionSeries
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set Polynomial

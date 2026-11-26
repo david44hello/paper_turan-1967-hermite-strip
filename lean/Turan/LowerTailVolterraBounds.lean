@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.LowerTailRadial
+public import Turan.LowerTailRadial
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set Polynomial

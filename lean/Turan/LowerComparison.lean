@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Mehler
-import Turan.Oscillator
-import Turan.Circles
-import Turan.TailDefs
-import Turan.TailArithmetic
-import Mathlib.Analysis.Real.Pi.Bounds
+public import Turan.Mehler
+public import Turan.Oscillator
+public import Turan.Circles
+public import Turan.TailDefs
+public import Turan.TailArithmetic
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 noncomputable section
 open Metric

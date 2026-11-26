@@ -1,0 +1,16 @@
+{
+  "challenge_module": "RegistryChallenge",
+  "solution_module": "RegistrySolution",
+  "theorem_names": [
+    "Turan.theorem_one_closed_given",
+    "Turan.theorem_one_sharp",
+    "Turan.theorem_one_extremizers_given"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

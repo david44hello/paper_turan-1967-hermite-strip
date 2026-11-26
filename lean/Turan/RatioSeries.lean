@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.RatioDefs
-import Mathlib.Analysis.Complex.Liouville
-import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
-import Mathlib.Analysis.Analytic.Uniqueness
-import Mathlib.Analysis.SpecialFunctions.Exponential
-import Mathlib.Tactic
+public import Turan.RatioDefs
+public import Mathlib.Analysis.Complex.Liouville
+public import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
+public import Mathlib.Analysis.Analytic.Uniqueness
+public import Mathlib.Analysis.SpecialFunctions.Exponential
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 namespace Turan.Ratio

@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.DeltaDefs
+public import Turan.DeltaDefs
+
+@[expose] public section
 namespace Turan
 
 theorem quartic_ratio_contact (w : ℂ) (hw : 0 < w.im ∧ 12*w^4+16*w^3+12*w^2-3=0) :

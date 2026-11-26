@@ -1,9 +1,13 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuarticVerticalDefs
-import Turan.GeneralNodes
-import Turan.Rouche
-import Turan.Degree
-import Mathlib.Tactic
+public import Turan.QuarticVerticalDefs
+public import Turan.GeneralNodes
+public import Turan.Rouche
+public import Turan.Degree
+public import Mathlib.Tactic
+
+@[expose] public section
 
 noncomputable section
 open Filter Polynomial Set Metric

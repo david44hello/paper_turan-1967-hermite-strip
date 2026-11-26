@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Challenge.Small56NodeDef
+public import Challenge.Small56NodeDef
+
+@[expose] public section
 noncomputable section
 namespace Turan.Small56
 /-- Denominator in the elimination formula for the two shifted nodes. -/

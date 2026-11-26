@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TrinomialDefs
-import Challenge.GirouxModeDefs
-import Turan.TransferDefs
+public import Turan.TrinomialDefs
+public import Challenge.GirouxModeDefs
+public import Turan.TransferDefs
+
+@[expose] public section
 open Polynomial
 noncomputable section
 namespace Turan.MehlerJets

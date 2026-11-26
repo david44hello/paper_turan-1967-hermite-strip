@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SlotFlatReduction
-import Turan.SlotFlatLift
-import Turan.SlotBounded
-import Turan.Degree
+public import Turan.SlotFlatReduction
+public import Turan.SlotFlatLift
+public import Turan.SlotBounded
+public import Turan.Degree
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric

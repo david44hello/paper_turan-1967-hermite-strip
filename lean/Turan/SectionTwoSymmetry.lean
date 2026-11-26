@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.SectionTwoProjection
-import Turan.SectionTwoNormalForm
-import Turan.SectionTwoLimitsDefs
+public import Turan.SectionTwoProjection
+public import Turan.SectionTwoNormalForm
+public import Turan.SectionTwoLimitsDefs
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Filter Metric InnerProductSpace

@@ -1,10 +1,14 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Mathlib.Analysis.SpecialFunctions.Sqrt
-import Turan.Hermite
-import Turan.Normalized
-import Turan.GeneratingKernel
-import Mathlib.Analysis.Convex.SpecificFunctions.Basic
-import Mathlib.Analysis.Complex.ExponentialBounds
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+public import Turan.Hermite
+public import Turan.Normalized
+public import Turan.GeneratingKernel
+public import Mathlib.Analysis.Convex.SpecificFunctions.Basic
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 noncomputable section
 open Filter Metric Set Polynomial

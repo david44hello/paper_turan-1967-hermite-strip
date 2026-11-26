@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.CircleBasic
-import Turan.CircleWeighted
-import Turan.Giroux
+public import Turan.CircleBasic
+public import Turan.CircleWeighted
+public import Turan.Giroux
+
+@[expose] public section
 
 noncomputable section
 open Polynomial

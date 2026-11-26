@@ -1,7 +1,11 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.QuarticPositionBalanced
-import Turan.QuarticPositionMotion
-import Turan.QuarticPencil
+public import Turan.QuarticPositionBalanced
+public import Turan.QuarticPositionMotion
+public import Turan.QuarticPencil
+
+@[expose] public section
 
 noncomputable section
 open scoped ComplexConjugate

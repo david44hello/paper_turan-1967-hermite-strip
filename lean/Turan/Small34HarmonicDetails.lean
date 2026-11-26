@@ -1,8 +1,12 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.Small34EnvelopeDefs
-import Turan.Small34AngleBound
-import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
-import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+public import Turan.Small34EnvelopeDefs
+public import Turan.Small34AngleBound
+public import Mathlib.Analysis.InnerProductSpace.Harmonic.Constructions
+public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+
+@[expose] public section
 
 noncomputable section
 open Polynomial Real Set Filter Bornology Metric InnerProductSpace

@@ -1,5 +1,9 @@
+module
+
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Turan.TailDefs
+public import Turan.TailDefs
+
+@[expose] public section
 namespace Turan
 
 theorem lemma_eleven (n m : ℕ) (hm : 450 ≤ m) (hn : 2 ≤ n) (hhalf : 2*n ≤ m)
