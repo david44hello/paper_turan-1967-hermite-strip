@@ -3,7 +3,7 @@ module
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 public import Turan.LowerComparison
 public import Turan.LargeCircleEnergy
-
+public import Mathlib.Analysis.CStarAlgebra.Classes
 @[expose] public section
 
 noncomputable section
@@ -31,7 +31,7 @@ theorem far_potential (m : ℕ) (hm : 450 ≤ m) (t : ℝ) (ht : t ∈ farInterv
   obtain ⟨ht0, ht1⟩ := far_geometry m hm t ht
   have h := (sq_le_sq₀ ht0 (by positivity)).mpr ht1
   nlinarith only [h, Real.sq_sqrt (Nat.cast_nonneg m : (0:ℝ) ≤ m), Nat.cast_nonneg (α := ℝ) m]
-
+attribute [local instance 2000] CommCStarAlgebra.toNormedCommRing in
 theorem far_zero_slope (m : ℕ) (hm : 450 ≤ m) (x : ℝ) (hx : x ∈ farInterval m)
     (hz : psi m (x : ℂ) = 0) :
     (26 / 100 : ℝ) < ‖deriv (phi m) (x : ℂ)‖ := by
